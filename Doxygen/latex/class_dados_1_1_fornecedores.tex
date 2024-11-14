@@ -1,0 +1,295 @@
+\hypertarget{class_dados_1_1_fornecedores}{}\doxysection{Dados.\+Fornecedores Class Reference}
+\label{class_dados_1_1_fornecedores}\index{Dados.Fornecedores@{Dados.Fornecedores}}
+
+
+Purpose\+: Fornecedores de classe Created by\+: Diogo Created on\+: 24/10/2023.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_ab4cc6589290eaedb5e01c291ecf4c4be}{Inicializar\+Tot\+Prod}} (out int tot)
+\begin{DoxyCompactList}\small\item\em Inicializa o atributo tot\+Prod após o carregamento com a ref de produto mais alta. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_a52a9f12f6170a824f3a808eab769b66f}{Existe\+Produto\+Fornecedores}} (string nome\+Prod)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um produto nos fornecedores ou não. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_ae056e4b436eeda7395b824defff3dd5d}{Existe\+Produto\+Fornecedor}} (string nome\+Prod, string nome\+Forn)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um produto num certo fornecedor ou não. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_a55d393b542b745a929393e1046b806d0}{Dar\+Referencia}} (string nome\+Prod, out int ref\+Nova)
+\begin{DoxyCompactList}\small\item\em Dá uma referência de um produto já existente. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_acfce009e4d8769a48b7915666067b39e}{Inserir\+Produto\+Fornecedor}} (\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} prod, string nome\+Forn)
+\begin{DoxyCompactList}\small\item\em Insere um produto nos Fornecedores. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_a61f7dc81ecb684519b3bb2aadbb81d33}{Remover\+Produto\+Fornecedor}} (string nome\+Prod, string nome\+Forn)
+\begin{DoxyCompactList}\small\item\em Remove um produto de um fornecedor. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_aaadf9f558adad3dc27ba6f84e62400af}{Existe\+Fornecedor\+Sistema}} (string nome)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um fornecedor. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_a51e231c23a39204f9ed6c5b8badca0a2}{Inserir\+Fornecedor\+Sistema}} (\mbox{\hyperlink{class_objetos_negocio_1_1_fornecedor}{Fornecedor}} forn)
+\begin{DoxyCompactList}\small\item\em Insere um fornecedor. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_a310bbfba66c6b4289f746359cb5e04b0}{Remover\+Fornecedor\+Sistema}} (string nome)
+\begin{DoxyCompactList}\small\item\em Remove um fornecedor. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_a9911d858083949ec3c71155dda04bd1d}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_fornecedores_a43d3c658203d6470e79c267674afc245}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_fornecedor}{Fornecedor}} $>$ \mbox{\hyperlink{class_dados_1_1_fornecedores_a0c9ac1557ea5820a8dcdd3269ede3dfb}{Forns}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para fornecedores. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{class_dados_1_1_fornecedores_a1ef6b611f3032e79938533b9037f846c}{Tot\+Prod}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para total de produtos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Fornecedores de classe Created by\+: Diogo Created on\+: 24/10/2023. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_a43d3c658203d6470e79c267674afc245}\label{class_dados_1_1_fornecedores_a43d3c658203d6470e79c267674afc245}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & possivel exceção lancada\\
+\hline
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_a55d393b542b745a929393e1046b806d0}\label{class_dados_1_1_fornecedores_a55d393b542b745a929393e1046b806d0}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!DarReferencia@{DarReferencia}}
+\index{DarReferencia@{DarReferencia}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{DarReferencia()}{DarReferencia()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Dar\+Referencia (\begin{DoxyParamCaption}\item[{string}]{nome\+Prod,  }\item[{out int}]{ref\+Nova }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Dá uma referência de um produto já existente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Prod} & nome do produto\\
+\hline
+{\em ref\+Nova} & referencia nova\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_aaadf9f558adad3dc27ba6f84e62400af}\label{class_dados_1_1_fornecedores_aaadf9f558adad3dc27ba6f84e62400af}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!ExisteFornecedorSistema@{ExisteFornecedorSistema}}
+\index{ExisteFornecedorSistema@{ExisteFornecedorSistema}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{ExisteFornecedorSistema()}{ExisteFornecedorSistema()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Existe\+Fornecedor\+Sistema (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um fornecedor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & nome\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existe ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_ae056e4b436eeda7395b824defff3dd5d}\label{class_dados_1_1_fornecedores_ae056e4b436eeda7395b824defff3dd5d}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!ExisteProdutoFornecedor@{ExisteProdutoFornecedor}}
+\index{ExisteProdutoFornecedor@{ExisteProdutoFornecedor}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{ExisteProdutoFornecedor()}{ExisteProdutoFornecedor()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Existe\+Produto\+Fornecedor (\begin{DoxyParamCaption}\item[{string}]{nome\+Prod,  }\item[{string}]{nome\+Forn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um produto num certo fornecedor ou não. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Prod} & nome do produto\\
+\hline
+{\em nome\+Forn} & nome do fornecedor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existe ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_a52a9f12f6170a824f3a808eab769b66f}\label{class_dados_1_1_fornecedores_a52a9f12f6170a824f3a808eab769b66f}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!ExisteProdutoFornecedores@{ExisteProdutoFornecedores}}
+\index{ExisteProdutoFornecedores@{ExisteProdutoFornecedores}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{ExisteProdutoFornecedores()}{ExisteProdutoFornecedores()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Existe\+Produto\+Fornecedores (\begin{DoxyParamCaption}\item[{string}]{nome\+Prod }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um produto nos fornecedores ou não. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Prod} & nome do produto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existe ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_ab4cc6589290eaedb5e01c291ecf4c4be}\label{class_dados_1_1_fornecedores_ab4cc6589290eaedb5e01c291ecf4c4be}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!InicializarTotProd@{InicializarTotProd}}
+\index{InicializarTotProd@{InicializarTotProd}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{InicializarTotProd()}{InicializarTotProd()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Inicializar\+Tot\+Prod (\begin{DoxyParamCaption}\item[{out int}]{tot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Inicializa o atributo tot\+Prod após o carregamento com a ref de produto mais alta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tot} & ref de produto mais alta\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_a51e231c23a39204f9ed6c5b8badca0a2}\label{class_dados_1_1_fornecedores_a51e231c23a39204f9ed6c5b8badca0a2}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!InserirFornecedorSistema@{InserirFornecedorSistema}}
+\index{InserirFornecedorSistema@{InserirFornecedorSistema}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{InserirFornecedorSistema()}{InserirFornecedorSistema()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Inserir\+Fornecedor\+Sistema (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_fornecedor}{Fornecedor}}}]{forn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um fornecedor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em forn} & fornecedor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_acfce009e4d8769a48b7915666067b39e}\label{class_dados_1_1_fornecedores_acfce009e4d8769a48b7915666067b39e}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!InserirProdutoFornecedor@{InserirProdutoFornecedor}}
+\index{InserirProdutoFornecedor@{InserirProdutoFornecedor}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{InserirProdutoFornecedor()}{InserirProdutoFornecedor()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Inserir\+Produto\+Fornecedor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}}]{prod,  }\item[{string}]{nome\+Forn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um produto nos Fornecedores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prod} & produto\\
+\hline
+{\em nome\+Forn} & nome do fornecedor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_a310bbfba66c6b4289f746359cb5e04b0}\label{class_dados_1_1_fornecedores_a310bbfba66c6b4289f746359cb5e04b0}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!RemoverFornecedorSistema@{RemoverFornecedorSistema}}
+\index{RemoverFornecedorSistema@{RemoverFornecedorSistema}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{RemoverFornecedorSistema()}{RemoverFornecedorSistema()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Remover\+Fornecedor\+Sistema (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um fornecedor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & nome\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_a61f7dc81ecb684519b3bb2aadbb81d33}\label{class_dados_1_1_fornecedores_a61f7dc81ecb684519b3bb2aadbb81d33}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!RemoverProdutoFornecedor@{RemoverProdutoFornecedor}}
+\index{RemoverProdutoFornecedor@{RemoverProdutoFornecedor}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{RemoverProdutoFornecedor()}{RemoverProdutoFornecedor()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Remover\+Produto\+Fornecedor (\begin{DoxyParamCaption}\item[{string}]{nome\+Prod,  }\item[{string}]{nome\+Forn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um produto de um fornecedor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Prod} & nome do produto\\
+\hline
+{\em nome\+Forn} & nome do fornecedor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_a9911d858083949ec3c71155dda04bd1d}\label{class_dados_1_1_fornecedores_a9911d858083949ec3c71155dda04bd1d}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Fornecedores.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & possivel exceção lancada\\
+\hline
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_a0c9ac1557ea5820a8dcdd3269ede3dfb}\label{class_dados_1_1_fornecedores_a0c9ac1557ea5820a8dcdd3269ede3dfb}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!Forns@{Forns}}
+\index{Forns@{Forns}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{Forns}{Forns}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_objetos_negocio_1_1_fornecedor}{Fornecedor}}$>$ Dados.\+Fornecedores.\+Forns\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Propriedade para fornecedores. 
+
+\mbox{\Hypertarget{class_dados_1_1_fornecedores_a1ef6b611f3032e79938533b9037f846c}\label{class_dados_1_1_fornecedores_a1ef6b611f3032e79938533b9037f846c}} 
+\index{Dados.Fornecedores@{Dados.Fornecedores}!TotProd@{TotProd}}
+\index{TotProd@{TotProd}!Dados.Fornecedores@{Dados.Fornecedores}}
+\doxysubsubsection{\texorpdfstring{TotProd}{TotProd}}
+{\footnotesize\ttfamily int Dados.\+Fornecedores.\+Tot\+Prod\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Propriedade para total de produtos. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Dados/\mbox{\hyperlink{_fornecedores_8cs}{Fornecedores.\+cs}}\end{DoxyCompactItemize}

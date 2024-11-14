@@ -1,0 +1,190 @@
+.TH "ObjetosNegocio.Fornecedor" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ObjetosNegocio.Fornecedor \- Purpose: Classe de fornecedor Created by: Diogo Created on: 06/12/2023 23:35:37\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBObjetosNegocio\&.IFornecedor\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBFornecedor\fP ()"
+.br
+.RI "Construtor de classe por defeito\&. "
+.ti -1c
+.RI "\fBFornecedor\fP (string nome, string contacto)"
+.br
+.RI "Construtor de classe com os parâmetros definidos\&. "
+.ti -1c
+.RI "override bool \fBEquals\fP (object obj)"
+.br
+.RI "Compara 2 objetos\&. "
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.RI "Devolve uma string com o atributo de nome e contacto do fornecedor\&. "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBoperator==\fP (\fBFornecedor\fP f1, \fBFornecedor\fP f2)"
+.br
+.RI "Compara a igualdade de dois fornecedores através dos seus parâmetros\&. "
+.ti -1c
+.RI "static bool \fBoperator!=\fP (\fBFornecedor\fP f1, \fBFornecedor\fP f2)"
+.br
+.RI "Compara a diferenciabilidade de dois fornecedores através dos seus parâmetros\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBNome\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para nome\&. "
+.ti -1c
+.RI "string \fBContacto\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para contacto\&. "
+.ti -1c
+.RI "List< \fBProduto\fP > \fBProds\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para produtos\&. "
+.in -1c
+
+Properties inherited from \fBObjetosNegocio\&.IFornecedor\fP
+.in +1c
+.ti -1c
+.RI "string \fBNome\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para nome\&. "
+.ti -1c
+.RI "string \fBContacto\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para contacto\&. "
+.ti -1c
+.RI "List< \fBProduto\fP > \fBProds\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para produtos\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Classe de fornecedor Created by: Diogo Created on: 06/12/2023 23:35:37\&. 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ObjetosNegocio\&.Fornecedor\&.Fornecedor ()"
+
+.PP
+Construtor de classe por defeito\&. 
+.SS "ObjetosNegocio\&.Fornecedor\&.Fornecedor (string nome, string contacto)"
+
+.PP
+Construtor de classe com os parâmetros definidos\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInome\fP nome
+.br
+\fIcontacto\fP contacto
+.br
+\fIprods\fP produtos
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override bool ObjetosNegocio\&.Fornecedor\&.Equals (object obj)"
+
+.PP
+Compara 2 objetos\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIobj\fP objeto
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for igual ou não
+.RE
+.PP
+
+.SS "static bool ObjetosNegocio\&.Fornecedor\&.operator!= (\fBFornecedor\fP f1, \fBFornecedor\fP f2)\fC [static]\fP"
+
+.PP
+Compara a diferenciabilidade de dois fornecedores através dos seus parâmetros\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIf1\fP fornecedor 1
+.br
+\fIf2\fP fornecedor 2
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for diferente ou não
+.RE
+.PP
+
+.SS "static bool ObjetosNegocio\&.Fornecedor\&.operator== (\fBFornecedor\fP f1, \fBFornecedor\fP f2)\fC [static]\fP"
+
+.PP
+Compara a igualdade de dois fornecedores através dos seus parâmetros\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIf1\fP fornecedor 1
+.br
+\fIf2\fP fornecedor 2
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for igual ou não
+.RE
+.PP
+
+.SS "override string ObjetosNegocio\&.Fornecedor\&.ToString ()"
+
+.PP
+Devolve uma string com o atributo de nome e contacto do fornecedor\&. 
+.PP
+\fBReturns\fP
+.RS 4
+string final
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "string ObjetosNegocio\&.Fornecedor\&.Contacto\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para contacto\&. 
+.PP
+Implements \fBObjetosNegocio\&.IFornecedor\fP\&.
+.SS "string ObjetosNegocio\&.Fornecedor\&.Nome\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para nome\&. 
+.PP
+Implements \fBObjetosNegocio\&.IFornecedor\fP\&.
+.SS "List<\fBProduto\fP> ObjetosNegocio\&.Fornecedor\&.Prods\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para produtos\&. 
+.PP
+Implements \fBObjetosNegocio\&.IFornecedor\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interface_objetos_negocio_1_1_i_marca" kind="interface" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::IMarca</compoundname>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_marca" prot="public" virt="non-virtual">ObjetosNegocio.Marca</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_marca_1a4177601a1bbd88d256d5be2c665d7477" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IMarca.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.IMarca.Nome</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_marca_1a6955322e9e70aed67ccfe048f04d679c">Nome</reimplementedby>
+        <briefdescription>
+<para>Propriedade para nome. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMarca.cs" line="32" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMarca.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_marca_1ae8db28d73f93ad76880d58a32bed66da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IMarca.Contacto</definition>
+        <argsstring></argsstring>
+        <name>Contacto</name>
+        <qualifiedname>ObjetosNegocio.IMarca.Contacto</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_marca_1ac16a80837466518bb8fde225114075b6">Contacto</reimplementedby>
+        <briefdescription>
+<para>Propriedade para contacto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMarca.cs" line="41" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMarca.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Interface de marca Created by: Diogo Created on: 20/12/2023 03:25:35. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ObjetosNegocio.IMarca</label>
+        <link refid="interface_objetos_negocio_1_1_i_marca"/>
+      </node>
+      <node id="2">
+        <label>ObjetosNegocio.Marca</label>
+        <link refid="class_objetos_negocio_1_1_marca"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMarca.cs" line="23" column="22" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMarca.cs" bodystart="24" bodyend="62"/>
+    <listofallmembers>
+      <member refid="interface_objetos_negocio_1_1_i_marca_1ae8db28d73f93ad76880d58a32bed66da" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IMarca</scope><name>Contacto</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_marca_1a4177601a1bbd88d256d5be2c665d7477" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IMarca</scope><name>Nome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

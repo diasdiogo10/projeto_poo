@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_pessoa" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Pessoa</compoundname>
+    <basecompoundref refid="interface_objetos_negocio_1_1_i_pessoa" prot="public" virt="non-virtual">ObjetosNegocio.IPessoa</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComparable&lt; Pessoa &gt;</basecompoundref>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_utilizador" prot="public" virt="non-virtual">ObjetosNegocio.Utilizador</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_pessoa_1a9bab829f25271107e20a6e60407583f0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Pessoa.nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.nome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="27" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_pessoa_1a1895c105dd3f1a8c39281005d42b1c24" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Pessoa.dataNascimento</definition>
+        <argsstring></argsstring>
+        <name>dataNascimento</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.dataNascimento</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="28" column="18" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_pessoa_1affacc3a4eb01b0c5399dc79d064cdf66" prot="private" static="no" mutable="no">
+        <type><ref refid="class_objetos_negocio_1_1_morada" kindref="compound">Morada</ref></type>
+        <definition>Morada ObjetosNegocio.Pessoa.localizacao</definition>
+        <argsstring></argsstring>
+        <name>localizacao</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.localizacao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="29" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_pessoa_1a6c6e1174264ecb79dd92b24089480421" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Pessoa.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.Nome</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_pessoa_1aa5e1675f125c425f0a321bde4c9dfa5c">Nome</reimplements>
+        <briefdescription>
+<para>Propriedade para nome. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="67" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_pessoa_1a3d3e872a180f7c53265c11d1b7b8d329" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Pessoa.DataNascimento</definition>
+        <argsstring></argsstring>
+        <name>DataNascimento</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.DataNascimento</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_pessoa_1a0988ce8a996054cd4de16c2713b14d89">DataNascimento</reimplements>
+        <briefdescription>
+<para>Propriedade para data de nascimento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="76" column="25" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_pessoa_1a472ba9f345e10e13d0d219f5571921a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_objetos_negocio_1_1_morada" kindref="compound">Morada</ref></type>
+        <definition>Morada ObjetosNegocio.Pessoa.Localizacao</definition>
+        <argsstring></argsstring>
+        <name>Localizacao</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.Localizacao</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_pessoa_1a32eb2834341102fa0f752b3b5dc05a70">Localizacao</reimplements>
+        <briefdescription>
+<para>Propriedade para localizacao. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="85" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_pessoa_1af413e5c5c6631617514bdb6aabce0cd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Pessoa.Pessoa</definition>
+        <argsstring>()</argsstring>
+        <name>Pessoa</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.Pessoa</qualifiedname>
+        <briefdescription>
+<para>Construtor de classe por defeito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="40" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_pessoa_1adced49bbc34ceeb2c7c3c9f1aaf209ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Pessoa.Pessoa</definition>
+        <argsstring>(string nome, DateTime dataNascimento, Morada localizacao)</argsstring>
+        <name>Pessoa</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.Pessoa</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataNascimento</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>localizacao</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com os parâmetros definidos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome da pessoa</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataNascimento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data de nascimento</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>localizacao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>localizacao da pessoa</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="53" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="53" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_pessoa_1a100590cda5ba431aa78ac2432d614973" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ObjetosNegocio.Pessoa.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Compara a igualdade de dois objetos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objeto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for diferente ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="128" column="30" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="128" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_pessoa_1ac2cf6387370a9caf0a80dca664323560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ObjetosNegocio.Pessoa.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.ToString</qualifiedname>
+        <briefdescription>
+<para>Devolve uma string com todos o nome e idade de uma pessoa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string final</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="142" column="32" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_pessoa_1a485d24f86e7118c005fd038fa9419603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Pessoa.CompareTo</definition>
+        <argsstring>(Pessoa p)</argsstring>
+        <name>CompareTo</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.CompareTo</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_pessoa" kindref="compound">Pessoa</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Compara 2 pessoas e é útil para utilizar o .Sort na classe de pessoas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="156" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="156" bodyend="159"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_pessoa_1ace5485c54104984e0e2248035fb6af6c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Pessoa.operator==</definition>
+        <argsstring>(Pessoa p1, Pessoa p2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.operator==</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_pessoa" kindref="compound">Pessoa</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_pessoa" kindref="compound">Pessoa</ref></type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a igualdade de duas pessoas através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pessoa 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pessoa 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="101" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="101" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_pessoa_1a442904e769c4943df780f5c9870e3f36" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Pessoa.operator!=</definition>
+        <argsstring>(Pessoa p1, Pessoa p2)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ObjetosNegocio.Pessoa.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_pessoa" kindref="compound">Pessoa</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_pessoa" kindref="compound">Pessoa</ref></type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a diferenciabilidade de duas pessoas através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pessoa 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pessoa 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for diferente ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="113" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="113" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de Pessoa Created by: Diogo Created on: 06/12/2023 23:00:29. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IComparable&lt; Pessoa &gt;</label>
+      </node>
+      <node id="2">
+        <label>IPessoa</label>
+        <link refid="interface_objetos_negocio_1_1_i_pessoa"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Pessoa</label>
+        <link refid="class_objetos_negocio_1_1_pessoa"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ObjetosNegocio.Utilizador</label>
+        <link refid="class_objetos_negocio_1_1_utilizador"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IComparable&lt; Pessoa &gt;</label>
+      </node>
+      <node id="2">
+        <label>IPessoa</label>
+        <link refid="interface_objetos_negocio_1_1_i_pessoa"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Pessoa</label>
+        <link refid="class_objetos_negocio_1_1_pessoa"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" line="23" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Pessoa.cs" bodystart="24" bodyend="164"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a485d24f86e7118c005fd038fa9419603" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>CompareTo</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a1895c105dd3f1a8c39281005d42b1c24" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>dataNascimento</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a3d3e872a180f7c53265c11d1b7b8d329" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>DataNascimento</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a100590cda5ba431aa78ac2432d614973" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>Equals</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1affacc3a4eb01b0c5399dc79d064cdf66" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>localizacao</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a472ba9f345e10e13d0d219f5571921a1" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>Localizacao</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a9bab829f25271107e20a6e60407583f0" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>nome</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a6c6e1174264ecb79dd92b24089480421" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>Nome</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a442904e769c4943df780f5c9870e3f36" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>operator!=</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1ace5485c54104984e0e2248035fb6af6c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>operator==</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1af413e5c5c6631617514bdb6aabce0cd9" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>Pessoa</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1adced49bbc34ceeb2c7c3c9f1aaf209ec" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>Pessoa</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1ac2cf6387370a9caf0a80dca664323560" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Pessoa</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

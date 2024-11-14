@@ -1,0 +1,134 @@
+.TH "Dados.Vendas" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Dados.Vendas \- Purpose: Vendas de classe Created by: Diogo Created on: 24/10/2023\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBInserirVenda\fP (\fBVenda\fP v)"
+.br
+.RI "Insere uma venda nos dados das vendas\&. "
+.ti -1c
+.RI "static bool \fBVendasData\fP (DateTime dataVenda, out List< \fBVenda\fP > v)"
+.br
+.RI "Procura todas as vendas numa determinada data\&. "
+.ti -1c
+.RI "static bool \fBSalvarDados\fP (string nomeFicheiro)"
+.br
+.RI "Salva os dados num ficheiro\&. "
+.ti -1c
+.RI "static bool \fBCarregarDados\fP (string nomeFicheiro)"
+.br
+.RI "Carrega os dados para o programa\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "static List< \fBVenda\fP > \fBVS\fP\fC [get]\fP"
+.br
+.RI "Propriedade para vendas\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Vendas de classe Created by: Diogo Created on: 24/10/2023\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool Dados\&.Vendas\&.CarregarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Carrega os dados para o programa\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP possivel exceção lancada
+.br
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SS "static bool Dados\&.Vendas\&.InserirVenda (\fBVenda\fP v)\fC [static]\fP"
+
+.PP
+Insere uma venda nos dados das vendas\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIv\fP venda
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Vendas\&.SalvarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Salva os dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP possivel exceção lancada
+.br
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SS "static bool Dados\&.Vendas\&.VendasData (DateTime dataVenda, out List< \fBVenda\fP > v)\fC [static]\fP"
+
+.PP
+Procura todas as vendas numa determinada data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdataVenda\fP data de venda
+.br
+\fIv\fP vendas
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "List<\fBVenda\fP> Dados\&.Vendas\&.VS\fC [static]\fP, \fC [get]\fP"
+
+.PP
+Propriedade para vendas\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_global_usings_8cs" kind="file" language="C#">
+    <compoundname>GlobalUsings.cs</compoundname>
+    <innernamespace refid="namespace_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing">Microsoft::VisualStudio::TestTools::UnitTesting</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">global<sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Microsoft.VisualStudio.TestTools.UnitTesting;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/GlobalUsings.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interface_objetos_negocio_1_1_i_morada" kind="interface" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::IMorada</compoundname>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_morada" prot="public" virt="non-virtual">ObjetosNegocio.Morada</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_morada_1a3a35a168e8d4b6851b82021e3bf508ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IMorada.Cidade</definition>
+        <argsstring></argsstring>
+        <name>Cidade</name>
+        <qualifiedname>ObjetosNegocio.IMorada.Cidade</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_morada_1a37ef659bed91c59bdb6b3cba51f3cee1">Cidade</reimplementedby>
+        <briefdescription>
+<para>Propriedade para cidade. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" line="32" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_morada_1a452c992106181912be119af7ce203f1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IMorada.Distrito</definition>
+        <argsstring></argsstring>
+        <name>Distrito</name>
+        <qualifiedname>ObjetosNegocio.IMorada.Distrito</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_morada_1a64cc04656df8ec35d1f855ffa666d3f3">Distrito</reimplementedby>
+        <briefdescription>
+<para>Propriedade para distrito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" line="41" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_morada_1a5650e19ab8b003923cf02f537f78fa13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IMorada.Rua</definition>
+        <argsstring></argsstring>
+        <name>Rua</name>
+        <qualifiedname>ObjetosNegocio.IMorada.Rua</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_morada_1ae76784ae9a7a218db05f8fbc2b3c0983">Rua</reimplementedby>
+        <briefdescription>
+<para>Propriedade para rua. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" line="50" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_morada_1a0f1dba34872307f97e3d3ff83800180c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ObjetosNegocio.IMorada.NumPorta</definition>
+        <argsstring></argsstring>
+        <name>NumPorta</name>
+        <qualifiedname>ObjetosNegocio.IMorada.NumPorta</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_morada_1aef1a144dc7cb75696e1566429e1260ce">NumPorta</reimplementedby>
+        <briefdescription>
+<para>Propriedade para numero de porta. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" line="59" column="13" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_morada_1a21a6485a03e302c31d8c49b13414a57d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IMorada.CodigoPostal</definition>
+        <argsstring></argsstring>
+        <name>CodigoPostal</name>
+        <qualifiedname>ObjetosNegocio.IMorada.CodigoPostal</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_morada_1a28a863a4e7f3da1ca05f9dfd3d575654">CodigoPostal</reimplementedby>
+        <briefdescription>
+<para>Propriedade para codigo postal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" line="68" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Interface de morada Created by: Diogo Created on: 20/12/2023 03:28:55. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ObjetosNegocio.IMorada</label>
+        <link refid="interface_objetos_negocio_1_1_i_morada"/>
+      </node>
+      <node id="2">
+        <label>ObjetosNegocio.Morada</label>
+        <link refid="class_objetos_negocio_1_1_morada"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" line="23" column="22" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IMorada.cs" bodystart="24" bodyend="89"/>
+    <listofallmembers>
+      <member refid="interface_objetos_negocio_1_1_i_morada_1a3a35a168e8d4b6851b82021e3bf508ac" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IMorada</scope><name>Cidade</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_morada_1a21a6485a03e302c31d8c49b13414a57d" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IMorada</scope><name>CodigoPostal</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_morada_1a452c992106181912be119af7ce203f1c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IMorada</scope><name>Distrito</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_morada_1a0f1dba34872307f97e3d3ff83800180c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IMorada</scope><name>NumPorta</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_morada_1a5650e19ab8b003923cf02f537f78fa13" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IMorada</scope><name>Rua</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interface_objetos_negocio_1_1_i_pessoa" kind="interface" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::IPessoa</compoundname>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_pessoa" prot="public" virt="non-virtual">ObjetosNegocio.Pessoa</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_pessoa_1aa5e1675f125c425f0a321bde4c9dfa5c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IPessoa.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.IPessoa.Nome</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_pessoa_1a6c6e1174264ecb79dd92b24089480421">Nome</reimplementedby>
+        <briefdescription>
+<para>Propriedade para nome. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IPessoa.cs" line="31" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IPessoa.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_pessoa_1a0988ce8a996054cd4de16c2713b14d89" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.IPessoa.DataNascimento</definition>
+        <argsstring></argsstring>
+        <name>DataNascimento</name>
+        <qualifiedname>ObjetosNegocio.IPessoa.DataNascimento</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_pessoa_1a3d3e872a180f7c53265c11d1b7b8d329">DataNascimento</reimplementedby>
+        <briefdescription>
+<para>Propriedade para data de nascimento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IPessoa.cs" line="40" column="18" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IPessoa.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_pessoa_1a32eb2834341102fa0f752b3b5dc05a70" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_objetos_negocio_1_1_morada" kindref="compound">Morada</ref></type>
+        <definition>Morada ObjetosNegocio.IPessoa.Localizacao</definition>
+        <argsstring></argsstring>
+        <name>Localizacao</name>
+        <qualifiedname>ObjetosNegocio.IPessoa.Localizacao</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_pessoa_1a472ba9f345e10e13d0d219f5571921a1">Localizacao</reimplementedby>
+        <briefdescription>
+<para>Propriedade para localizacao. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IPessoa.cs" line="49" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IPessoa.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Interface de pessoa Created by: Diogo Created on: 20/12/2023 03:35:05. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ObjetosNegocio.IPessoa</label>
+        <link refid="interface_objetos_negocio_1_1_i_pessoa"/>
+      </node>
+      <node id="2">
+        <label>ObjetosNegocio.Pessoa</label>
+        <link refid="class_objetos_negocio_1_1_pessoa"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ObjetosNegocio.Utilizador</label>
+        <link refid="class_objetos_negocio_1_1_utilizador"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IPessoa.cs" line="22" column="22" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IPessoa.cs" bodystart="23" bodyend="70"/>
+    <listofallmembers>
+      <member refid="interface_objetos_negocio_1_1_i_pessoa_1a0988ce8a996054cd4de16c2713b14d89" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IPessoa</scope><name>DataNascimento</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_pessoa_1a32eb2834341102fa0f752b3b5dc05a70" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IPessoa</scope><name>Localizacao</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_pessoa_1aa5e1675f125c425f0a321bde4c9dfa5c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IPessoa</scope><name>Nome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

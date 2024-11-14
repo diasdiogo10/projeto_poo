@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_morada" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Morada</compoundname>
+    <basecompoundref refid="interface_objetos_negocio_1_1_i_morada" prot="public" virt="non-virtual">ObjetosNegocio.IMorada</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_morada_1a2ef1d71c310630a648cd371f7eb1a356" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Morada.cidade</definition>
+        <argsstring></argsstring>
+        <name>cidade</name>
+        <qualifiedname>ObjetosNegocio.Morada.cidade</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="28" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_morada_1afe903ef65a0853ee85808b70e39e394c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Morada.distrito</definition>
+        <argsstring></argsstring>
+        <name>distrito</name>
+        <qualifiedname>ObjetosNegocio.Morada.distrito</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="29" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_morada_1ac36ec182cd1e845c62e31902f42e85c8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Morada.rua</definition>
+        <argsstring></argsstring>
+        <name>rua</name>
+        <qualifiedname>ObjetosNegocio.Morada.rua</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="30" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_morada_1a90892df4291eded5c56840fe218b976b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Morada.codigoPostal</definition>
+        <argsstring></argsstring>
+        <name>codigoPostal</name>
+        <qualifiedname>ObjetosNegocio.Morada.codigoPostal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="31" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_morada_1a2f3aed0b0be247a36adbb53bc8971eda" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Morada.numPorta</definition>
+        <argsstring></argsstring>
+        <name>numPorta</name>
+        <qualifiedname>ObjetosNegocio.Morada.numPorta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="32" column="13" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_morada_1a37ef659bed91c59bdb6b3cba51f3cee1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Morada.Cidade</definition>
+        <argsstring></argsstring>
+        <name>Cidade</name>
+        <qualifiedname>ObjetosNegocio.Morada.Cidade</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_morada_1a3a35a168e8d4b6851b82021e3bf508ac">Cidade</reimplements>
+        <briefdescription>
+<para>Propriedade para cidade. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="76" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_morada_1a64cc04656df8ec35d1f855ffa666d3f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Morada.Distrito</definition>
+        <argsstring></argsstring>
+        <name>Distrito</name>
+        <qualifiedname>ObjetosNegocio.Morada.Distrito</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_morada_1a452c992106181912be119af7ce203f1c">Distrito</reimplements>
+        <briefdescription>
+<para>Propriedade para distrito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="85" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_morada_1ae76784ae9a7a218db05f8fbc2b3c0983" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Morada.Rua</definition>
+        <argsstring></argsstring>
+        <name>Rua</name>
+        <qualifiedname>ObjetosNegocio.Morada.Rua</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_morada_1a5650e19ab8b003923cf02f537f78fa13">Rua</reimplements>
+        <briefdescription>
+<para>Propriedade para rua. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="94" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_morada_1aef1a144dc7cb75696e1566429e1260ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Morada.NumPorta</definition>
+        <argsstring></argsstring>
+        <name>NumPorta</name>
+        <qualifiedname>ObjetosNegocio.Morada.NumPorta</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_morada_1a0f1dba34872307f97e3d3ff83800180c">NumPorta</reimplements>
+        <briefdescription>
+<para>Propriedade para numero de porta. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="103" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_morada_1a28a863a4e7f3da1ca05f9dfd3d575654" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Morada.CodigoPostal</definition>
+        <argsstring></argsstring>
+        <name>CodigoPostal</name>
+        <qualifiedname>ObjetosNegocio.Morada.CodigoPostal</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_morada_1a21a6485a03e302c31d8c49b13414a57d">CodigoPostal</reimplements>
+        <briefdescription>
+<para>Propriedade para codigo postal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="112" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="113" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_morada_1ac58c4598eccc839242d50295911162a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Morada.Morada</definition>
+        <argsstring>()</argsstring>
+        <name>Morada</name>
+        <qualifiedname>ObjetosNegocio.Morada.Morada</qualifiedname>
+        <briefdescription>
+<para>Construtor de classe por defeito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="43" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_morada_1a3ce0f6d28e91ee479dc20c59f2ac9419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Morada.Morada</definition>
+        <argsstring>(string cidade, string distrito, string rua, string codigoPostal, int numPorta)</argsstring>
+        <name>Morada</name>
+        <qualifiedname>ObjetosNegocio.Morada.Morada</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>cidade</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>distrito</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>rua</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>codigoPostal</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numPorta</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com os atributos declarados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cidade</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>distrito</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>distrito</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rua</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rua</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>codigoPostal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codigo postal</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numPorta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numero da porta</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="60" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_morada_1a670e7070d7fb629c791576bc7b8c86f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ObjetosNegocio.Morada.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>ObjetosNegocio.Morada.ToString</qualifiedname>
+        <briefdescription>
+<para>Devolve uma string com todas as propriedades de uma morada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string final</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="155" column="32" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="155" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_morada_1a5a703ef3917196dd26ca25ea93d998da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ObjetosNegocio.Morada.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>ObjetosNegocio.Morada.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Compara a igualdade de dois objetos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objeto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="165" column="30" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="165" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_morada_1ad5eada1d0c5e5ec66b78a3355391ded3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Morada.operator==</definition>
+        <argsstring>(Morada m1, Morada m2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ObjetosNegocio.Morada.operator==</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>m2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a igualdade de duas moradas através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>morada 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>m2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>morada 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="129" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="129" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_morada_1a12a914495821f32d8bcf5880e11f330e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Morada.operator!=</definition>
+        <argsstring>(Morada m1, Morada m2)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ObjetosNegocio.Morada.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>m2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a diferenciabilidade de duas moradas através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>morada 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>m2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>morada 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for diferente ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="141" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="141" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de morada Created by: Diogo Created on: 06/12/2023 23:01:07. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IMorada</label>
+        <link refid="interface_objetos_negocio_1_1_i_morada"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Morada</label>
+        <link refid="class_objetos_negocio_1_1_morada"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IMorada</label>
+        <link refid="interface_objetos_negocio_1_1_i_morada"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Morada</label>
+        <link refid="class_objetos_negocio_1_1_morada"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" line="24" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Morada.cs" bodystart="25" bodyend="180"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_morada_1a2ef1d71c310630a648cd371f7eb1a356" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>cidade</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1a37ef659bed91c59bdb6b3cba51f3cee1" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>Cidade</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1a90892df4291eded5c56840fe218b976b" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>codigoPostal</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1a28a863a4e7f3da1ca05f9dfd3d575654" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>CodigoPostal</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1afe903ef65a0853ee85808b70e39e394c" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>distrito</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1a64cc04656df8ec35d1f855ffa666d3f3" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>Distrito</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1a5a703ef3917196dd26ca25ea93d998da" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>Equals</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1ac58c4598eccc839242d50295911162a7" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>Morada</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1a3ce0f6d28e91ee479dc20c59f2ac9419" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>Morada</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1a2f3aed0b0be247a36adbb53bc8971eda" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>numPorta</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1aef1a144dc7cb75696e1566429e1260ce" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>NumPorta</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1a12a914495821f32d8bcf5880e11f330e" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>operator!=</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1ad5eada1d0c5e5ec66b78a3355391ded3" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>operator==</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1ac36ec182cd1e845c62e31902f42e85c8" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>rua</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1ae76784ae9a7a218db05f8fbc2b3c0983" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>Rua</name></member>
+      <member refid="class_objetos_negocio_1_1_morada_1a670e7070d7fb629c791576bc7b8c86f4" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Morada</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

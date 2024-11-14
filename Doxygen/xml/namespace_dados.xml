@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_dados" kind="namespace" language="C#">
+    <compoundname>Dados</compoundname>
+    <innerclass refid="class_dados_1_1_armazem" prot="public">Dados::Armazem</innerclass>
+    <innerclass refid="class_dados_1_1_compras" prot="public">Dados::Compras</innerclass>
+    <innerclass refid="class_dados_1_1_fornecedores" prot="public">Dados::Fornecedores</innerclass>
+    <innerclass refid="class_dados_1_1_utilizadores" prot="public">Dados::Utilizadores</innerclass>
+    <innerclass refid="class_dados_1_1_vendas" prot="public">Dados::Vendas</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Armazem.cs" line="18" column="1"/>
+  </compounddef>
+</doxygen>

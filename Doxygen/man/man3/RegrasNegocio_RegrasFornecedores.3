@@ -1,0 +1,275 @@
+.TH "RegrasNegocio.RegrasFornecedores" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RegrasNegocio.RegrasFornecedores \- Purpose: RegrasFornecedores de classe Created by: Diogo Created on: 24/10/2023\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBExisteProdutoFornecedores\fP (string nomeProd)"
+.br
+.RI "Verifica se existe um produto nos fornecedores ou não\&. "
+.ti -1c
+.RI "static bool \fBExisteProdutoFornecedor\fP (string nomeProd, string nomeForn)"
+.br
+.RI "Verifica se existe um produto num certo fornecedor ou não\&. "
+.ti -1c
+.RI "static bool \fBInserirProduto\fP (\fBProduto\fP prod, string nomeForn)"
+.br
+.RI "Insere um produto nos Fornecedores\&. "
+.ti -1c
+.RI "static bool \fBRemoverProduto\fP (string nomeProd, string nomeForn)"
+.br
+.RI "Remove um produto de um fornecedor\&. "
+.ti -1c
+.RI "static bool \fBExisteFornecedor\fP (string nome)"
+.br
+.RI "Verifica se existe um fornecedor\&. "
+.ti -1c
+.RI "static bool \fBQuantidadeFornecedores\fP (out int contador)"
+.br
+.RI "Obtém a quantidade de fornecedores do sistema\&. "
+.ti -1c
+.RI "static bool \fBListaFornecedores\fP (out List< \fBFornecedor\fP > lista)"
+.br
+.RI "Obtém a lista de todos os fornecedores do sistema\&. "
+.ti -1c
+.RI "static bool \fBInserirFornecedor\fP (\fBFornecedor\fP forn)"
+.br
+.RI "Insere um fornecedor\&. "
+.ti -1c
+.RI "static bool \fBRemoverFornecedor\fP (string nome)"
+.br
+.RI "Remove um fornecedor\&. "
+.ti -1c
+.RI "static bool \fBSalvarDados\fP (string nomeFicheiro)"
+.br
+.RI "Salva os dados num ficheiro\&. "
+.ti -1c
+.RI "static bool \fBCarregarDados\fP (string nomeFicheiro)"
+.br
+.RI "Carrega os dados para o programa\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: RegrasFornecedores de classe Created by: Diogo Created on: 24/10/2023\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.CarregarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Carrega os dados para o programa\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIFornecedoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.ExisteFornecedor (string nome)\fC [static]\fP"
+
+.PP
+Verifica se existe um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInome\fP nome
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existe ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIFornecedoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.ExisteProdutoFornecedor (string nomeProd, string nomeForn)\fC [static]\fP"
+
+.PP
+Verifica se existe um produto num certo fornecedor ou não\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP nome do produto
+.br
+\fInomeForn\fP nome do fornecedor
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existe ou não
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.ExisteProdutoFornecedores (string nomeProd)\fC [static]\fP"
+
+.PP
+Verifica se existe um produto nos fornecedores ou não\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP nome do produto
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existe ou não
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.InserirFornecedor (\fBFornecedor\fP forn)\fC [static]\fP"
+
+.PP
+Insere um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIforn\fP fornecedor
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIFornecedoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.InserirProduto (\fBProduto\fP prod, string nomeForn)\fC [static]\fP"
+
+.PP
+Insere um produto nos Fornecedores\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIprod\fP produto
+.br
+\fInomeForn\fP nome do fornecedor
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.ListaFornecedores (out List< \fBFornecedor\fP > lista)\fC [static]\fP"
+
+.PP
+Obtém a lista de todos os fornecedores do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIlista\fP fornecedores
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.QuantidadeFornecedores (out int contador)\fC [static]\fP"
+
+.PP
+Obtém a quantidade de fornecedores do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcontador\fP quantidade de fornecedores
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.RemoverFornecedor (string nome)\fC [static]\fP"
+
+.PP
+Remove um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInome\fP nome
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIFornecedoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.RemoverProduto (string nomeProd, string nomeForn)\fC [static]\fP"
+
+.PP
+Remove um produto de um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP nome do produto
+.br
+\fInomeForn\fP nome do fornecedor
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasFornecedores\&.SalvarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Salva os dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIFornecedoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

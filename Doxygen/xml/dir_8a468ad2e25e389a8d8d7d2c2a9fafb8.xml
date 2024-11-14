@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_8a468ad2e25e389a8d8d7d2c2a9fafb8" kind="dir">
+    <compoundname>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio</compoundname>
+    <innerdir refid="dir_c2366eaa0cfc994dd63738ee9c4d7199">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/obj</innerdir>
+    <innerdir refid="dir_9f7ace44c9ccf25162977690d55ec0a2">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/Properties</innerdir>
+    <innerfile refid="_regras_armazem_8cs">RegrasArmazem.cs</innerfile>
+    <innerfile refid="_regras_compras_8cs">RegrasCompras.cs</innerfile>
+    <innerfile refid="_regras_fornecedores_8cs">RegrasFornecedores.cs</innerfile>
+    <innerfile refid="_regras_utilizadores_8cs">RegrasUtilizadores.cs</innerfile>
+    <innerfile refid="_regras_vendas_8cs">RegrasVendas.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/"/>
+  </compounddef>
+</doxygen>

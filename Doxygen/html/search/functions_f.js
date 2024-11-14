@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['utilizador_0',['Utilizador',['../class_objetos_negocio_1_1_utilizador.html#aa6818dde4126526a9daec37dd1630628',1,'ObjetosNegocio.Utilizador.Utilizador()'],['../class_objetos_negocio_1_1_utilizador.html#a657baf94726055d69ab702fe8c4c8dce',1,'ObjetosNegocio.Utilizador.Utilizador(string email, string password)'],['../class_objetos_negocio_1_1_utilizador.html#a903e4d4e3fcbf7225e88dc6a650a1ce8',1,'ObjetosNegocio.Utilizador.Utilizador(string email, string password, string nome, DateTime dataNasc, Morada localizacao)']]],
+  ['utilizadoresexcecoes_1',['UtilizadoresExcecoes',['../class_excecoes_1_1_utilizadores_excecoes.html#a4889446976577cd1751cac33cf7d639c',1,'Excecoes.UtilizadoresExcecoes.UtilizadoresExcecoes(string mensagem)'],['../class_excecoes_1_1_utilizadores_excecoes.html#a694239968151f6793f3e38fb32f964ce',1,'Excecoes.UtilizadoresExcecoes.UtilizadoresExcecoes()'],['../class_excecoes_1_1_utilizadores_excecoes.html#a1ed260bec67dab0cdc78bc3a34b248a0',1,'Excecoes.UtilizadoresExcecoes.UtilizadoresExcecoes(string mensagem, Exception e)']]]
+];

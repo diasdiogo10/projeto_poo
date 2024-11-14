@@ -1,0 +1,271 @@
+\hypertarget{class_objetos_negocio_1_1_utilizador}{}\doxysection{Objetos\+Negocio.\+Utilizador Class Reference}
+\label{class_objetos_negocio_1_1_utilizador}\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+
+
+Purpose\+: Classe de utilizador Created by\+: Diogo Created on\+: 06/12/2023 23\+:04\+:52.  
+
+
+Inheritance diagram for Objetos\+Negocio.\+Utilizador\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_objetos_negocio_1_1_utilizador}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_aa6818dde4126526a9daec37dd1630628}{Utilizador}} ()
+\begin{DoxyCompactList}\small\item\em Construtor de classe por defeito. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_a657baf94726055d69ab702fe8c4c8dce}{Utilizador}} (string email, string password)
+\begin{DoxyCompactList}\small\item\em Construtor de classe com os atributos declarados. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_a903e4d4e3fcbf7225e88dc6a650a1ce8}{Utilizador}} (string email, string password, string nome, Date\+Time data\+Nasc, \mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} localizacao)
+\begin{DoxyCompactList}\small\item\em Construtor de classe com os atributos declarados. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_ab75ada5927fbf05c61585bcb54e1a109}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Compara 2 objetos. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_a48bc648d9bd5b8879a6a11cd98d585b4}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Devolve os dados do método da classe base(\+Pessoa) deste utilizador. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Objetos\+Negocio.\+Pessoa}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_af413e5c5c6631617514bdb6aabce0cd9}{Pessoa}} ()
+\begin{DoxyCompactList}\small\item\em Construtor de classe por defeito. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_adced49bbc34ceeb2c7c3c9f1aaf209ec}{Pessoa}} (string nome, Date\+Time data\+Nascimento, \mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} localizacao)
+\begin{DoxyCompactList}\small\item\em Construtor de classe com os parâmetros definidos. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a100590cda5ba431aa78ac2432d614973}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Compara a igualdade de dois objetos. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_ac2cf6387370a9caf0a80dca664323560}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Devolve uma string com todos o nome e idade de uma pessoa. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a485d24f86e7118c005fd038fa9419603}{Compare\+To}} (\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p)
+\begin{DoxyCompactList}\small\item\em Compara 2 pessoas e é útil para utilizar o .Sort na classe de pessoas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_a1503ce98dbca1f0eff5f7f6c63dcaff5}{operator==}} (\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}} u1, \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}} u2)
+\begin{DoxyCompactList}\small\item\em Compara a igualdade de dois utilizadores através dos seus parâmetros. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_a2e4d1320159fe5dbd1e95c5028def4f6}{operator!=}} (\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}} u1, \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}} u2)
+\begin{DoxyCompactList}\small\item\em Compara a diferenciabilidade de dois utilizadores através de seus utilizadores. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Objetos\+Negocio.\+Pessoa}}}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_ace5485c54104984e0e2248035fb6af6c}{operator==}} (\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p1, \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p2)
+\begin{DoxyCompactList}\small\item\em Compara a igualdade de duas pessoas através dos seus parâmetros. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a442904e769c4943df780f5c9870e3f36}{operator!=}} (\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p1, \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p2)
+\begin{DoxyCompactList}\small\item\em Compara a diferenciabilidade de duas pessoas através dos seus parâmetros. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_a68e8fd96cbea2974e34539c9988a47c3}{Email}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para email. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_add4ce2b066206f3703ba58d0fb7dd130}{Password}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para password. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_carrinho_compra}{Carrinho\+Compra}} \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador_a60a145d9e4fc1affa499c46b37729541}{Carrinho}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para carrinho de compras. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties inherited from \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Objetos\+Negocio.\+Pessoa}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a6c6e1174264ecb79dd92b24089480421}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para nome. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a3d3e872a180f7c53265c11d1b7b8d329}{Data\+Nascimento}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para data de nascimento. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a472ba9f345e10e13d0d219f5571921a1}{Localizacao}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para localizacao. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties inherited from \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa}{Objetos\+Negocio.\+IPessoa}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa_aa5e1675f125c425f0a321bde4c9dfa5c}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para nome. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa_a0988ce8a996054cd4de16c2713b14d89}{Data\+Nascimento}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para data de nascimento. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa_a32eb2834341102fa0f752b3b5dc05a70}{Localizacao}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para localizacao. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties inherited from \mbox{\hyperlink{interface_objetos_negocio_1_1_i_utilizador}{Objetos\+Negocio.\+IUtilizador}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{interface_objetos_negocio_1_1_i_utilizador_ae41104592e2c54ad6ef25609a7ff0f0e}{Email}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para email. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{interface_objetos_negocio_1_1_i_utilizador_acbf51a6d07fe593c1711acd2a8138d20}{Password}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para password. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_carrinho_compra}{Carrinho\+Compra}} \mbox{\hyperlink{interface_objetos_negocio_1_1_i_utilizador_aea907af5d6f93891636438083e76e0e3}{Carrinho}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para carrinho de compras. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Classe de utilizador Created by\+: Diogo Created on\+: 06/12/2023 23\+:04\+:52. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_aa6818dde4126526a9daec37dd1630628}\label{class_objetos_negocio_1_1_utilizador_aa6818dde4126526a9daec37dd1630628}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!Utilizador@{Utilizador}}
+\index{Utilizador@{Utilizador}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{Utilizador()}{Utilizador()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Objetos\+Negocio.\+Utilizador.\+Utilizador (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construtor de classe por defeito. 
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_a657baf94726055d69ab702fe8c4c8dce}\label{class_objetos_negocio_1_1_utilizador_a657baf94726055d69ab702fe8c4c8dce}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!Utilizador@{Utilizador}}
+\index{Utilizador@{Utilizador}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{Utilizador()}{Utilizador()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Objetos\+Negocio.\+Utilizador.\+Utilizador (\begin{DoxyParamCaption}\item[{string}]{email,  }\item[{string}]{password }\end{DoxyParamCaption})}
+
+
+
+Construtor de classe com os atributos declarados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & email para login do utilizador\\
+\hline
+{\em password} & password para login do utilizador\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_a903e4d4e3fcbf7225e88dc6a650a1ce8}\label{class_objetos_negocio_1_1_utilizador_a903e4d4e3fcbf7225e88dc6a650a1ce8}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!Utilizador@{Utilizador}}
+\index{Utilizador@{Utilizador}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{Utilizador()}{Utilizador()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Objetos\+Negocio.\+Utilizador.\+Utilizador (\begin{DoxyParamCaption}\item[{string}]{email,  }\item[{string}]{password,  }\item[{string}]{nome,  }\item[{Date\+Time}]{data\+Nasc,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}}}]{localizacao }\end{DoxyParamCaption})}
+
+
+
+Construtor de classe com os atributos declarados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & email para login do utilizador\\
+\hline
+{\em password} & password para login do utilizador\\
+\hline
+{\em nome} & nome\\
+\hline
+{\em data\+Nasc} & data de nascimento\\
+\hline
+{\em localizacao} & localizacao\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_ab75ada5927fbf05c61585bcb54e1a109}\label{class_objetos_negocio_1_1_utilizador_ab75ada5927fbf05c61585bcb54e1a109}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!Equals@{Equals}}
+\index{Equals@{Equals}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily override bool Objetos\+Negocio.\+Utilizador.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj }\end{DoxyParamCaption})}
+
+
+
+Compara 2 objetos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & objeto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se for igual ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_a2e4d1320159fe5dbd1e95c5028def4f6}\label{class_objetos_negocio_1_1_utilizador_a2e4d1320159fe5dbd1e95c5028def4f6}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily static bool Objetos\+Negocio.\+Utilizador.\+operator!= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}}}]{u1,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}}}]{u2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compara a diferenciabilidade de dois utilizadores através de seus utilizadores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u1} & utilizador 1\\
+\hline
+{\em u2} & utilizador 2\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se for diferente ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_a1503ce98dbca1f0eff5f7f6c63dcaff5}\label{class_objetos_negocio_1_1_utilizador_a1503ce98dbca1f0eff5f7f6c63dcaff5}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!operator==@{operator==}}
+\index{operator==@{operator==}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily static bool Objetos\+Negocio.\+Utilizador.\+operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}}}]{u1,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}}}]{u2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compara a igualdade de dois utilizadores através dos seus parâmetros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u1} & utilizador 1\\
+\hline
+{\em u2} & utilizador 2\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se for igual ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_a48bc648d9bd5b8879a6a11cd98d585b4}\label{class_objetos_negocio_1_1_utilizador_a48bc648d9bd5b8879a6a11cd98d585b4}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!ToString@{ToString}}
+\index{ToString@{ToString}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string Objetos\+Negocio.\+Utilizador.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Devolve os dados do método da classe base(\+Pessoa) deste utilizador. 
+
+\begin{DoxyReturn}{Returns}
+string final
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_a60a145d9e4fc1affa499c46b37729541}\label{class_objetos_negocio_1_1_utilizador_a60a145d9e4fc1affa499c46b37729541}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!Carrinho@{Carrinho}}
+\index{Carrinho@{Carrinho}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{Carrinho}{Carrinho}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_objetos_negocio_1_1_carrinho_compra}{Carrinho\+Compra}} Objetos\+Negocio.\+Utilizador.\+Carrinho\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para carrinho de compras. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_utilizador_aea907af5d6f93891636438083e76e0e3}{Objetos\+Negocio.\+IUtilizador}}.
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_a68e8fd96cbea2974e34539c9988a47c3}\label{class_objetos_negocio_1_1_utilizador_a68e8fd96cbea2974e34539c9988a47c3}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!Email@{Email}}
+\index{Email@{Email}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{Email}{Email}}
+{\footnotesize\ttfamily string Objetos\+Negocio.\+Utilizador.\+Email\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para email. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_utilizador_ae41104592e2c54ad6ef25609a7ff0f0e}{Objetos\+Negocio.\+IUtilizador}}.
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_utilizador_add4ce2b066206f3703ba58d0fb7dd130}\label{class_objetos_negocio_1_1_utilizador_add4ce2b066206f3703ba58d0fb7dd130}} 
+\index{ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}!Password@{Password}}
+\index{Password@{Password}!ObjetosNegocio.Utilizador@{ObjetosNegocio.Utilizador}}
+\doxysubsubsection{\texorpdfstring{Password}{Password}}
+{\footnotesize\ttfamily string Objetos\+Negocio.\+Utilizador.\+Password\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para password. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_utilizador_acbf51a6d07fe593c1711acd2a8138d20}{Objetos\+Negocio.\+IUtilizador}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Objetos\+Negocio/\mbox{\hyperlink{_utilizador_8cs}{Utilizador.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interface_objetos_negocio_1_1_i_utilizador" kind="interface" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::IUtilizador</compoundname>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_utilizador" prot="public" virt="non-virtual">ObjetosNegocio.Utilizador</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_utilizador_1ae41104592e2c54ad6ef25609a7ff0f0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IUtilizador.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <qualifiedname>ObjetosNegocio.IUtilizador.Email</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_utilizador_1a68e8fd96cbea2974e34539c9988a47c3">Email</reimplementedby>
+        <briefdescription>
+<para>Propriedade para email. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IUtilizador.cs" line="31" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IUtilizador.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_utilizador_1acbf51a6d07fe593c1711acd2a8138d20" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IUtilizador.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>ObjetosNegocio.IUtilizador.Password</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_utilizador_1add4ce2b066206f3703ba58d0fb7dd130">Password</reimplementedby>
+        <briefdescription>
+<para>Propriedade para password. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IUtilizador.cs" line="40" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IUtilizador.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_utilizador_1aea907af5d6f93891636438083e76e0e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_objetos_negocio_1_1_carrinho_compra" kindref="compound">CarrinhoCompra</ref></type>
+        <definition>CarrinhoCompra ObjetosNegocio.IUtilizador.Carrinho</definition>
+        <argsstring></argsstring>
+        <name>Carrinho</name>
+        <qualifiedname>ObjetosNegocio.IUtilizador.Carrinho</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_utilizador_1a60a145d9e4fc1affa499c46b37729541">Carrinho</reimplementedby>
+        <briefdescription>
+<para>Propriedade para carrinho de compras. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IUtilizador.cs" line="49" column="24" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IUtilizador.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: Diogo Created on: 20/12/2023 03:40:31. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ObjetosNegocio.IUtilizador</label>
+        <link refid="interface_objetos_negocio_1_1_i_utilizador"/>
+      </node>
+      <node id="2">
+        <label>ObjetosNegocio.Utilizador</label>
+        <link refid="class_objetos_negocio_1_1_utilizador"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IUtilizador.cs" line="22" column="22" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IUtilizador.cs" bodystart="23" bodyend="70"/>
+    <listofallmembers>
+      <member refid="interface_objetos_negocio_1_1_i_utilizador_1aea907af5d6f93891636438083e76e0e3" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IUtilizador</scope><name>Carrinho</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_utilizador_1ae41104592e2c54ad6ef25609a7ff0f0e" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IUtilizador</scope><name>Email</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_utilizador_1acbf51a6d07fe593c1711acd2a8138d20" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IUtilizador</scope><name>Password</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

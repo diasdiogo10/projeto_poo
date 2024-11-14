@@ -1,0 +1,278 @@
+\hypertarget{class_regras_negocio_1_1_regras_armazem}{}\doxysection{Regras\+Negocio.\+Regras\+Armazem Class Reference}
+\label{class_regras_negocio_1_1_regras_armazem}\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+
+
+Purpose\+: Created by\+: Diogo Created on\+: 06/12/2023 23\+:16\+:25.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_a820bc643bbef2f596cf182b11622e553}{Existe\+Produto}} (int ref\+Prod)
+\begin{DoxyCompactList}\small\item\em Verifica se um produto existe. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_a10cb682f6cfff1ff3c0c7b12a4b1e11a}{Quantidade\+Produto}} (int ref\+Prod, out int contador)
+\begin{DoxyCompactList}\small\item\em Procura a quantidade de um produto. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_a73d4316d38dcf38b483dda94620264df}{Produtos\+Marca}} (string marca, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$ p)
+\begin{DoxyCompactList}\small\item\em Procura todos os produtos de uma marca. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_a5eefe9e56559e69e6c28d66aeb2fd159}{Produtos\+Categoria}} (string categoria, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$ p)
+\begin{DoxyCompactList}\small\item\em Procura todos os produtos de uma categoria. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_a4dced490cc702cb0b48a5cf581d116c5}{Produtos\+Marca\+Categoria}} (string marca, string categoria, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$ p)
+\begin{DoxyCompactList}\small\item\em Procura todos os produtos de uma marca e categoria. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_a655d63f50e584767969d584f567a0311}{Produtos}} (out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$ lista)
+\begin{DoxyCompactList}\small\item\em Obtém a lista de produtos do armazém. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_a03e7a5badc69647db97d5b40d83b3451}{Inserir\+Produto}} (\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} produto)
+\begin{DoxyCompactList}\small\item\em Insere um produto no armazem. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_aa1ede96c2358ab5f6c30b56090af28af}{Remover\+Produto}} (int ref\+Prod)
+\begin{DoxyCompactList}\small\item\em Remove um produto do armazem. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_ab10a712ff081b7cb1ff110fd0275debc}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_armazem_a5cff76897c74631ec2764b1e6fed039b}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Created by\+: Diogo Created on\+: 06/12/2023 23\+:16\+:25. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_a5cff76897c74631ec2764b1e6fed039b}\label{class_regras_negocio_1_1_regras_armazem_a5cff76897c74631ec2764b1e6fed039b}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Armazem\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_a820bc643bbef2f596cf182b11622e553}\label{class_regras_negocio_1_1_regras_armazem_a820bc643bbef2f596cf182b11622e553}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!ExisteProduto@{ExisteProduto}}
+\index{ExisteProduto@{ExisteProduto}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{ExisteProduto()}{ExisteProduto()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Existe\+Produto (\begin{DoxyParamCaption}\item[{int}]{ref\+Prod }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se um produto existe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ref\+Prod} & referência de produto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existe ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Armazem\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_a03e7a5badc69647db97d5b40d83b3451}\label{class_regras_negocio_1_1_regras_armazem_a03e7a5badc69647db97d5b40d83b3451}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!InserirProduto@{InserirProduto}}
+\index{InserirProduto@{InserirProduto}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{InserirProduto()}{InserirProduto()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Inserir\+Produto (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}}]{produto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um produto no armazem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em produto} & produto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Armazem\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_a655d63f50e584767969d584f567a0311}\label{class_regras_negocio_1_1_regras_armazem_a655d63f50e584767969d584f567a0311}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!Produtos@{Produtos}}
+\index{Produtos@{Produtos}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{Produtos()}{Produtos()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Produtos (\begin{DoxyParamCaption}\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$}]{lista }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém a lista de produtos do armazém. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_a5eefe9e56559e69e6c28d66aeb2fd159}\label{class_regras_negocio_1_1_regras_armazem_a5eefe9e56559e69e6c28d66aeb2fd159}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!ProdutosCategoria@{ProdutosCategoria}}
+\index{ProdutosCategoria@{ProdutosCategoria}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{ProdutosCategoria()}{ProdutosCategoria()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Produtos\+Categoria (\begin{DoxyParamCaption}\item[{string}]{categoria,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todos os produtos de uma categoria. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em categoria} & categoria\\
+\hline
+{\em p} & produtos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Armazem\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_a73d4316d38dcf38b483dda94620264df}\label{class_regras_negocio_1_1_regras_armazem_a73d4316d38dcf38b483dda94620264df}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!ProdutosMarca@{ProdutosMarca}}
+\index{ProdutosMarca@{ProdutosMarca}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{ProdutosMarca()}{ProdutosMarca()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Produtos\+Marca (\begin{DoxyParamCaption}\item[{string}]{marca,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todos os produtos de uma marca. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em marca} & marca\\
+\hline
+{\em p} & produtos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Armazem\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_a4dced490cc702cb0b48a5cf581d116c5}\label{class_regras_negocio_1_1_regras_armazem_a4dced490cc702cb0b48a5cf581d116c5}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!ProdutosMarcaCategoria@{ProdutosMarcaCategoria}}
+\index{ProdutosMarcaCategoria@{ProdutosMarcaCategoria}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{ProdutosMarcaCategoria()}{ProdutosMarcaCategoria()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Produtos\+Marca\+Categoria (\begin{DoxyParamCaption}\item[{string}]{marca,  }\item[{string}]{categoria,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todos os produtos de uma marca e categoria. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em marca} & marca\\
+\hline
+{\em categoria} & categoria\\
+\hline
+{\em p} & produtos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Armazem\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_a10cb682f6cfff1ff3c0c7b12a4b1e11a}\label{class_regras_negocio_1_1_regras_armazem_a10cb682f6cfff1ff3c0c7b12a4b1e11a}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!QuantidadeProduto@{QuantidadeProduto}}
+\index{QuantidadeProduto@{QuantidadeProduto}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{QuantidadeProduto()}{QuantidadeProduto()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Quantidade\+Produto (\begin{DoxyParamCaption}\item[{int}]{ref\+Prod,  }\item[{out int}]{contador }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura a quantidade de um produto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ref\+Prod} & referencia de produto\\
+\hline
+{\em contador} & quantidade\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Armazem\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_aa1ede96c2358ab5f6c30b56090af28af}\label{class_regras_negocio_1_1_regras_armazem_aa1ede96c2358ab5f6c30b56090af28af}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!RemoverProduto@{RemoverProduto}}
+\index{RemoverProduto@{RemoverProduto}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{RemoverProduto()}{RemoverProduto()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Remover\+Produto (\begin{DoxyParamCaption}\item[{int}]{ref\+Prod }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um produto do armazem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ref\+Prod} & referencia de produto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Armazem\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_armazem_ab10a712ff081b7cb1ff110fd0275debc}\label{class_regras_negocio_1_1_regras_armazem_ab10a712ff081b7cb1ff110fd0275debc}} 
+\index{RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!RegrasNegocio.RegrasArmazem@{RegrasNegocio.RegrasArmazem}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Armazem.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Armazem\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Regras\+Negocio/\mbox{\hyperlink{_regras_armazem_8cs}{Regras\+Armazem.\+cs}}\end{DoxyCompactItemize}

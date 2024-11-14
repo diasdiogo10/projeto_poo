@@ -1,0 +1,225 @@
+\hypertarget{class_dados_1_1_utilizadores}{}\doxysection{Dados.\+Utilizadores Class Reference}
+\label{class_dados_1_1_utilizadores}\index{Dados.Utilizadores@{Dados.Utilizadores}}
+
+
+Purpose\+: Classe de utilizadores Created by\+: Diogo Created on\+: 06/12/2023 23\+:09\+:52.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_dados_1_1_utilizadores_a746af8250d3f816bc5d782cf5b0107f9}{Existe\+Email\+Sistema}} (string email)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um email igual no sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_utilizadores_a79e220dbc5f721d453275a5e54fbffb5}{Existe\+Conta\+Sistema}} (string email, string password)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um utiizador com aqueles dados no sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_utilizadores_a740ab06891ecd7ac71c838657b1686a7}{Inserir\+Utilizador\+Sistema}} (\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}} util)
+\begin{DoxyCompactList}\small\item\em Insere um utilizador na lista de utilizadores do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_utilizadores_a66542458633cbb9a207c656459095d4b}{Remover\+Utilizador\+Sistema}} (string email)
+\begin{DoxyCompactList}\small\item\em Remove um utilizador do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_utilizadores_a9fafae19547bfc190092157ea7299850}{Alterar\+Email\+Sistema}} (string antigo\+Email, string password, string novo\+Email)
+\begin{DoxyCompactList}\small\item\em Altera um email de um utilizador do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_utilizadores_a130846b12919b61fa667b54d78776825}{Alterar\+Password\+Sistema}} (string email, string antiga\+Password, string nova\+Password)
+\begin{DoxyCompactList}\small\item\em Altera uma password de um utilizador do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_utilizadores_a373026104d19a4d78c724ef405a02b16}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_utilizadores_abbda4458525988c7efa656a2a1a54495}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}} $>$ \mbox{\hyperlink{class_dados_1_1_utilizadores_a6a45c4987f31cdb2d5cf7e4a73479dce}{Users}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para utilizadores. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Classe de utilizadores Created by\+: Diogo Created on\+: 06/12/2023 23\+:09\+:52. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_dados_1_1_utilizadores_a9fafae19547bfc190092157ea7299850}\label{class_dados_1_1_utilizadores_a9fafae19547bfc190092157ea7299850}} 
+\index{Dados.Utilizadores@{Dados.Utilizadores}!AlterarEmailSistema@{AlterarEmailSistema}}
+\index{AlterarEmailSistema@{AlterarEmailSistema}!Dados.Utilizadores@{Dados.Utilizadores}}
+\doxysubsubsection{\texorpdfstring{AlterarEmailSistema()}{AlterarEmailSistema()}}
+{\footnotesize\ttfamily static bool Dados.\+Utilizadores.\+Alterar\+Email\+Sistema (\begin{DoxyParamCaption}\item[{string}]{antigo\+Email,  }\item[{string}]{password,  }\item[{string}]{novo\+Email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Altera um email de um utilizador do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em antigo\+Email} & email antigo\\
+\hline
+{\em password} & passowrd\\
+\hline
+{\em novo\+Email} & novo email\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_utilizadores_a130846b12919b61fa667b54d78776825}\label{class_dados_1_1_utilizadores_a130846b12919b61fa667b54d78776825}} 
+\index{Dados.Utilizadores@{Dados.Utilizadores}!AlterarPasswordSistema@{AlterarPasswordSistema}}
+\index{AlterarPasswordSistema@{AlterarPasswordSistema}!Dados.Utilizadores@{Dados.Utilizadores}}
+\doxysubsubsection{\texorpdfstring{AlterarPasswordSistema()}{AlterarPasswordSistema()}}
+{\footnotesize\ttfamily static bool Dados.\+Utilizadores.\+Alterar\+Password\+Sistema (\begin{DoxyParamCaption}\item[{string}]{email,  }\item[{string}]{antiga\+Password,  }\item[{string}]{nova\+Password }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Altera uma password de um utilizador do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & \\
+\hline
+{\em antiga\+Password} & \\
+\hline
+{\em nova\+Password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_utilizadores_abbda4458525988c7efa656a2a1a54495}\label{class_dados_1_1_utilizadores_abbda4458525988c7efa656a2a1a54495}} 
+\index{Dados.Utilizadores@{Dados.Utilizadores}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!Dados.Utilizadores@{Dados.Utilizadores}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Utilizadores.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & possivel exceção lancada\\
+\hline
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_dados_1_1_utilizadores_a79e220dbc5f721d453275a5e54fbffb5}\label{class_dados_1_1_utilizadores_a79e220dbc5f721d453275a5e54fbffb5}} 
+\index{Dados.Utilizadores@{Dados.Utilizadores}!ExisteContaSistema@{ExisteContaSistema}}
+\index{ExisteContaSistema@{ExisteContaSistema}!Dados.Utilizadores@{Dados.Utilizadores}}
+\doxysubsubsection{\texorpdfstring{ExisteContaSistema()}{ExisteContaSistema()}}
+{\footnotesize\ttfamily static bool Dados.\+Utilizadores.\+Existe\+Conta\+Sistema (\begin{DoxyParamCaption}\item[{string}]{email,  }\item[{string}]{password }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um utiizador com aqueles dados no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & email\\
+\hline
+{\em password} & password\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existir ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_utilizadores_a746af8250d3f816bc5d782cf5b0107f9}\label{class_dados_1_1_utilizadores_a746af8250d3f816bc5d782cf5b0107f9}} 
+\index{Dados.Utilizadores@{Dados.Utilizadores}!ExisteEmailSistema@{ExisteEmailSistema}}
+\index{ExisteEmailSistema@{ExisteEmailSistema}!Dados.Utilizadores@{Dados.Utilizadores}}
+\doxysubsubsection{\texorpdfstring{ExisteEmailSistema()}{ExisteEmailSistema()}}
+{\footnotesize\ttfamily static bool Dados.\+Utilizadores.\+Existe\+Email\+Sistema (\begin{DoxyParamCaption}\item[{string}]{email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um email igual no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & email\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existir ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_utilizadores_a740ab06891ecd7ac71c838657b1686a7}\label{class_dados_1_1_utilizadores_a740ab06891ecd7ac71c838657b1686a7}} 
+\index{Dados.Utilizadores@{Dados.Utilizadores}!InserirUtilizadorSistema@{InserirUtilizadorSistema}}
+\index{InserirUtilizadorSistema@{InserirUtilizadorSistema}!Dados.Utilizadores@{Dados.Utilizadores}}
+\doxysubsubsection{\texorpdfstring{InserirUtilizadorSistema()}{InserirUtilizadorSistema()}}
+{\footnotesize\ttfamily static bool Dados.\+Utilizadores.\+Inserir\+Utilizador\+Sistema (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}}}]{util }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um utilizador na lista de utilizadores do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em util} & utilizador\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_utilizadores_a66542458633cbb9a207c656459095d4b}\label{class_dados_1_1_utilizadores_a66542458633cbb9a207c656459095d4b}} 
+\index{Dados.Utilizadores@{Dados.Utilizadores}!RemoverUtilizadorSistema@{RemoverUtilizadorSistema}}
+\index{RemoverUtilizadorSistema@{RemoverUtilizadorSistema}!Dados.Utilizadores@{Dados.Utilizadores}}
+\doxysubsubsection{\texorpdfstring{RemoverUtilizadorSistema()}{RemoverUtilizadorSistema()}}
+{\footnotesize\ttfamily static bool Dados.\+Utilizadores.\+Remover\+Utilizador\+Sistema (\begin{DoxyParamCaption}\item[{string}]{email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um utilizador do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & email\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_utilizadores_a373026104d19a4d78c724ef405a02b16}\label{class_dados_1_1_utilizadores_a373026104d19a4d78c724ef405a02b16}} 
+\index{Dados.Utilizadores@{Dados.Utilizadores}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!Dados.Utilizadores@{Dados.Utilizadores}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Utilizadores.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\texorpdfstring{$<$}{<}exception cref=\char`\"{}\+IOException\char`\"{}possivel exceção lancada\texorpdfstring{$>$}{>}
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_dados_1_1_utilizadores_a6a45c4987f31cdb2d5cf7e4a73479dce}\label{class_dados_1_1_utilizadores_a6a45c4987f31cdb2d5cf7e4a73479dce}} 
+\index{Dados.Utilizadores@{Dados.Utilizadores}!Users@{Users}}
+\index{Users@{Users}!Dados.Utilizadores@{Dados.Utilizadores}}
+\doxysubsubsection{\texorpdfstring{Users}{Users}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}}$>$ Dados.\+Utilizadores.\+Users\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Propriedade para utilizadores. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Dados/\mbox{\hyperlink{_utilizadores_8cs}{Utilizadores.\+cs}}\end{DoxyCompactItemize}

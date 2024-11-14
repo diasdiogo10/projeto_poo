@@ -1,0 +1,120 @@
+\hypertarget{class_regras_negocio_1_1_regras_vendas}{}\doxysection{Regras\+Negocio.\+Regras\+Vendas Class Reference}
+\label{class_regras_negocio_1_1_regras_vendas}\index{RegrasNegocio.RegrasVendas@{RegrasNegocio.RegrasVendas}}
+
+
+Purpose\+: Regras\+Vendas de classe Created by\+: Diogo Created on\+: 24/10/2023.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_vendas_a0dc44e7783df5f63a7e838fd245dbf69}{Inserir\+Venda}} (\mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}} v)
+\begin{DoxyCompactList}\small\item\em Insere uma venda nos dados das vendas. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_vendas_a7cbc8abdf9ea8a128346149fc6998a2e}{Vendas\+Data}} (Date\+Time data\+Venda, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}} $>$ v)
+\begin{DoxyCompactList}\small\item\em Procura todas as vendas numa determinada data. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_vendas_a193b2974c90ebef06899f869dae294ac}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_vendas_a0d1a5e71259f3c130cc729b173be9833}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Regras\+Vendas de classe Created by\+: Diogo Created on\+: 24/10/2023. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_vendas_a0d1a5e71259f3c130cc729b173be9833}\label{class_regras_negocio_1_1_regras_vendas_a0d1a5e71259f3c130cc729b173be9833}} 
+\index{RegrasNegocio.RegrasVendas@{RegrasNegocio.RegrasVendas}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!RegrasNegocio.RegrasVendas@{RegrasNegocio.RegrasVendas}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Vendas.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Vendas\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_vendas_a0dc44e7783df5f63a7e838fd245dbf69}\label{class_regras_negocio_1_1_regras_vendas_a0dc44e7783df5f63a7e838fd245dbf69}} 
+\index{RegrasNegocio.RegrasVendas@{RegrasNegocio.RegrasVendas}!InserirVenda@{InserirVenda}}
+\index{InserirVenda@{InserirVenda}!RegrasNegocio.RegrasVendas@{RegrasNegocio.RegrasVendas}}
+\doxysubsubsection{\texorpdfstring{InserirVenda()}{InserirVenda()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Vendas.\+Inserir\+Venda (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere uma venda nos dados das vendas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & venda\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_vendas_a193b2974c90ebef06899f869dae294ac}\label{class_regras_negocio_1_1_regras_vendas_a193b2974c90ebef06899f869dae294ac}} 
+\index{RegrasNegocio.RegrasVendas@{RegrasNegocio.RegrasVendas}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!RegrasNegocio.RegrasVendas@{RegrasNegocio.RegrasVendas}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Vendas.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Vendas\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_vendas_a7cbc8abdf9ea8a128346149fc6998a2e}\label{class_regras_negocio_1_1_regras_vendas_a7cbc8abdf9ea8a128346149fc6998a2e}} 
+\index{RegrasNegocio.RegrasVendas@{RegrasNegocio.RegrasVendas}!VendasData@{VendasData}}
+\index{VendasData@{VendasData}!RegrasNegocio.RegrasVendas@{RegrasNegocio.RegrasVendas}}
+\doxysubsubsection{\texorpdfstring{VendasData()}{VendasData()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Vendas.\+Vendas\+Data (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Venda,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}} $>$}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todas as vendas numa determinada data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+Venda} & data de venda\\
+\hline
+{\em v} & vendas\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Vendas\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Regras\+Negocio/\mbox{\hyperlink{_regras_vendas_8cs}{Regras\+Vendas.\+cs}}\end{DoxyCompactItemize}

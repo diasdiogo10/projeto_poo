@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_fornecedores_excecoes" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::FornecedoresExcecoes</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_fornecedores_excecoes_1af7a6f1bfb72fcd239dea4f48f4a64470" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.FornecedoresExcecoes.FornecedoresExcecoes</definition>
+        <argsstring>(string mensagem)</argsstring>
+        <name>FornecedoresExcecoes</name>
+        <qualifiedname>Excecoes.FornecedoresExcecoes.FornecedoresExcecoes</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>mensagem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/FornecedoresExcecoes.cs" line="29" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/FornecedoresExcecoes.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_excecoes_1_1_fornecedores_excecoes_1aaa49e49bb76d20e1205500549506ec95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.FornecedoresExcecoes.FornecedoresExcecoes</definition>
+        <argsstring>()</argsstring>
+        <name>FornecedoresExcecoes</name>
+        <qualifiedname>Excecoes.FornecedoresExcecoes.FornecedoresExcecoes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/FornecedoresExcecoes.cs" line="30" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/FornecedoresExcecoes.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_excecoes_1_1_fornecedores_excecoes_1a215954445552adfd32a6c4df4e286d46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.FornecedoresExcecoes.FornecedoresExcecoes</definition>
+        <argsstring>(string mensagem, Exception e)</argsstring>
+        <name>FornecedoresExcecoes</name>
+        <qualifiedname>Excecoes.FornecedoresExcecoes.FornecedoresExcecoes</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>mensagem</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/FornecedoresExcecoes.cs" line="31" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/FornecedoresExcecoes.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de exceções de fornecedores Created by: Diogo Created on: 24/10/2023. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.FornecedoresExcecoes</label>
+        <link refid="class_excecoes_1_1_fornecedores_excecoes"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.FornecedoresExcecoes</label>
+        <link refid="class_excecoes_1_1_fornecedores_excecoes"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/FornecedoresExcecoes.cs" line="21" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/FornecedoresExcecoes.cs" bodystart="22" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_fornecedores_excecoes_1af7a6f1bfb72fcd239dea4f48f4a64470" prot="public" virt="non-virtual"><scope>Excecoes::FornecedoresExcecoes</scope><name>FornecedoresExcecoes</name></member>
+      <member refid="class_excecoes_1_1_fornecedores_excecoes_1aaa49e49bb76d20e1205500549506ec95" prot="public" virt="non-virtual"><scope>Excecoes::FornecedoresExcecoes</scope><name>FornecedoresExcecoes</name></member>
+      <member refid="class_excecoes_1_1_fornecedores_excecoes_1a215954445552adfd32a6c4df4e286d46" prot="public" virt="non-virtual"><scope>Excecoes::FornecedoresExcecoes</scope><name>FornecedoresExcecoes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

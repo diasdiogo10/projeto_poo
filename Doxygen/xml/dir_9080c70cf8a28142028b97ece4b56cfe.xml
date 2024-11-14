@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_9080c70cf8a28142028b97ece4b56cfe" kind="dir">
+    <compoundname>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Programa/GereLoja</compoundname>
+    <innerdir refid="dir_38e2d12d909c632c4ad36a5bb4f6f6b6">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Programa/GereLoja/obj</innerdir>
+    <innerdir refid="dir_9143c3cd1b5056e84277645080360964">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Programa/GereLoja/Properties</innerdir>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Programa/GereLoja/"/>
+  </compounddef>
+</doxygen>

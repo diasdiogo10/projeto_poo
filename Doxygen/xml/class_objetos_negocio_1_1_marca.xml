@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_marca" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Marca</compoundname>
+    <basecompoundref refid="interface_objetos_negocio_1_1_i_marca" prot="public" virt="non-virtual">ObjetosNegocio.IMarca</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_marca_1a33c2c1fc21c919c8db998b75e769603e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Marca.nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <qualifiedname>ObjetosNegocio.Marca.nome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="27" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_marca_1a5cc5b9e62a66c1e0e2217a3f5738bb27" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Marca.contacto</definition>
+        <argsstring></argsstring>
+        <name>contacto</name>
+        <qualifiedname>ObjetosNegocio.Marca.contacto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="28" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_marca_1a6955322e9e70aed67ccfe048f04d679c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Marca.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.Marca.Nome</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_marca_1a4177601a1bbd88d256d5be2c665d7477">Nome</reimplements>
+        <briefdescription>
+<para>Propriedade para nome. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="64" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_marca_1ac16a80837466518bb8fde225114075b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Marca.Contacto</definition>
+        <argsstring></argsstring>
+        <name>Contacto</name>
+        <qualifiedname>ObjetosNegocio.Marca.Contacto</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_marca_1ae8db28d73f93ad76880d58a32bed66da">Contacto</reimplements>
+        <briefdescription>
+<para>Propriedade para contacto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="73" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_marca_1a470215e3de693fbbb76478c91f203a69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Marca.Marca</definition>
+        <argsstring>()</argsstring>
+        <name>Marca</name>
+        <qualifiedname>ObjetosNegocio.Marca.Marca</qualifiedname>
+        <briefdescription>
+<para>Construtor de classe por defeito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="39" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_marca_1aa497a0cf842a82f1c273fcd9634b14ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Marca.Marca</definition>
+        <argsstring>(string nome, string contacto)</argsstring>
+        <name>Marca</name>
+        <qualifiedname>ObjetosNegocio.Marca.Marca</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>contacto</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com os atributos declarados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome da marca</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>contacto</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contacto da marca</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="50" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_marca_1a2ad57880bd5e344c917d2995814e963f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ObjetosNegocio.Marca.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>ObjetosNegocio.Marca.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Compara 2 objetos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objeto o qual se compara</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="116" column="30" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="116" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_marca_1af6c89f3bf55f5cb0d35d371f4aeb5d51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ObjetosNegocio.Marca.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>ObjetosNegocio.Marca.ToString</qualifiedname>
+        <briefdescription>
+<para>Devolve uma string com todos os atributos de uma marca. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string final</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="130" column="32" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="130" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_marca_1abb7bb3ef5e8eb678ea229c997cbdcbe9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Marca.operator==</definition>
+        <argsstring>(Marca m1, Marca m2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ObjetosNegocio.Marca.operator==</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_marca" kindref="compound">Marca</ref></type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_marca" kindref="compound">Marca</ref></type>
+          <declname>m2</declname>
+        </param>
+        <briefdescription>
+<para>Metodo que compara a igualdade de 2 marcas através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>marca 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>m2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>marca 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="89" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="89" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_marca_1a19420a95c717491dcb852a6237c0a875" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Marca.operator!=</definition>
+        <argsstring>(Marca m1, Marca m2)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ObjetosNegocio.Marca.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_marca" kindref="compound">Marca</ref></type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_marca" kindref="compound">Marca</ref></type>
+          <declname>m2</declname>
+        </param>
+        <briefdescription>
+<para>Metodo que compara a diferenciabilidade de 2 marcas através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>marca 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>m2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>marca 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for diferente ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="101" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="101" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de marca Created by: Diogo Created on: 06/12/2023 23:03:12. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IMarca</label>
+        <link refid="interface_objetos_negocio_1_1_i_marca"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Marca</label>
+        <link refid="class_objetos_negocio_1_1_marca"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IMarca</label>
+        <link refid="interface_objetos_negocio_1_1_i_marca"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Marca</label>
+        <link refid="class_objetos_negocio_1_1_marca"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" line="23" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Marca.cs" bodystart="24" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_marca_1a5cc5b9e62a66c1e0e2217a3f5738bb27" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>contacto</name></member>
+      <member refid="class_objetos_negocio_1_1_marca_1ac16a80837466518bb8fde225114075b6" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>Contacto</name></member>
+      <member refid="class_objetos_negocio_1_1_marca_1a2ad57880bd5e344c917d2995814e963f" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>Equals</name></member>
+      <member refid="class_objetos_negocio_1_1_marca_1a470215e3de693fbbb76478c91f203a69" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>Marca</name></member>
+      <member refid="class_objetos_negocio_1_1_marca_1aa497a0cf842a82f1c273fcd9634b14ad" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>Marca</name></member>
+      <member refid="class_objetos_negocio_1_1_marca_1a33c2c1fc21c919c8db998b75e769603e" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>nome</name></member>
+      <member refid="class_objetos_negocio_1_1_marca_1a6955322e9e70aed67ccfe048f04d679c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>Nome</name></member>
+      <member refid="class_objetos_negocio_1_1_marca_1a19420a95c717491dcb852a6237c0a875" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>operator!=</name></member>
+      <member refid="class_objetos_negocio_1_1_marca_1abb7bb3ef5e8eb678ea229c997cbdcbe9" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>operator==</name></member>
+      <member refid="class_objetos_negocio_1_1_marca_1af6c89f3bf55f5cb0d35d371f4aeb5d51" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Marca</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_dados_1_1_compras" kind="class" language="C#" prot="public">
+    <compoundname>Dados::Compras</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dados_1_1_compras_1a3a6c07d1362a5c17a73ff0f0dd203e24" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_compra" kindref="compound">Compra</ref> &gt;</type>
+        <definition>List&lt;Compra&gt; Dados.Compras.cs</definition>
+        <argsstring></argsstring>
+        <name>cs</name>
+        <qualifiedname>Dados.Compras.cs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" line="29" column="21" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dados_1_1_compras_1a476384fa77ac80dadbc3a42188c6cb5d" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_compra" kindref="compound">Compra</ref> &gt;</type>
+        <definition>List&lt;Compra&gt; Dados.Compras.VS</definition>
+        <argsstring></argsstring>
+        <name>VS</name>
+        <qualifiedname>Dados.Compras.VS</qualifiedname>
+        <briefdescription>
+<para>Propriedade para compras. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" line="48" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_dados_1_1_compras_1ac772683b03348cf4e978c184e197b5df" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Dados.Compras.Compras</definition>
+        <argsstring>()</argsstring>
+        <name>Compras</name>
+        <qualifiedname>Dados.Compras.Compras</qualifiedname>
+        <briefdescription>
+<para>Construtor estático. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" line="38" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dados_1_1_compras_1ac54eb0c2a2fa35a2cfb3993068936c0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Compras.InserirCompra</definition>
+        <argsstring>(Compra c)</argsstring>
+        <name>InserirCompra</name>
+        <qualifiedname>Dados.Compras.InserirCompra</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_compra" kindref="compound">Compra</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Insere uma compra nos dados das compras. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>compra</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" line="68" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" bodystart="68" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_compras_1ac69e5ff6b64c56b14519cff3ffaadf97" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Compras.ComprasData</definition>
+        <argsstring>(DateTime dataCompra, out List&lt; Compra &gt; c)</argsstring>
+        <name>ComprasData</name>
+        <qualifiedname>Dados.Compras.ComprasData</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataCompra</declname>
+        </param>
+        <param>
+          <type>out List&lt; <ref refid="class_objetos_negocio_1_1_compra" kindref="compound">Compra</ref> &gt;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Procura todas as compras numa determinada data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataCompra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data de compra</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>compras</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" line="83" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" bodystart="83" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_compras_1a811063acdd7e537e238eb13cf4df9142" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Compras.SalvarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDados</name>
+        <qualifiedname>Dados.Compras.SalvarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Salva os dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" line="103" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" bodystart="103" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_compras_1aa28ac93ae900989f623da3107a6fe0d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Compras.CarregarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDados</name>
+        <qualifiedname>Dados.Compras.CarregarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os dados para o programa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" line="130" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" bodystart="130" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Compras de classe Created by: Diogo Created on: 24/10/2023. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" line="25" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Compras.cs" bodystart="26" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_dados_1_1_compras_1aa28ac93ae900989f623da3107a6fe0d7" prot="public" virt="non-virtual"><scope>Dados::Compras</scope><name>CarregarDados</name></member>
+      <member refid="class_dados_1_1_compras_1ac772683b03348cf4e978c184e197b5df" prot="private" virt="non-virtual"><scope>Dados::Compras</scope><name>Compras</name></member>
+      <member refid="class_dados_1_1_compras_1ac69e5ff6b64c56b14519cff3ffaadf97" prot="public" virt="non-virtual"><scope>Dados::Compras</scope><name>ComprasData</name></member>
+      <member refid="class_dados_1_1_compras_1a3a6c07d1362a5c17a73ff0f0dd203e24" prot="private" virt="non-virtual"><scope>Dados::Compras</scope><name>cs</name></member>
+      <member refid="class_dados_1_1_compras_1ac54eb0c2a2fa35a2cfb3993068936c0a" prot="public" virt="non-virtual"><scope>Dados::Compras</scope><name>InserirCompra</name></member>
+      <member refid="class_dados_1_1_compras_1a811063acdd7e537e238eb13cf4df9142" prot="public" virt="non-virtual"><scope>Dados::Compras</scope><name>SalvarDados</name></member>
+      <member refid="class_dados_1_1_compras_1a476384fa77ac80dadbc3a42188c6cb5d" prot="public" virt="non-virtual"><scope>Dados::Compras</scope><name>VS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_verificacoes_1_1_verificacoes" kind="class" language="C#" prot="public">
+    <compoundname>Verificacoes::Verificacoes</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_verificacoes_1_1_verificacoes_1ae37d324334338b18c94625f80e96f98e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Verificacoes.Verificacoes.Referencia</definition>
+        <argsstring>(int refProd)</argsstring>
+        <name>Referencia</name>
+        <qualifiedname>Verificacoes.Verificacoes.Referencia</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>refProd</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se a referência de um produto introduzida é válida. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>refProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>referência de produto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se é ou não válido</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" line="49" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verificacoes_1_1_verificacoes_1a88fdef980a70ba5a785c1a2f4d00cb2b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Verificacoes.Verificacoes.Quantidade</definition>
+        <argsstring>(int quantidade)</argsstring>
+        <name>Quantidade</name>
+        <qualifiedname>Verificacoes.Verificacoes.Quantidade</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>quantidade</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se a quantidade de um produto que se deseja remover é válida. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>quantidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>quantidade que se deseja remover</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se é ou não válido</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" line="60" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verificacoes_1_1_verificacoes_1a8400b1623f3fde2a417c6a3247034fd8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Verificacoes.Verificacoes.Email</definition>
+        <argsstring>(string email)</argsstring>
+        <name>Email</name>
+        <qualifiedname>Verificacoes.Verificacoes.Email</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se um email introduzido é válido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se é ou não válido</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" line="71" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verificacoes_1_1_verificacoes_1a203a7ff89aacb142cbf7595aaaf44694" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Verificacoes.Verificacoes.Password</definition>
+        <argsstring>(string password)</argsstring>
+        <name>Password</name>
+        <qualifiedname>Verificacoes.Verificacoes.Password</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se uma password introduzida é válida. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se é ou não válido</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" line="82" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verificacoes_1_1_verificacoes_1a2ef278f503efd407c4fb3364abe5e399" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Verificacoes.Verificacoes.Nome</definition>
+        <argsstring>(string nome)</argsstring>
+        <name>Nome</name>
+        <qualifiedname>Verificacoes.Verificacoes.Nome</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se um nome introduzido é válido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se é ou não válido</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" line="93" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verificacoes_1_1_verificacoes_1ab143066262cbca5bb82452f1347559f9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Verificacoes.Verificacoes.Contacto</definition>
+        <argsstring>(string contacto)</argsstring>
+        <name>Contacto</name>
+        <qualifiedname>Verificacoes.Verificacoes.Contacto</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>contacto</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se um contacto introduzido é válido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>contacto</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contacto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se é ou não válido</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" line="104" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" bodystart="104" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: Diogo Created on: 06/12/2023 22:36:07. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" line="23" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Verificacoes.cs" bodystart="24" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_verificacoes_1_1_verificacoes_1ab143066262cbca5bb82452f1347559f9" prot="public" virt="non-virtual"><scope>Verificacoes::Verificacoes</scope><name>Contacto</name></member>
+      <member refid="class_verificacoes_1_1_verificacoes_1a8400b1623f3fde2a417c6a3247034fd8" prot="public" virt="non-virtual"><scope>Verificacoes::Verificacoes</scope><name>Email</name></member>
+      <member refid="class_verificacoes_1_1_verificacoes_1a2ef278f503efd407c4fb3364abe5e399" prot="public" virt="non-virtual"><scope>Verificacoes::Verificacoes</scope><name>Nome</name></member>
+      <member refid="class_verificacoes_1_1_verificacoes_1a203a7ff89aacb142cbf7595aaaf44694" prot="public" virt="non-virtual"><scope>Verificacoes::Verificacoes</scope><name>Password</name></member>
+      <member refid="class_verificacoes_1_1_verificacoes_1a88fdef980a70ba5a785c1a2f4d00cb2b" prot="public" virt="non-virtual"><scope>Verificacoes::Verificacoes</scope><name>Quantidade</name></member>
+      <member refid="class_verificacoes_1_1_verificacoes_1ae37d324334338b18c94625f80e96f98e" prot="public" virt="non-virtual"><scope>Verificacoes::Verificacoes</scope><name>Referencia</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

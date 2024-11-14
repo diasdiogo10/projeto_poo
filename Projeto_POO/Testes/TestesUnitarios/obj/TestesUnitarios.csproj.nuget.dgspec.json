@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\Testes\\TestesUnitarios\\TestesUnitarios.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Dados\\Dados.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Dados\\Dados.csproj",
+        "projectName": "Dados",
+        "projectPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Dados\\Dados.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Excecoes\\Excecoes.csproj": {
+                "projectPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Excecoes\\Excecoes.csproj"
+              },
+              "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\ObjetosNegocio\\ObjetosNegocio.csproj": {
+                "projectPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\ObjetosNegocio\\ObjetosNegocio.csproj"
+              },
+              "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Verificacoes\\Verificacoes.csproj": {
+                "projectPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Verificacoes\\Verificacoes.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Excecoes\\Excecoes.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Excecoes\\Excecoes.csproj",
+        "projectName": "Excecoes",
+        "projectPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Excecoes\\Excecoes.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\ObjetosNegocio\\ObjetosNegocio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\ObjetosNegocio\\ObjetosNegocio.csproj",
+        "projectName": "ObjetosNegocio",
+        "projectPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\ObjetosNegocio\\ObjetosNegocio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Verificacoes\\Verificacoes.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Verificacoes\\Verificacoes.csproj",
+        "projectName": "Verificacoes",
+        "projectPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Verificacoes\\Verificacoes.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\Testes\\TestesUnitarios\\TestesUnitarios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\Testes\\TestesUnitarios\\TestesUnitarios.csproj",
+        "projectName": "TestesUnitarios",
+        "projectPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\Testes\\TestesUnitarios\\TestesUnitarios.csproj",
+        "packagesPath": "C:\\Users\\Diogo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\Testes\\TestesUnitarios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Dados\\Dados.csproj": {
+                "projectPath": "C:\\Users\\Diogo\\Desktop\\Rep\\TP-POO\\Projeto_POO\\DLLs\\Dados\\Dados.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

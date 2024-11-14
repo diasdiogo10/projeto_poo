@@ -1,0 +1,42 @@
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CopyComplete
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CopyComplete
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb

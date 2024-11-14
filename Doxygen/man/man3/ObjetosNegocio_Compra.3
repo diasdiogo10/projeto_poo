@@ -1,0 +1,112 @@
+.TH "ObjetosNegocio.Compra" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ObjetosNegocio.Compra \- Purpose: Compra de classe Created by: Diogo Created on: 24/10/2023\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBObjetosNegocio\&.Operacao\fP, and IComparable< Compra >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override bool \fBEmitirFatura\fP ()"
+.br
+.RI "Emite uma fatura\&. "
+.ti -1c
+.RI "int \fBCompareTo\fP (\fBCompra\fP c1)"
+.br
+.RI "Compara 2 compras e é útil para utilizar o \&.Sort na classe de compras\&. "
+.in -1c
+
+Public Member Functions inherited from \fBObjetosNegocio\&.Operacao\fP
+.in +1c
+.ti -1c
+.RI "\fBOperacao\fP ()"
+.br
+.RI "Construtor de classe por defeito\&. "
+.ti -1c
+.RI "\fBOperacao\fP (Dictionary< int, int > prods, string username, DateTime dataOp)"
+.br
+.RI "Construtor de classe com os parâmetros definidos\&. "
+.ti -1c
+.RI "abstract bool \fBEmitirFatura\fP ()"
+.br
+.RI "Emite uma fatura\&. "
+.in -1c
+.SS "Additional Inherited Members"
+
+
+Properties inherited from \fBObjetosNegocio\&.Operacao\fP
+.in +1c
+.ti -1c
+.RI "DateTime \fBDataOp\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para data de venda\&. "
+.ti -1c
+.RI "string \fBUsername\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para username\&. "
+.ti -1c
+.RI "Dictionary< int, int > \fBProds\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para produtos\&. "
+.in -1c
+
+Properties inherited from \fBObjetosNegocio\&.IOperacao\fP
+.in +1c
+.ti -1c
+.RI "DateTime \fBDataOp\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para data de venda\&. "
+.ti -1c
+.RI "string \fBUsername\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para username\&. "
+.ti -1c
+.RI "Dictionary< int, int > \fBProds\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para produtos\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Compra de classe Created by: Diogo Created on: 24/10/2023\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "int ObjetosNegocio\&.Compra\&.CompareTo (\fBCompra\fP c1)"
+
+.PP
+Compara 2 compras e é útil para utilizar o \&.Sort na classe de compras\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIc1\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "override bool ObjetosNegocio\&.Compra\&.EmitirFatura ()\fC [virtual]\fP"
+
+.PP
+Emite uma fatura\&. 
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se tudo correu bem ou não
+.RE
+.PP
+
+.PP
+Implements \fBObjetosNegocio\&.Operacao\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

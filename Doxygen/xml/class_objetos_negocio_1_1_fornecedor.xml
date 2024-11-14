@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_fornecedor" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Fornecedor</compoundname>
+    <basecompoundref refid="interface_objetos_negocio_1_1_i_fornecedor" prot="public" virt="non-virtual">ObjetosNegocio.IFornecedor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_fornecedor_1ac3399b40ab889dba0d37bf994ec90c9b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Fornecedor.nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.nome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="28" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_fornecedor_1ae04ae93ca33a49e383265fc502758871" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Fornecedor.contacto</definition>
+        <argsstring></argsstring>
+        <name>contacto</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.contacto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="29" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_fornecedor_1ab89a37ab168743b69d98d043b7678040" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref> &gt;</type>
+        <definition>List&lt;Produto&gt; ObjetosNegocio.Fornecedor.prods</definition>
+        <argsstring></argsstring>
+        <name>prods</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.prods</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="30" column="14" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_fornecedor_1aaa744f75883c01782ff07d9d42e3aa17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Fornecedor.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.Nome</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_fornecedor_1a0aeb5573a918588ec00d1cce57a1af36">Nome</reimplements>
+        <briefdescription>
+<para>Propriedade para nome. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="69" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_fornecedor_1a97db9f64560c3e019c856fb0e73a5c2f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Fornecedor.Contacto</definition>
+        <argsstring></argsstring>
+        <name>Contacto</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.Contacto</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_fornecedor_1a4623b557f454fcf1ca272bdb66cb48d2">Contacto</reimplements>
+        <briefdescription>
+<para>Propriedade para contacto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="78" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_fornecedor_1a862b925cd6547c686d6d533e137352f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref> &gt;</type>
+        <definition>List&lt;Produto&gt; ObjetosNegocio.Fornecedor.Prods</definition>
+        <argsstring></argsstring>
+        <name>Prods</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.Prods</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_fornecedor_1a152d6e92489c4c41111db1719b12769d">Prods</reimplements>
+        <briefdescription>
+<para>Propriedade para produtos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="87" column="21" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_fornecedor_1a9205fb6e58267780baa7180da94b6c94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Fornecedor.Fornecedor</definition>
+        <argsstring>()</argsstring>
+        <name>Fornecedor</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.Fornecedor</qualifiedname>
+        <briefdescription>
+<para>Construtor de classe por defeito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="41" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_fornecedor_1a2f98b1e591a3cc8eb852587e2ccc1d86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Fornecedor.Fornecedor</definition>
+        <argsstring>(string nome, string contacto)</argsstring>
+        <name>Fornecedor</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.Fornecedor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>contacto</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com os parâmetros definidos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>contacto</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contacto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prods</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produtos</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="54" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_fornecedor_1af19c2eb88455673e1488d2d3d46a9832" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ObjetosNegocio.Fornecedor.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Compara 2 objetos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objeto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="129" column="30" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="129" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_fornecedor_1a867535bf3f713025d15e1f5df6684e50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ObjetosNegocio.Fornecedor.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.ToString</qualifiedname>
+        <briefdescription>
+<para>Devolve uma string com o atributo de nome e contacto do fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string final</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="143" column="32" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="143" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_fornecedor_1a6b4b0030519f7a9222a20c060a77fcba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Fornecedor.operator==</definition>
+        <argsstring>(Fornecedor f1, Fornecedor f2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.operator==</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref></type>
+          <declname>f1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref></type>
+          <declname>f2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a igualdade de dois fornecedores através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>f1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fornecedor 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>f2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fornecedor 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="103" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="103" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_fornecedor_1aa5870a5e2b08a54fc3a4ab37d221c5f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Fornecedor.operator!=</definition>
+        <argsstring>(Fornecedor f1, Fornecedor f2)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ObjetosNegocio.Fornecedor.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref></type>
+          <declname>f1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref></type>
+          <declname>f2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a diferenciabilidade de dois fornecedores através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>f1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fornecedor 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>f2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fornecedor 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for diferente ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="115" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="115" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de fornecedor Created by: Diogo Created on: 06/12/2023 23:35:37. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IFornecedor</label>
+        <link refid="interface_objetos_negocio_1_1_i_fornecedor"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Fornecedor</label>
+        <link refid="class_objetos_negocio_1_1_fornecedor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IFornecedor</label>
+        <link refid="interface_objetos_negocio_1_1_i_fornecedor"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Fornecedor</label>
+        <link refid="class_objetos_negocio_1_1_fornecedor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" line="24" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Fornecedor.cs" bodystart="25" bodyend="159"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1ae04ae93ca33a49e383265fc502758871" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>contacto</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1a97db9f64560c3e019c856fb0e73a5c2f" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>Contacto</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1af19c2eb88455673e1488d2d3d46a9832" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>Equals</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1a9205fb6e58267780baa7180da94b6c94" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>Fornecedor</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1a2f98b1e591a3cc8eb852587e2ccc1d86" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>Fornecedor</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1ac3399b40ab889dba0d37bf994ec90c9b" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>nome</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1aaa744f75883c01782ff07d9d42e3aa17" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>Nome</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1aa5870a5e2b08a54fc3a4ab37d221c5f2" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>operator!=</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1a6b4b0030519f7a9222a20c060a77fcba" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>operator==</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1ab89a37ab168743b69d98d043b7678040" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>prods</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1a862b925cd6547c686d6d533e137352f1" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>Prods</name></member>
+      <member refid="class_objetos_negocio_1_1_fornecedor_1a867535bf3f713025d15e1f5df6684e50" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Fornecedor</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

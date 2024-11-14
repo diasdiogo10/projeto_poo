@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_categoria" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Categoria</compoundname>
+    <basecompoundref refid="interface_objetos_negocio_1_1_i_categoria" prot="public" virt="non-virtual">ObjetosNegocio.ICategoria</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_categoria_1a927b7a1f8419fb8f8c50cb843ab43974" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Categoria.nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <qualifiedname>ObjetosNegocio.Categoria.nome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="26" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_categoria_1a0b6637c68c56c80d58d75897abad6d5f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Categoria.descricao</definition>
+        <argsstring></argsstring>
+        <name>descricao</name>
+        <qualifiedname>ObjetosNegocio.Categoria.descricao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="27" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_categoria_1a31073b014c40a8b3a6a3b905f2af9a89" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Categoria.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.Categoria.Nome</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_categoria_1a4e905203c001a6c5c60b7a6b5fba2995">Nome</reimplements>
+        <briefdescription>
+<para>Propriedade para nome. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="62" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_categoria_1adc4ef11b1150948d248662ac0627cb1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Categoria.Descricao</definition>
+        <argsstring></argsstring>
+        <name>Descricao</name>
+        <qualifiedname>ObjetosNegocio.Categoria.Descricao</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_categoria_1a5fb7d06e3c60eabc76a7c8482b21364c">Descricao</reimplements>
+        <briefdescription>
+<para>Propriedade para descricao. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="71" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_categoria_1ab541949a3161722a840590386a0debb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Categoria.Categoria</definition>
+        <argsstring>()</argsstring>
+        <name>Categoria</name>
+        <qualifiedname>ObjetosNegocio.Categoria.Categoria</qualifiedname>
+        <briefdescription>
+<para>Construtor de classe por defeito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="38" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_categoria_1adae8eff29acd88f16e68789186f9e6cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Categoria.Categoria</definition>
+        <argsstring>(string nome, string descricao)</argsstring>
+        <name>Categoria</name>
+        <qualifiedname>ObjetosNegocio.Categoria.Categoria</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>descricao</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com os atributos declarados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome da categoria</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>descricao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>descricao da categoria</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="49" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_categoria_1af206a14fc97f277dc486dca4d8fb65a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ObjetosNegocio.Categoria.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>ObjetosNegocio.Categoria.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Compara 2 objetos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objeto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for diferente ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="114" column="30" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="114" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_categoria_1a058a6461aeedb049f553dc280f38a9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ObjetosNegocio.Categoria.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>ObjetosNegocio.Categoria.ToString</qualifiedname>
+        <briefdescription>
+<para>Devolve uma string com todos os atributos de uma categoria. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string final</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="128" column="32" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="128" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_categoria_1a483afeaee3a80958e27b871af1f958b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Categoria.operator==</definition>
+        <argsstring>(Categoria c1, Categoria c2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ObjetosNegocio.Categoria.operator==</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_categoria" kindref="compound">Categoria</ref></type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_categoria" kindref="compound">Categoria</ref></type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a igualdade de duas categorias através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>categoria 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>categoria 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="87" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="87" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_categoria_1a84e1ebd3d2e2ca08890f9e20a6c8dbf0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Categoria.operator!=</definition>
+        <argsstring>(Categoria c1, Categoria c2)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ObjetosNegocio.Categoria.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_categoria" kindref="compound">Categoria</ref></type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_categoria" kindref="compound">Categoria</ref></type>
+          <declname>c2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a diferenciabilidade de duas categorias através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>categoria 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>categoria 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for diferente ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="99" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="99" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de categoria Created by: Diogo Created on: 06/12/2023 23:02:38. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ICategoria</label>
+        <link refid="interface_objetos_negocio_1_1_i_categoria"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Categoria</label>
+        <link refid="class_objetos_negocio_1_1_categoria"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ICategoria</label>
+        <link refid="interface_objetos_negocio_1_1_i_categoria"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Categoria</label>
+        <link refid="class_objetos_negocio_1_1_categoria"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" line="22" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Categoria.cs" bodystart="23" bodyend="139"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_categoria_1ab541949a3161722a840590386a0debb9" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>Categoria</name></member>
+      <member refid="class_objetos_negocio_1_1_categoria_1adae8eff29acd88f16e68789186f9e6cf" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>Categoria</name></member>
+      <member refid="class_objetos_negocio_1_1_categoria_1a0b6637c68c56c80d58d75897abad6d5f" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>descricao</name></member>
+      <member refid="class_objetos_negocio_1_1_categoria_1adc4ef11b1150948d248662ac0627cb1d" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>Descricao</name></member>
+      <member refid="class_objetos_negocio_1_1_categoria_1af206a14fc97f277dc486dca4d8fb65a2" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>Equals</name></member>
+      <member refid="class_objetos_negocio_1_1_categoria_1a927b7a1f8419fb8f8c50cb843ab43974" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>nome</name></member>
+      <member refid="class_objetos_negocio_1_1_categoria_1a31073b014c40a8b3a6a3b905f2af9a89" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>Nome</name></member>
+      <member refid="class_objetos_negocio_1_1_categoria_1a84e1ebd3d2e2ca08890f9e20a6c8dbf0" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>operator!=</name></member>
+      <member refid="class_objetos_negocio_1_1_categoria_1a483afeaee3a80958e27b871af1f958b7" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>operator==</name></member>
+      <member refid="class_objetos_negocio_1_1_categoria_1a058a6461aeedb049f553dc280f38a9d7" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Categoria</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

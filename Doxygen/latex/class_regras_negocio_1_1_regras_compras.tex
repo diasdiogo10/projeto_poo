@@ -1,0 +1,120 @@
+\hypertarget{class_regras_negocio_1_1_regras_compras}{}\doxysection{Regras\+Negocio.\+Regras\+Compras Class Reference}
+\label{class_regras_negocio_1_1_regras_compras}\index{RegrasNegocio.RegrasCompras@{RegrasNegocio.RegrasCompras}}
+
+
+Purpose\+: Regras\+Compras de classe Created by\+: Diogo Created on\+: 24/10/2023.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_compras_a5158c8fdca4141f7f3d895dd35ce9854}{Inserir\+Compra}} (\mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}} c)
+\begin{DoxyCompactList}\small\item\em Insere uma compra nos dados das compras. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_compras_af29bc96ac4ba20cc5541883cc7ad5a29}{Compras\+Data}} (Date\+Time data\+Compra, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}} $>$ c)
+\begin{DoxyCompactList}\small\item\em Procura todas as compras numa determinada data. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_compras_adec053f3b22c466bc386b4281aaafc2d}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_compras_a9d2a888a62cb613343e276a42c14a1d0}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Regras\+Compras de classe Created by\+: Diogo Created on\+: 24/10/2023. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_compras_a9d2a888a62cb613343e276a42c14a1d0}\label{class_regras_negocio_1_1_regras_compras_a9d2a888a62cb613343e276a42c14a1d0}} 
+\index{RegrasNegocio.RegrasCompras@{RegrasNegocio.RegrasCompras}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!RegrasNegocio.RegrasCompras@{RegrasNegocio.RegrasCompras}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Compras.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Compras\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_compras_af29bc96ac4ba20cc5541883cc7ad5a29}\label{class_regras_negocio_1_1_regras_compras_af29bc96ac4ba20cc5541883cc7ad5a29}} 
+\index{RegrasNegocio.RegrasCompras@{RegrasNegocio.RegrasCompras}!ComprasData@{ComprasData}}
+\index{ComprasData@{ComprasData}!RegrasNegocio.RegrasCompras@{RegrasNegocio.RegrasCompras}}
+\doxysubsubsection{\texorpdfstring{ComprasData()}{ComprasData()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Compras.\+Compras\+Data (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Compra,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}} $>$}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todas as compras numa determinada data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+Compra} & data de compra\\
+\hline
+{\em c} & compras\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Compras\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_compras_a5158c8fdca4141f7f3d895dd35ce9854}\label{class_regras_negocio_1_1_regras_compras_a5158c8fdca4141f7f3d895dd35ce9854}} 
+\index{RegrasNegocio.RegrasCompras@{RegrasNegocio.RegrasCompras}!InserirCompra@{InserirCompra}}
+\index{InserirCompra@{InserirCompra}!RegrasNegocio.RegrasCompras@{RegrasNegocio.RegrasCompras}}
+\doxysubsubsection{\texorpdfstring{InserirCompra()}{InserirCompra()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Compras.\+Inserir\+Compra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere uma compra nos dados das compras. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & compra\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_compras_adec053f3b22c466bc386b4281aaafc2d}\label{class_regras_negocio_1_1_regras_compras_adec053f3b22c466bc386b4281aaafc2d}} 
+\index{RegrasNegocio.RegrasCompras@{RegrasNegocio.RegrasCompras}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!RegrasNegocio.RegrasCompras@{RegrasNegocio.RegrasCompras}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Compras.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Compras\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Regras\+Negocio/\mbox{\hyperlink{_regras_compras_8cs}{Regras\+Compras.\+cs}}\end{DoxyCompactItemize}

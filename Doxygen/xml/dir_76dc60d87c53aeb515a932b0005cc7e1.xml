@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_76dc60d87c53aeb515a932b0005cc7e1" kind="dir">
+    <compoundname>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados</compoundname>
+    <innerdir refid="dir_865f624dbc142def71193077b061b7e9">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/obj</innerdir>
+    <innerdir refid="dir_fae5915f9c5d6b0b4b1bb3a0fb17cbe7">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Properties</innerdir>
+    <innerfile refid="_armazem_8cs">Armazem.cs</innerfile>
+    <innerfile refid="_compras_8cs">Compras.cs</innerfile>
+    <innerfile refid="_fornecedores_8cs">Fornecedores.cs</innerfile>
+    <innerfile refid="_utilizadores_8cs">Utilizadores.cs</innerfile>
+    <innerfile refid="_vendas_8cs">Vendas.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/"/>
+  </compounddef>
+</doxygen>

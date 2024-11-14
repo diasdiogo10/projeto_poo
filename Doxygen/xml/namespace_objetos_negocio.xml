@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_objetos_negocio" kind="namespace" language="C#">
+    <compoundname>ObjetosNegocio</compoundname>
+    <innerclass refid="class_objetos_negocio_1_1_carrinho_compra" prot="public">ObjetosNegocio::CarrinhoCompra</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_categoria" prot="public">ObjetosNegocio::Categoria</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_compra" prot="public">ObjetosNegocio::Compra</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_fornecedor" prot="public">ObjetosNegocio::Fornecedor</innerclass>
+    <innerclass refid="interface_objetos_negocio_1_1_i_carrinho_compra" prot="public">ObjetosNegocio::ICarrinhoCompra</innerclass>
+    <innerclass refid="interface_objetos_negocio_1_1_i_categoria" prot="public">ObjetosNegocio::ICategoria</innerclass>
+    <innerclass refid="interface_objetos_negocio_1_1_i_fornecedor" prot="public">ObjetosNegocio::IFornecedor</innerclass>
+    <innerclass refid="interface_objetos_negocio_1_1_i_marca" prot="public">ObjetosNegocio::IMarca</innerclass>
+    <innerclass refid="interface_objetos_negocio_1_1_i_morada" prot="public">ObjetosNegocio::IMorada</innerclass>
+    <innerclass refid="interface_objetos_negocio_1_1_i_operacao" prot="public">ObjetosNegocio::IOperacao</innerclass>
+    <innerclass refid="interface_objetos_negocio_1_1_i_pessoa" prot="public">ObjetosNegocio::IPessoa</innerclass>
+    <innerclass refid="interface_objetos_negocio_1_1_i_produto" prot="public">ObjetosNegocio::IProduto</innerclass>
+    <innerclass refid="interface_objetos_negocio_1_1_i_utilizador" prot="public">ObjetosNegocio::IUtilizador</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_marca" prot="public">ObjetosNegocio::Marca</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_morada" prot="public">ObjetosNegocio::Morada</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_operacao" prot="public">ObjetosNegocio::Operacao</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_pessoa" prot="public">ObjetosNegocio::Pessoa</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_produto" prot="public">ObjetosNegocio::Produto</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_utilizador" prot="public">ObjetosNegocio::Utilizador</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_venda" prot="public">ObjetosNegocio::Venda</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" line="14" column="1"/>
+  </compounddef>
+</doxygen>

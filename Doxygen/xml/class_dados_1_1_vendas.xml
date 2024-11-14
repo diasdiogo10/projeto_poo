@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_dados_1_1_vendas" kind="class" language="C#" prot="public">
+    <compoundname>Dados::Vendas</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dados_1_1_vendas_1a1a10395d091196383be05cfa55c8cb31" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_venda" kindref="compound">Venda</ref> &gt;</type>
+        <definition>List&lt;Venda&gt; Dados.Vendas.vs</definition>
+        <argsstring></argsstring>
+        <name>vs</name>
+        <qualifiedname>Dados.Vendas.vs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" line="29" column="21" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dados_1_1_vendas_1a03f8a4858711b65b879a8303c84f71f4" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_venda" kindref="compound">Venda</ref> &gt;</type>
+        <definition>List&lt;Venda&gt; Dados.Vendas.VS</definition>
+        <argsstring></argsstring>
+        <name>VS</name>
+        <qualifiedname>Dados.Vendas.VS</qualifiedname>
+        <briefdescription>
+<para>Propriedade para vendas. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" line="52" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_dados_1_1_vendas_1a8d09fe127d58c549cd584f95889a0218" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Dados.Vendas.Vendas</definition>
+        <argsstring>()</argsstring>
+        <name>Vendas</name>
+        <qualifiedname>Dados.Vendas.Vendas</qualifiedname>
+        <briefdescription>
+<para>Construtor estático. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" line="40" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dados_1_1_vendas_1afe73a0297ca3cf8623dae5b1e0756d88" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Vendas.InserirVenda</definition>
+        <argsstring>(Venda v)</argsstring>
+        <name>InserirVenda</name>
+        <qualifiedname>Dados.Vendas.InserirVenda</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_venda" kindref="compound">Venda</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Insere uma venda nos dados das vendas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>venda</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" line="73" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" bodystart="73" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_vendas_1a0dfcb45a64f7a9e7f2e30802d1649b95" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Vendas.VendasData</definition>
+        <argsstring>(DateTime dataVenda, out List&lt; Venda &gt; v)</argsstring>
+        <name>VendasData</name>
+        <qualifiedname>Dados.Vendas.VendasData</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataVenda</declname>
+        </param>
+        <param>
+          <type>out List&lt; <ref refid="class_objetos_negocio_1_1_venda" kindref="compound">Venda</ref> &gt;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Procura todas as vendas numa determinada data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataVenda</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data de venda</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vendas</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" line="88" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" bodystart="88" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_vendas_1a16e708f72e24136b80b3342280bbb901" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Vendas.SalvarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDados</name>
+        <qualifiedname>Dados.Vendas.SalvarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Salva os dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" line="109" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" bodystart="109" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_vendas_1a5da1a4347dd817711a522fb13e2f4ac5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Vendas.CarregarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDados</name>
+        <qualifiedname>Dados.Vendas.CarregarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os dados para o programa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" line="136" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" bodystart="136" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Vendas de classe Created by: Diogo Created on: 24/10/2023. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" line="25" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Vendas.cs" bodystart="26" bodyend="164"/>
+    <listofallmembers>
+      <member refid="class_dados_1_1_vendas_1a5da1a4347dd817711a522fb13e2f4ac5" prot="public" virt="non-virtual"><scope>Dados::Vendas</scope><name>CarregarDados</name></member>
+      <member refid="class_dados_1_1_vendas_1afe73a0297ca3cf8623dae5b1e0756d88" prot="public" virt="non-virtual"><scope>Dados::Vendas</scope><name>InserirVenda</name></member>
+      <member refid="class_dados_1_1_vendas_1a16e708f72e24136b80b3342280bbb901" prot="public" virt="non-virtual"><scope>Dados::Vendas</scope><name>SalvarDados</name></member>
+      <member refid="class_dados_1_1_vendas_1a8d09fe127d58c549cd584f95889a0218" prot="private" virt="non-virtual"><scope>Dados::Vendas</scope><name>Vendas</name></member>
+      <member refid="class_dados_1_1_vendas_1a0dfcb45a64f7a9e7f2e30802d1649b95" prot="public" virt="non-virtual"><scope>Dados::Vendas</scope><name>VendasData</name></member>
+      <member refid="class_dados_1_1_vendas_1a1a10395d091196383be05cfa55c8cb31" prot="private" virt="non-virtual"><scope>Dados::Vendas</scope><name>vs</name></member>
+      <member refid="class_dados_1_1_vendas_1a03f8a4858711b65b879a8303c84f71f4" prot="public" virt="non-virtual"><scope>Dados::Vendas</scope><name>VS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

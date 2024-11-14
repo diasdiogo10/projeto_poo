@@ -1,0 +1,1189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_frontend_1_1_i_o" kind="class" language="C#" prot="public">
+    <compoundname>Frontend::IO</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1aaefccaaeae6cee973ae6ee03c3e28de1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.MostrarProdutosArmazem</definition>
+        <argsstring>()</argsstring>
+        <name>MostrarProdutosArmazem</name>
+        <qualifiedname>Frontend.IO.MostrarProdutosArmazem</qualifiedname>
+        <briefdescription>
+<para>Imprime todos os produtos do armazem. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="55" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="55" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a102984aa9e85a4635ff72922bc9af391" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.MostrarProdutosMarcaArmazem</definition>
+        <argsstring>(string marca)</argsstring>
+        <name>MostrarProdutosMarcaArmazem</name>
+        <qualifiedname>Frontend.IO.MostrarProdutosMarcaArmazem</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>marca</declname>
+        </param>
+        <briefdescription>
+<para>Imprime todos os produtos de uma marca. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>marca</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>marca</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="83" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="83" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a4a5ceedb151bfff2710f31183fc4f117" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.MostrarProdutosCategoriaArmazem</definition>
+        <argsstring>(string categoria)</argsstring>
+        <name>MostrarProdutosCategoriaArmazem</name>
+        <qualifiedname>Frontend.IO.MostrarProdutosCategoriaArmazem</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>categoria</declname>
+        </param>
+        <briefdescription>
+<para>Imprime todos os produtos de uma categoria. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>categoria</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>categoria</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="111" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="111" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1af34ec062adf55d8a05fc6007f441da57" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.MostrarProdutosMarcaCategoriaArmazem</definition>
+        <argsstring>(string marca, string categoria)</argsstring>
+        <name>MostrarProdutosMarcaCategoriaArmazem</name>
+        <qualifiedname>Frontend.IO.MostrarProdutosMarcaCategoriaArmazem</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>marca</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>categoria</declname>
+        </param>
+        <briefdescription>
+<para>Imprime todos os produtos de uma marca e de uma categoria. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>marca</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>marca</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>categoria</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>categoria</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="140" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="140" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a31d8b0aa5ddb6c619a360f2dbeba1bb1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.ExisteProdutoArmazem</definition>
+        <argsstring>(int refProd)</argsstring>
+        <name>ExisteProdutoArmazem</name>
+        <qualifiedname>Frontend.IO.ExisteProdutoArmazem</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>refProd</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da verificação da existência de um produto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>refProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>referencia de produto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="168" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="168" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1ab20993d32f164dddf2f6eabd3bc69c09" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.InserirProdutoArmazem</definition>
+        <argsstring>(Produto p)</argsstring>
+        <name>InserirProdutoArmazem</name>
+        <qualifiedname>Frontend.IO.InserirProdutoArmazem</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da inserção de um produto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="189" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="189" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1ac61028204f41ea6191f59ac978c92c8c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.RemoverProdutoArmazem</definition>
+        <argsstring>(int refProd)</argsstring>
+        <name>RemoverProdutoArmazem</name>
+        <qualifiedname>Frontend.IO.RemoverProdutoArmazem</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>refProd</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da remoção de um produto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>refProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>referência de produto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="210" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="210" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a4245e80882f5594e8b11ee0c4a295f79" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.SalvarDadosArmazem</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDadosArmazem</name>
+        <qualifiedname>Frontend.IO.SalvarDadosArmazem</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do guardamento dos dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="231" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="231" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a234d7f6b75cc05607764d4b7087246d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.CarregarDadosArmazem</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDadosArmazem</name>
+        <qualifiedname>Frontend.IO.CarregarDadosArmazem</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do carregamento dos dados de um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="252" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="252" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a156d79cf256eeabcaef10ee0eddfdfe1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.QuantidadeUtilizadoresSistema</definition>
+        <argsstring>()</argsstring>
+        <name>QuantidadeUtilizadoresSistema</name>
+        <qualifiedname>Frontend.IO.QuantidadeUtilizadoresSistema</qualifiedname>
+        <briefdescription>
+<para>Imprime a quantidade de utilizadores do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="276" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="276" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1aa074376ea50a604878895c8f3de07ca7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.MostrarUtilizadoresSistema</definition>
+        <argsstring>()</argsstring>
+        <name>MostrarUtilizadoresSistema</name>
+        <qualifiedname>Frontend.IO.MostrarUtilizadoresSistema</qualifiedname>
+        <briefdescription>
+<para>Imprime todos os utilizadores do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="296" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="296" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1acf3332cb9990c6910ab052f45d4cf173" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.ExisteEmailSistema</definition>
+        <argsstring>(string email)</argsstring>
+        <name>ExisteEmailSistema</name>
+        <qualifiedname>Frontend.IO.ExisteEmailSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da verificação da existência de um email no sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="323" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="323" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1afcb75390868bd2ce556ed8c4a8716cfc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.ExisteContaSistema</definition>
+        <argsstring>(string email, string password)</argsstring>
+        <name>ExisteContaSistema</name>
+        <qualifiedname>Frontend.IO.ExisteContaSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da verificação da existência de uma conta no sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="345" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="345" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a2d97c1edb76fa03c44526000df8479f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.InserirUtilizadorSistema</definition>
+        <argsstring>(Utilizador util)</argsstring>
+        <name>InserirUtilizadorSistema</name>
+        <qualifiedname>Frontend.IO.InserirUtilizadorSistema</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref></type>
+          <declname>util</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da inserção de um utilizador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>util</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>utilizador</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="366" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="366" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1aec040b8b871d3442622e4e1876e0e9e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.RemoverUtilizadorSistema</definition>
+        <argsstring>(string email)</argsstring>
+        <name>RemoverUtilizadorSistema</name>
+        <qualifiedname>Frontend.IO.RemoverUtilizadorSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da remoção de um utilzador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="387" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="387" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a1aa026bc3e00f7b84614abf2d54e5214" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.AlterarEmailSistema</definition>
+        <argsstring>(string antigoEmail, string password, string novoEmail)</argsstring>
+        <name>AlterarEmailSistema</name>
+        <qualifiedname>Frontend.IO.AlterarEmailSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>antigoEmail</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>novoEmail</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da alteração de email. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>antigoEmail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>antigo email</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novoEmail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>novo email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="410" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="410" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a4112f484d3578a6bfadd5ddabcfc8277" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.AlterarPasswordSistema</definition>
+        <argsstring>(string email, string antigaPassword, string novaPassword)</argsstring>
+        <name>AlterarPasswordSistema</name>
+        <qualifiedname>Frontend.IO.AlterarPasswordSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>antigaPassword</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>novaPassword</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da alteração de password. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>antigaPassword</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>antiga password</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novaPassword</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nova password</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="433" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="433" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a96dfa5f9f0651616bc58a3fd0025ba07" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.SalvarDadosUtilizadores</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDadosUtilizadores</name>
+        <qualifiedname>Frontend.IO.SalvarDadosUtilizadores</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do guardamento dos dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="454" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="454" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a45deb43812d4c57e8817a7f924c4c1af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.CarregarDadosUtilizadores</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDadosUtilizadores</name>
+        <qualifiedname>Frontend.IO.CarregarDadosUtilizadores</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do carregamento dos dados de um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="475" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="475" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a4ba81a69c50e0d09c4b001ec4d52b904" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.ExisteProdutoFornecedores</definition>
+        <argsstring>(string nomeProd)</argsstring>
+        <name>ExisteProdutoFornecedores</name>
+        <qualifiedname>Frontend.IO.ExisteProdutoFornecedores</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da verificação da existência de um produto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>referencia de produto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="500" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="500" bodyend="515"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1af59ad1e1b3104579db826f76f10a70e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.ExisteProdutoFornecedor</definition>
+        <argsstring>(string nomeProd, string nomeForn)</argsstring>
+        <name>ExisteProdutoFornecedor</name>
+        <qualifiedname>Frontend.IO.ExisteProdutoFornecedor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nomeForn</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da verificação da existência de um produto num determinado fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nomeForn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="522" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="522" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a54e742d18ee798ee021192af1ed79036" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.InserirProdutoFornecedor</definition>
+        <argsstring>(Produto p, string nomeForn)</argsstring>
+        <name>InserirProdutoFornecedor</name>
+        <qualifiedname>Frontend.IO.InserirProdutoFornecedor</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nomeForn</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da inserção de um produto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nomeForn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="544" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="544" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a1cfb5d9ef0173c872219ea1e74aca5db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.RemoverProdutoFornecedor</definition>
+        <argsstring>(string nomeProd, string nomeForn)</argsstring>
+        <name>RemoverProdutoFornecedor</name>
+        <qualifiedname>Frontend.IO.RemoverProdutoFornecedor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nomeForn</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da remoção de um produto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nomeForn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="566" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="566" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a278443860cb530e4de16f6741b88359b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.QuantidadeFornecedoresSistema</definition>
+        <argsstring>()</argsstring>
+        <name>QuantidadeFornecedoresSistema</name>
+        <qualifiedname>Frontend.IO.QuantidadeFornecedoresSistema</qualifiedname>
+        <briefdescription>
+<para>Imprime a quantidade de fornecedores do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="586" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="586" bodyend="601"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a866b3f527510d6bb6169606b574562a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.MostrarFornecedoresSistema</definition>
+        <argsstring>()</argsstring>
+        <name>MostrarFornecedoresSistema</name>
+        <qualifiedname>Frontend.IO.MostrarFornecedoresSistema</qualifiedname>
+        <briefdescription>
+<para>Imprime todos os fornecedores do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="606" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="606" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a80962bc43b9984e972be2e62cd357692" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.ExisteFornecedorSistema</definition>
+        <argsstring>(string nome)</argsstring>
+        <name>ExisteFornecedorSistema</name>
+        <qualifiedname>Frontend.IO.ExisteFornecedorSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da verificação da existência de um fornecedor no sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="633" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="633" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1ace6f75fd524a867f2b86e4049b248d86" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.InserirFornecedorSistema</definition>
+        <argsstring>(Fornecedor forn)</argsstring>
+        <name>InserirFornecedorSistema</name>
+        <qualifiedname>Frontend.IO.InserirFornecedorSistema</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref></type>
+          <declname>forn</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da inserção de um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>forn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="654" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="654" bodyend="669"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1ad38a08e016d55b521666d9d3ee7ecfae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.RemoverFornecedorSistema</definition>
+        <argsstring>(string nome)</argsstring>
+        <name>RemoverFornecedorSistema</name>
+        <qualifiedname>Frontend.IO.RemoverFornecedorSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da remoção de um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nomel</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="675" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="675" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a3b65605217ac4de0b30790d11233daf2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.SalvarDadosFornecedores</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDadosFornecedores</name>
+        <qualifiedname>Frontend.IO.SalvarDadosFornecedores</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do guardamento dos dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="696" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="696" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a71284ea22afa7f663ae2d107a7850033" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.CarregarDadosFornecedores</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDadosFornecedores</name>
+        <qualifiedname>Frontend.IO.CarregarDadosFornecedores</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do carregamento dos dados de um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="717" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="717" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1abc0ac37a8c7a601f190bf1905cff9b8c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.InserirCompra</definition>
+        <argsstring>(Compra c)</argsstring>
+        <name>InserirCompra</name>
+        <qualifiedname>Frontend.IO.InserirCompra</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_compra" kindref="compound">Compra</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da inserção de uma compra. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>compra</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="742" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="742" bodyend="757"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a8d7fb3ca28595f8e9b5dfd4ebfc638a8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.MostrarComprasData</definition>
+        <argsstring>(DateTime dataCompra)</argsstring>
+        <name>MostrarComprasData</name>
+        <qualifiedname>Frontend.IO.MostrarComprasData</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataCompra</declname>
+        </param>
+        <briefdescription>
+<para>Imprime todos as compras de uma certa data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataCompra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data de compra</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="763" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="763" bodyend="781"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a8bec1dbfb578b522c3c46b41534dae0b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.SalvarDadosCompras</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDadosCompras</name>
+        <qualifiedname>Frontend.IO.SalvarDadosCompras</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do guardamento dos dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="787" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="787" bodyend="802"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a338ad05656631ebc36abd1f4e33d6cc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.CarregarDadosCompras</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDadosCompras</name>
+        <qualifiedname>Frontend.IO.CarregarDadosCompras</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do carregamento dos dados de um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="808" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="808" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a3421b081de36852eceb3253a0c11e8f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.InserirVenda</definition>
+        <argsstring>(Venda v)</argsstring>
+        <name>InserirVenda</name>
+        <qualifiedname>Frontend.IO.InserirVenda</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_venda" kindref="compound">Venda</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado da inserção de uma venda. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>venda</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="834" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="834" bodyend="849"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a1b40ddbe473d02b37ffeb502929e214f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.MostrarVendasData</definition>
+        <argsstring>(DateTime dataVenda)</argsstring>
+        <name>MostrarVendasData</name>
+        <qualifiedname>Frontend.IO.MostrarVendasData</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataVenda</declname>
+        </param>
+        <briefdescription>
+<para>Imprime todos as vendas de uma certa data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataVenda</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data de venda</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="855" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="855" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1abeb2f0631fa751c52619596bddc04dfc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.SalvarDadosVendas</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDadosVendas</name>
+        <qualifiedname>Frontend.IO.SalvarDadosVendas</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do guardamento dos dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="879" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="879" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="class_frontend_1_1_i_o_1a0a6c0460dd82507172ca64ab719ace39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Frontend.IO.CarregarDadosVendas</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDadosVendas</name>
+        <qualifiedname>Frontend.IO.CarregarDadosVendas</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o resultado do carregamento dos dados de um ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="900" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="900" bodyend="915"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: Diogo Created on: 06/12/2023 22:34:16. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" line="29" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/IO.cs" bodystart="30" bodyend="925"/>
+    <listofallmembers>
+      <member refid="class_frontend_1_1_i_o_1a1aa026bc3e00f7b84614abf2d54e5214" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>AlterarEmailSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1a4112f484d3578a6bfadd5ddabcfc8277" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>AlterarPasswordSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1a234d7f6b75cc05607764d4b7087246d9" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>CarregarDadosArmazem</name></member>
+      <member refid="class_frontend_1_1_i_o_1a338ad05656631ebc36abd1f4e33d6cc7" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>CarregarDadosCompras</name></member>
+      <member refid="class_frontend_1_1_i_o_1a71284ea22afa7f663ae2d107a7850033" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>CarregarDadosFornecedores</name></member>
+      <member refid="class_frontend_1_1_i_o_1a45deb43812d4c57e8817a7f924c4c1af" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>CarregarDadosUtilizadores</name></member>
+      <member refid="class_frontend_1_1_i_o_1a0a6c0460dd82507172ca64ab719ace39" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>CarregarDadosVendas</name></member>
+      <member refid="class_frontend_1_1_i_o_1afcb75390868bd2ce556ed8c4a8716cfc" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>ExisteContaSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1acf3332cb9990c6910ab052f45d4cf173" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>ExisteEmailSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1a80962bc43b9984e972be2e62cd357692" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>ExisteFornecedorSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1a31d8b0aa5ddb6c619a360f2dbeba1bb1" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>ExisteProdutoArmazem</name></member>
+      <member refid="class_frontend_1_1_i_o_1af59ad1e1b3104579db826f76f10a70e4" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>ExisteProdutoFornecedor</name></member>
+      <member refid="class_frontend_1_1_i_o_1a4ba81a69c50e0d09c4b001ec4d52b904" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>ExisteProdutoFornecedores</name></member>
+      <member refid="class_frontend_1_1_i_o_1abc0ac37a8c7a601f190bf1905cff9b8c" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>InserirCompra</name></member>
+      <member refid="class_frontend_1_1_i_o_1ace6f75fd524a867f2b86e4049b248d86" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>InserirFornecedorSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1ab20993d32f164dddf2f6eabd3bc69c09" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>InserirProdutoArmazem</name></member>
+      <member refid="class_frontend_1_1_i_o_1a54e742d18ee798ee021192af1ed79036" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>InserirProdutoFornecedor</name></member>
+      <member refid="class_frontend_1_1_i_o_1a2d97c1edb76fa03c44526000df8479f1" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>InserirUtilizadorSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1a3421b081de36852eceb3253a0c11e8f5" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>InserirVenda</name></member>
+      <member refid="class_frontend_1_1_i_o_1a8d7fb3ca28595f8e9b5dfd4ebfc638a8" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>MostrarComprasData</name></member>
+      <member refid="class_frontend_1_1_i_o_1a866b3f527510d6bb6169606b574562a4" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>MostrarFornecedoresSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1aaefccaaeae6cee973ae6ee03c3e28de1" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>MostrarProdutosArmazem</name></member>
+      <member refid="class_frontend_1_1_i_o_1a4a5ceedb151bfff2710f31183fc4f117" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>MostrarProdutosCategoriaArmazem</name></member>
+      <member refid="class_frontend_1_1_i_o_1a102984aa9e85a4635ff72922bc9af391" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>MostrarProdutosMarcaArmazem</name></member>
+      <member refid="class_frontend_1_1_i_o_1af34ec062adf55d8a05fc6007f441da57" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>MostrarProdutosMarcaCategoriaArmazem</name></member>
+      <member refid="class_frontend_1_1_i_o_1aa074376ea50a604878895c8f3de07ca7" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>MostrarUtilizadoresSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1a1b40ddbe473d02b37ffeb502929e214f" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>MostrarVendasData</name></member>
+      <member refid="class_frontend_1_1_i_o_1a278443860cb530e4de16f6741b88359b" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>QuantidadeFornecedoresSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1a156d79cf256eeabcaef10ee0eddfdfe1" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>QuantidadeUtilizadoresSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1ad38a08e016d55b521666d9d3ee7ecfae" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>RemoverFornecedorSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1ac61028204f41ea6191f59ac978c92c8c" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>RemoverProdutoArmazem</name></member>
+      <member refid="class_frontend_1_1_i_o_1a1cfb5d9ef0173c872219ea1e74aca5db" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>RemoverProdutoFornecedor</name></member>
+      <member refid="class_frontend_1_1_i_o_1aec040b8b871d3442622e4e1876e0e9e8" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>RemoverUtilizadorSistema</name></member>
+      <member refid="class_frontend_1_1_i_o_1a4245e80882f5594e8b11ee0c4a295f79" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>SalvarDadosArmazem</name></member>
+      <member refid="class_frontend_1_1_i_o_1a8bec1dbfb578b522c3c46b41534dae0b" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>SalvarDadosCompras</name></member>
+      <member refid="class_frontend_1_1_i_o_1a3b65605217ac4de0b30790d11233daf2" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>SalvarDadosFornecedores</name></member>
+      <member refid="class_frontend_1_1_i_o_1a96dfa5f9f0651616bc58a3fd0025ba07" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>SalvarDadosUtilizadores</name></member>
+      <member refid="class_frontend_1_1_i_o_1abeb2f0631fa751c52619596bddc04dfc" prot="public" virt="non-virtual"><scope>Frontend::IO</scope><name>SalvarDadosVendas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

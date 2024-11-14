@@ -1,0 +1,288 @@
+.TH "Dados.Fornecedores" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Dados.Fornecedores \- Purpose: Fornecedores de classe Created by: Diogo Created on: 24/10/2023\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBInicializarTotProd\fP (out int tot)"
+.br
+.RI "Inicializa o atributo totProd após o carregamento com a ref de produto mais alta\&. "
+.ti -1c
+.RI "static bool \fBExisteProdutoFornecedores\fP (string nomeProd)"
+.br
+.RI "Verifica se existe um produto nos fornecedores ou não\&. "
+.ti -1c
+.RI "static bool \fBExisteProdutoFornecedor\fP (string nomeProd, string nomeForn)"
+.br
+.RI "Verifica se existe um produto num certo fornecedor ou não\&. "
+.ti -1c
+.RI "static bool \fBDarReferencia\fP (string nomeProd, out int refNova)"
+.br
+.RI "Dá uma referência de um produto já existente\&. "
+.ti -1c
+.RI "static bool \fBInserirProdutoFornecedor\fP (\fBProduto\fP prod, string nomeForn)"
+.br
+.RI "Insere um produto nos Fornecedores\&. "
+.ti -1c
+.RI "static bool \fBRemoverProdutoFornecedor\fP (string nomeProd, string nomeForn)"
+.br
+.RI "Remove um produto de um fornecedor\&. "
+.ti -1c
+.RI "static bool \fBExisteFornecedorSistema\fP (string nome)"
+.br
+.RI "Verifica se existe um fornecedor\&. "
+.ti -1c
+.RI "static bool \fBInserirFornecedorSistema\fP (\fBFornecedor\fP forn)"
+.br
+.RI "Insere um fornecedor\&. "
+.ti -1c
+.RI "static bool \fBRemoverFornecedorSistema\fP (string nome)"
+.br
+.RI "Remove um fornecedor\&. "
+.ti -1c
+.RI "static bool \fBSalvarDados\fP (string nomeFicheiro)"
+.br
+.RI "Salva os dados num ficheiro\&. "
+.ti -1c
+.RI "static bool \fBCarregarDados\fP (string nomeFicheiro)"
+.br
+.RI "Carrega os dados para o programa\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "static List< \fBFornecedor\fP > \fBForns\fP\fC [get]\fP"
+.br
+.RI "Propriedade para fornecedores\&. "
+.ti -1c
+.RI "static int \fBTotProd\fP\fC [get]\fP"
+.br
+.RI "Propriedade para total de produtos\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Fornecedores de classe Created by: Diogo Created on: 24/10/2023\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool Dados\&.Fornecedores\&.CarregarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Carrega os dados para o programa\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP possivel exceção lancada
+.br
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.DarReferencia (string nomeProd, out int refNova)\fC [static]\fP"
+
+.PP
+Dá uma referência de um produto já existente\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP nome do produto
+.br
+\fIrefNova\fP referencia nova
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.ExisteFornecedorSistema (string nome)\fC [static]\fP"
+
+.PP
+Verifica se existe um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInome\fP nome
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existe ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.ExisteProdutoFornecedor (string nomeProd, string nomeForn)\fC [static]\fP"
+
+.PP
+Verifica se existe um produto num certo fornecedor ou não\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP nome do produto
+.br
+\fInomeForn\fP nome do fornecedor
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existe ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.ExisteProdutoFornecedores (string nomeProd)\fC [static]\fP"
+
+.PP
+Verifica se existe um produto nos fornecedores ou não\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP nome do produto
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existe ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.InicializarTotProd (out int tot)\fC [static]\fP"
+
+.PP
+Inicializa o atributo totProd após o carregamento com a ref de produto mais alta\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fItot\fP ref de produto mais alta
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.InserirFornecedorSistema (\fBFornecedor\fP forn)\fC [static]\fP"
+
+.PP
+Insere um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIforn\fP fornecedor
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.InserirProdutoFornecedor (\fBProduto\fP prod, string nomeForn)\fC [static]\fP"
+
+.PP
+Insere um produto nos Fornecedores\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIprod\fP produto
+.br
+\fInomeForn\fP nome do fornecedor
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.RemoverFornecedorSistema (string nome)\fC [static]\fP"
+
+.PP
+Remove um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInome\fP nome
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.RemoverProdutoFornecedor (string nomeProd, string nomeForn)\fC [static]\fP"
+
+.PP
+Remove um produto de um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP nome do produto
+.br
+\fInomeForn\fP nome do fornecedor
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Fornecedores\&.SalvarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Salva os dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP possivel exceção lancada
+.br
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "List<\fBFornecedor\fP> Dados\&.Fornecedores\&.Forns\fC [static]\fP, \fC [get]\fP"
+
+.PP
+Propriedade para fornecedores\&. 
+.SS "int Dados\&.Fornecedores\&.TotProd\fC [static]\fP, \fC [get]\fP"
+
+.PP
+Propriedade para total de produtos\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

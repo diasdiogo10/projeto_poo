@@ -1,0 +1,36 @@
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Excecoes\bin\Debug\Excecoes.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Excecoes\obj\Debug\Excecoes.pdb

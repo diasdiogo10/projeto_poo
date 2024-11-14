@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_compra" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Compra</compoundname>
+    <basecompoundref refid="class_objetos_negocio_1_1_operacao" prot="public" virt="non-virtual">ObjetosNegocio.Operacao</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComparable&lt; Compra &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_compra_1ae81e12da5bc027d765938dd3d8f6060b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool ObjetosNegocio.Compra.EmitirFatura</definition>
+        <argsstring>()</argsstring>
+        <name>EmitirFatura</name>
+        <qualifiedname>ObjetosNegocio.Compra.EmitirFatura</qualifiedname>
+        <reimplements refid="class_objetos_negocio_1_1_operacao_1a92fc719408269ff498b3a8fae54b19a8">EmitirFatura</reimplements>
+        <briefdescription>
+<para>Emite uma fatura. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true ou false, dependendo se tudo correu bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Compra.cs" line="44" column="30" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Compra.cs" bodystart="44" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_compra_1a38296f0a8d5708cbee484c02d7825501" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Compra.CompareTo</definition>
+        <argsstring>(Compra c1)</argsstring>
+        <name>CompareTo</name>
+        <qualifiedname>ObjetosNegocio.Compra.CompareTo</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_compra" kindref="compound">Compra</ref></type>
+          <declname>c1</declname>
+        </param>
+        <briefdescription>
+<para>Compara 2 compras e é útil para utilizar o .Sort na classe de compras. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c1</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Compra.cs" line="67" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Compra.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Compra de classe Created by: Diogo Created on: 24/10/2023. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IComparable&lt; Compra &gt;</label>
+      </node>
+      <node id="3">
+        <label>IOperacao</label>
+        <link refid="interface_objetos_negocio_1_1_i_operacao"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Compra</label>
+        <link refid="class_objetos_negocio_1_1_compra"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Operacao</label>
+        <link refid="class_objetos_negocio_1_1_operacao"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IComparable&lt; Compra &gt;</label>
+      </node>
+      <node id="3">
+        <label>IOperacao</label>
+        <link refid="interface_objetos_negocio_1_1_i_operacao"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Compra</label>
+        <link refid="class_objetos_negocio_1_1_compra"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Operacao</label>
+        <link refid="class_objetos_negocio_1_1_operacao"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Compra.cs" line="22" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Compra.cs" bodystart="23" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_compra_1a38296f0a8d5708cbee484c02d7825501" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Compra</scope><name>CompareTo</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1ae556173973778ef0f6af58058b4e183c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Compra</scope><name>DataOp</name></member>
+      <member refid="class_objetos_negocio_1_1_compra_1ae81e12da5bc027d765938dd3d8f6060b" prot="public" virt="virtual"><scope>ObjetosNegocio::Compra</scope><name>EmitirFatura</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1af033914f92bb4e5386c5fc5c02368a43" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Compra</scope><name>Operacao</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1a8e14d0f977879a023f642b002543298c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Compra</scope><name>Operacao</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1a27d97e02c189c294530d1b1051e512f4" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Compra</scope><name>Prods</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1ab5a8e940c7c638129ba623777680c7be" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Compra</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

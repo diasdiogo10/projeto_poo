@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_regras_negocio_1_1_regras_vendas" kind="class" language="C#" prot="public">
+    <compoundname>RegrasNegocio::RegrasVendas</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_vendas_1a0dc44e7783df5f63a7e838fd245dbf69" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasVendas.InserirVenda</definition>
+        <argsstring>(Venda v)</argsstring>
+        <name>InserirVenda</name>
+        <qualifiedname>RegrasNegocio.RegrasVendas.InserirVenda</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_venda" kindref="compound">Venda</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Insere uma venda nos dados das vendas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>venda</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" line="52" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" bodystart="52" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_vendas_1a7cbc8abdf9ea8a128346149fc6998a2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasVendas.VendasData</definition>
+        <argsstring>(DateTime dataVenda, out List&lt; Venda &gt; v)</argsstring>
+        <name>VendasData</name>
+        <qualifiedname>RegrasNegocio.RegrasVendas.VendasData</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataVenda</declname>
+        </param>
+        <param>
+          <type>out List&lt; <ref refid="class_objetos_negocio_1_1_venda" kindref="compound">Venda</ref> &gt;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Procura todas as vendas numa determinada data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataVenda</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data de venda</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vendas</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>VendasExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" line="75" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" bodystart="75" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_vendas_1a193b2974c90ebef06899f869dae294ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasVendas.SalvarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDados</name>
+        <qualifiedname>RegrasNegocio.RegrasVendas.SalvarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Salva os dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>VendasExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" line="96" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" bodystart="96" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_vendas_1a0d1a5e71259f3c130cc729b173be9833" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasVendas.CarregarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDados</name>
+        <qualifiedname>RegrasNegocio.RegrasVendas.CarregarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os dados para o programa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>VendasExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" line="117" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" bodystart="117" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: RegrasVendas de classe Created by: Diogo Created on: 24/10/2023. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" line="26" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasVendas.cs" bodystart="27" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_regras_negocio_1_1_regras_vendas_1a0d1a5e71259f3c130cc729b173be9833" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasVendas</scope><name>CarregarDados</name></member>
+      <member refid="class_regras_negocio_1_1_regras_vendas_1a0dc44e7783df5f63a7e838fd245dbf69" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasVendas</scope><name>InserirVenda</name></member>
+      <member refid="class_regras_negocio_1_1_regras_vendas_1a193b2974c90ebef06899f869dae294ac" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasVendas</scope><name>SalvarDados</name></member>
+      <member refid="class_regras_negocio_1_1_regras_vendas_1a7cbc8abdf9ea8a128346149fc6998a2e" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasVendas</scope><name>VendasData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

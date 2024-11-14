@@ -1,0 +1,36 @@
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Verificacoes\bin\Debug\Verificacoes.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Verificacoes\obj\Debug\Verificacoes.pdb

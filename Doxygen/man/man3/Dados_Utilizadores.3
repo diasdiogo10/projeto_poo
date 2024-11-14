@@ -1,0 +1,222 @@
+.TH "Dados.Utilizadores" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Dados.Utilizadores \- Purpose: Classe de utilizadores Created by: Diogo Created on: 06/12/2023 23:09:52\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBExisteEmailSistema\fP (string email)"
+.br
+.RI "Verifica se existe um email igual no sistema\&. "
+.ti -1c
+.RI "static bool \fBExisteContaSistema\fP (string email, string password)"
+.br
+.RI "Verifica se existe um utiizador com aqueles dados no sistema\&. "
+.ti -1c
+.RI "static bool \fBInserirUtilizadorSistema\fP (\fBUtilizador\fP util)"
+.br
+.RI "Insere um utilizador na lista de utilizadores do sistema\&. "
+.ti -1c
+.RI "static bool \fBRemoverUtilizadorSistema\fP (string email)"
+.br
+.RI "Remove um utilizador do sistema\&. "
+.ti -1c
+.RI "static bool \fBAlterarEmailSistema\fP (string antigoEmail, string password, string novoEmail)"
+.br
+.RI "Altera um email de um utilizador do sistema\&. "
+.ti -1c
+.RI "static bool \fBAlterarPasswordSistema\fP (string email, string antigaPassword, string novaPassword)"
+.br
+.RI "Altera uma password de um utilizador do sistema\&. "
+.ti -1c
+.RI "static bool \fBSalvarDados\fP (string nomeFicheiro)"
+.br
+.RI "Salva os dados num ficheiro\&. "
+.ti -1c
+.RI "static bool \fBCarregarDados\fP (string nomeFicheiro)"
+.br
+.RI "Carrega os dados para o programa\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "static List< \fBUtilizador\fP > \fBUsers\fP\fC [get]\fP"
+.br
+.RI "Propriedade para utilizadores\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Classe de utilizadores Created by: Diogo Created on: 06/12/2023 23:09:52\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool Dados\&.Utilizadores\&.AlterarEmailSistema (string antigoEmail, string password, string novoEmail)\fC [static]\fP"
+
+.PP
+Altera um email de um utilizador do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIantigoEmail\fP email antigo
+.br
+\fIpassword\fP passowrd
+.br
+\fInovoEmail\fP novo email
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Utilizadores\&.AlterarPasswordSistema (string email, string antigaPassword, string novaPassword)\fC [static]\fP"
+
+.PP
+Altera uma password de um utilizador do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP 
+.br
+\fIantigaPassword\fP 
+.br
+\fInovaPassword\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Utilizadores\&.CarregarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Carrega os dados para o programa\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP possivel exceção lancada
+.br
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SS "static bool Dados\&.Utilizadores\&.ExisteContaSistema (string email, string password)\fC [static]\fP"
+
+.PP
+Verifica se existe um utiizador com aqueles dados no sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.br
+\fIpassword\fP password
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existir ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Utilizadores\&.ExisteEmailSistema (string email)\fC [static]\fP"
+
+.PP
+Verifica se existe um email igual no sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existir ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Utilizadores\&.InserirUtilizadorSistema (\fBUtilizador\fP util)\fC [static]\fP"
+
+.PP
+Insere um utilizador na lista de utilizadores do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIutil\fP utilizador
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Utilizadores\&.RemoverUtilizadorSistema (string email)\fC [static]\fP"
+
+.PP
+Remove um utilizador do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Utilizadores\&.SalvarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Salva os dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+<exception cref='IOException'possivel exceção lancada>
+.PP
+\fBExceptions\fP
+.RS 4
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "List<\fBUtilizador\fP> Dados\&.Utilizadores\&.Users\fC [static]\fP, \fC [get]\fP"
+
+.PP
+Propriedade para utilizadores\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

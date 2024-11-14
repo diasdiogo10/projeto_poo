@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interface_objetos_negocio_1_1_i_categoria" kind="interface" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::ICategoria</compoundname>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_categoria" prot="public" virt="non-virtual">ObjetosNegocio.Categoria</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_categoria_1a4e905203c001a6c5c60b7a6b5fba2995" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.ICategoria.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.ICategoria.Nome</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_categoria_1a31073b014c40a8b3a6a3b905f2af9a89">Nome</reimplementedby>
+        <briefdescription>
+<para>Propriedade para nome. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/ICategoria.cs" line="31" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/ICategoria.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_categoria_1a5fb7d06e3c60eabc76a7c8482b21364c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.ICategoria.Descricao</definition>
+        <argsstring></argsstring>
+        <name>Descricao</name>
+        <qualifiedname>ObjetosNegocio.ICategoria.Descricao</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_categoria_1adc4ef11b1150948d248662ac0627cb1d">Descricao</reimplementedby>
+        <briefdescription>
+<para>Propriedade para descricao. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/ICategoria.cs" line="40" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/ICategoria.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Interface de categoria Created by: Diogo Created on: 20/12/2023 03:20:54. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ObjetosNegocio.ICategoria</label>
+        <link refid="interface_objetos_negocio_1_1_i_categoria"/>
+      </node>
+      <node id="2">
+        <label>ObjetosNegocio.Categoria</label>
+        <link refid="class_objetos_negocio_1_1_categoria"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/ICategoria.cs" line="22" column="22" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/ICategoria.cs" bodystart="23" bodyend="61"/>
+    <listofallmembers>
+      <member refid="interface_objetos_negocio_1_1_i_categoria_1a5fb7d06e3c60eabc76a7c8482b21364c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::ICategoria</scope><name>Descricao</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_categoria_1a4e905203c001a6c5c60b7a6b5fba2995" prot="public" virt="non-virtual"><scope>ObjetosNegocio::ICategoria</scope><name>Nome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

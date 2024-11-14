@@ -1,0 +1,323 @@
+.TH "Dados.Armazem" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Dados.Armazem \- Purpose: Created by: Diogo Created on: 06/12/2023 23:09:36\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBArmazem\fP ()"
+.br
+.RI "Construtor de classe por defeito\&. "
+.ti -1c
+.RI "\fBArmazem\fP (\fBMorada\fP localizacao)"
+.br
+.RI "Construtor de classe com atributos declarados\&. "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBExisteProdutoArmazem\fP (int refProd)"
+.br
+.RI "Verifica se um produto existe\&. "
+.ti -1c
+.RI "static bool \fBQuantidadeProdutoArmazem\fP (int refProd, out int contador)"
+.br
+.RI "Procura a quantidade de um produto\&. "
+.ti -1c
+.RI "static bool \fBProdutosMarcaArmazem\fP (string marca, out List< \fBProduto\fP > p)"
+.br
+.RI "Procura todos os produtos de uma marca\&. "
+.ti -1c
+.RI "static bool \fBProdutosCategoriaArmazem\fP (string categoria, out List< \fBProduto\fP > p)"
+.br
+.RI "Procura todos os produtos de uma categoria\&. "
+.ti -1c
+.RI "static bool \fBProdutosMarcaCategoriaArmazem\fP (string marca, string categoria, out List< \fBProduto\fP > p)"
+.br
+.RI "Procura todos os produtos de uma marca e categoria\&. "
+.ti -1c
+.RI "static bool \fBAcrescentarProdutosArmazem\fP (int refProd, int quantidade)"
+.br
+.RI "Acrescenta produtos 'fisicamente' no armazém\&. "
+.ti -1c
+.RI "static bool \fBRetirarProdutosArmazem\fP (int refProd, int quantidade)"
+.br
+.RI "Retira produtos 'fiscamente' no armazém\&. "
+.ti -1c
+.RI "static bool \fBInserirProdutoArmazem\fP (\fBProduto\fP produto)"
+.br
+.RI "Insere um produto nos dados do armazem\&. "
+.ti -1c
+.RI "static bool \fBRemoverProdutoArmazem\fP (int refProd)"
+.br
+.RI "Remove um produto dos dados do armazem\&. "
+.ti -1c
+.RI "static bool \fBSalvarDados\fP (string nomeFicheiro)"
+.br
+.RI "Salva os dados num ficheiro\&. "
+.ti -1c
+.RI "static bool \fBCarregarDados\fP (string nomeFicheiro)"
+.br
+.RI "Carrega os dados para o programa\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBMorada\fP \fBLocalizacao\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para localizacao de um armazém\&. "
+.ti -1c
+.RI "static List< \fBProduto\fP > \fBProdutos\fP\fC [get]\fP"
+.br
+.RI "Propriedade para lista de produto(produtos) "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Created by: Diogo Created on: 06/12/2023 23:09:36\&. 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Dados\&.Armazem\&.Armazem ()"
+
+.PP
+Construtor de classe por defeito\&. 
+.SS "Dados\&.Armazem\&.Armazem (\fBMorada\fP localizacao)"
+
+.PP
+Construtor de classe com atributos declarados\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIlocalizacao\fP localizacao para a criacao do objeto
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool Dados\&.Armazem\&.AcrescentarProdutosArmazem (int refProd, int quantidade)\fC [static]\fP"
+
+.PP
+Acrescenta produtos 'fisicamente' no armazém\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrefProd\fP referência do produto
+.br
+\fIquantidade\fP quantidade que queremos acrescentar
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.CarregarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Carrega os dados para o programa\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP possivel exceção lancada
+.br
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.ExisteProdutoArmazem (int refProd)\fC [static]\fP"
+
+.PP
+Verifica se um produto existe\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrefProd\fP referência de produto
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existe ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.InserirProdutoArmazem (\fBProduto\fP produto)\fC [static]\fP"
+
+.PP
+Insere um produto nos dados do armazem\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIproduto\fP produto
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.ProdutosCategoriaArmazem (string categoria, out List< \fBProduto\fP > p)\fC [static]\fP"
+
+.PP
+Procura todos os produtos de uma categoria\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcategoria\fP categoria
+.br
+\fIp\fP produtos
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.ProdutosMarcaArmazem (string marca, out List< \fBProduto\fP > p)\fC [static]\fP"
+
+.PP
+Procura todos os produtos de uma marca\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fImarca\fP marca
+.br
+\fIp\fP produtos
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.ProdutosMarcaCategoriaArmazem (string marca, string categoria, out List< \fBProduto\fP > p)\fC [static]\fP"
+
+.PP
+Procura todos os produtos de uma marca e categoria\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fImarca\fP marca
+.br
+\fIcategoria\fP categoria
+.br
+\fIp\fP produtos
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.QuantidadeProdutoArmazem (int refProd, out int contador)\fC [static]\fP"
+
+.PP
+Procura a quantidade de um produto\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrefProd\fP referencia de produto
+.br
+\fIcontador\fP quantidade
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.RemoverProdutoArmazem (int refProd)\fC [static]\fP"
+
+.PP
+Remove um produto dos dados do armazem\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrefProd\fP referencia de produto
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.RetirarProdutosArmazem (int refProd, int quantidade)\fC [static]\fP"
+
+.PP
+Retira produtos 'fiscamente' no armazém\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrefProd\fP referência do produto
+.br
+\fIquantidade\fP quantidade que queremos acrescentar
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Armazem\&.SalvarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Salva os dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+<exception cref='IOException'possivel exceção lancada>
+.PP
+\fBExceptions\fP
+.RS 4
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "\fBMorada\fP Dados\&.Armazem\&.Localizacao\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para localizacao de um armazém\&. 
+.SS "List<\fBProduto\fP> Dados\&.Armazem\&.Produtos\fC [static]\fP, \fC [get]\fP"
+
+.PP
+Propriedade para lista de produto(produtos) 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

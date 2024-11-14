@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_cfe516ee0620cd88a752bb1f3654cc9b" kind="dir">
+    <compoundname>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio</compoundname>
+    <innerdir refid="dir_690bc56cd9e37abe1d58e6b90bca1dff">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/obj</innerdir>
+    <innerdir refid="dir_e15250636f86d3d110fb07c60d3ef386">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Properties</innerdir>
+    <innerfile refid="_carrinho_compra_8cs">CarrinhoCompra.cs</innerfile>
+    <innerfile refid="_categoria_8cs">Categoria.cs</innerfile>
+    <innerfile refid="_compra_8cs">Compra.cs</innerfile>
+    <innerfile refid="_fornecedor_8cs">Fornecedor.cs</innerfile>
+    <innerfile refid="_i_carrinho_compra_8cs">ICarrinhoCompra.cs</innerfile>
+    <innerfile refid="_i_categoria_8cs">ICategoria.cs</innerfile>
+    <innerfile refid="_i_fornecedor_8cs">IFornecedor.cs</innerfile>
+    <innerfile refid="_i_marca_8cs">IMarca.cs</innerfile>
+    <innerfile refid="_i_morada_8cs">IMorada.cs</innerfile>
+    <innerfile refid="_i_operacao_8cs">IOperacao.cs</innerfile>
+    <innerfile refid="_i_pessoa_8cs">IPessoa.cs</innerfile>
+    <innerfile refid="_i_produto_8cs">IProduto.cs</innerfile>
+    <innerfile refid="_i_utilizador_8cs">IUtilizador.cs</innerfile>
+    <innerfile refid="_marca_8cs">Marca.cs</innerfile>
+    <innerfile refid="_morada_8cs">Morada.cs</innerfile>
+    <innerfile refid="_operacao_8cs">Operacao.cs</innerfile>
+    <innerfile refid="_pessoa_8cs">Pessoa.cs</innerfile>
+    <innerfile refid="_produto_8cs">Produto.cs</innerfile>
+    <innerfile refid="_utilizador_8cs">Utilizador.cs</innerfile>
+    <innerfile refid="_venda_8cs">Venda.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/"/>
+  </compounddef>
+</doxygen>

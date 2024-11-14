@@ -1,0 +1,174 @@
+.TH "ObjetosNegocio.Marca" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ObjetosNegocio.Marca \- Purpose: Classe de marca Created by: Diogo Created on: 06/12/2023 23:03:12\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBObjetosNegocio\&.IMarca\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMarca\fP ()"
+.br
+.RI "Construtor de classe por defeito\&. "
+.ti -1c
+.RI "\fBMarca\fP (string nome, string contacto)"
+.br
+.RI "Construtor de classe com os atributos declarados\&. "
+.ti -1c
+.RI "override bool \fBEquals\fP (object obj)"
+.br
+.RI "Compara 2 objetos\&. "
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.RI "Devolve uma string com todos os atributos de uma marca\&. "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBoperator==\fP (\fBMarca\fP m1, \fBMarca\fP m2)"
+.br
+.RI "Metodo que compara a igualdade de 2 marcas através dos seus parâmetros\&. "
+.ti -1c
+.RI "static bool \fBoperator!=\fP (\fBMarca\fP m1, \fBMarca\fP m2)"
+.br
+.RI "Metodo que compara a diferenciabilidade de 2 marcas através dos seus parâmetros\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBNome\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para nome\&. "
+.ti -1c
+.RI "string \fBContacto\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para contacto\&. "
+.in -1c
+
+Properties inherited from \fBObjetosNegocio\&.IMarca\fP
+.in +1c
+.ti -1c
+.RI "string \fBNome\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para nome\&. "
+.ti -1c
+.RI "string \fBContacto\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para contacto\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Classe de marca Created by: Diogo Created on: 06/12/2023 23:03:12\&. 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ObjetosNegocio\&.Marca\&.Marca ()"
+
+.PP
+Construtor de classe por defeito\&. 
+.SS "ObjetosNegocio\&.Marca\&.Marca (string nome, string contacto)"
+
+.PP
+Construtor de classe com os atributos declarados\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInome\fP nome da marca
+.br
+\fIcontacto\fP contacto da marca
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override bool ObjetosNegocio\&.Marca\&.Equals (object obj)"
+
+.PP
+Compara 2 objetos\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIobj\fP objeto o qual se compara
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for igual ou não
+.RE
+.PP
+
+.SS "static bool ObjetosNegocio\&.Marca\&.operator!= (\fBMarca\fP m1, \fBMarca\fP m2)\fC [static]\fP"
+
+.PP
+Metodo que compara a diferenciabilidade de 2 marcas através dos seus parâmetros\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIm1\fP marca 1
+.br
+\fIm2\fP marca 2
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for diferente ou não
+.RE
+.PP
+
+.SS "static bool ObjetosNegocio\&.Marca\&.operator== (\fBMarca\fP m1, \fBMarca\fP m2)\fC [static]\fP"
+
+.PP
+Metodo que compara a igualdade de 2 marcas através dos seus parâmetros\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIm1\fP marca 1
+.br
+\fIm2\fP marca 2
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for igual ou não
+.RE
+.PP
+
+.SS "override string ObjetosNegocio\&.Marca\&.ToString ()"
+
+.PP
+Devolve uma string com todos os atributos de uma marca\&. 
+.PP
+\fBReturns\fP
+.RS 4
+string final
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "string ObjetosNegocio\&.Marca\&.Contacto\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para contacto\&. 
+.PP
+Implements \fBObjetosNegocio\&.IMarca\fP\&.
+.SS "string ObjetosNegocio\&.Marca\&.Nome\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para nome\&. 
+.PP
+Implements \fBObjetosNegocio\&.IMarca\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

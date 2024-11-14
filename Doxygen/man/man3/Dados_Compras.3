@@ -1,0 +1,134 @@
+.TH "Dados.Compras" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Dados.Compras \- Purpose: Compras de classe Created by: Diogo Created on: 24/10/2023\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBInserirCompra\fP (\fBCompra\fP c)"
+.br
+.RI "Insere uma compra nos dados das compras\&. "
+.ti -1c
+.RI "static bool \fBComprasData\fP (DateTime dataCompra, out List< \fBCompra\fP > c)"
+.br
+.RI "Procura todas as compras numa determinada data\&. "
+.ti -1c
+.RI "static bool \fBSalvarDados\fP (string nomeFicheiro)"
+.br
+.RI "Salva os dados num ficheiro\&. "
+.ti -1c
+.RI "static bool \fBCarregarDados\fP (string nomeFicheiro)"
+.br
+.RI "Carrega os dados para o programa\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "static List< \fBCompra\fP > \fBVS\fP\fC [get]\fP"
+.br
+.RI "Propriedade para compras\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Compras de classe Created by: Diogo Created on: 24/10/2023\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool Dados\&.Compras\&.CarregarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Carrega os dados para o programa\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP possivel exceção lancada
+.br
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SS "static bool Dados\&.Compras\&.ComprasData (DateTime dataCompra, out List< \fBCompra\fP > c)\fC [static]\fP"
+
+.PP
+Procura todas as compras numa determinada data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdataCompra\fP data de compra
+.br
+\fIc\fP compras
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Compras\&.InserirCompra (\fBCompra\fP c)\fC [static]\fP"
+
+.PP
+Insere uma compra nos dados das compras\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIc\fP compra
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+
+.SS "static bool Dados\&.Compras\&.SalvarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Salva os dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP possivel exceção lancada
+.br
+\fIException\fP possivel exceção lancada
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "List<\fBCompra\fP> Dados\&.Compras\&.VS\fC [static]\fP, \fC [get]\fP"
+
+.PP
+Propriedade para compras\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

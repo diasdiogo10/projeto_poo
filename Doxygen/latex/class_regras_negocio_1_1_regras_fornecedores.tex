@@ -1,0 +1,274 @@
+\hypertarget{class_regras_negocio_1_1_regras_fornecedores}{}\doxysection{Regras\+Negocio.\+Regras\+Fornecedores Class Reference}
+\label{class_regras_negocio_1_1_regras_fornecedores}\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+
+
+Purpose\+: Regras\+Fornecedores de classe Created by\+: Diogo Created on\+: 24/10/2023.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a060bf9454607e1c93334d87d40ca5733}{Existe\+Produto\+Fornecedores}} (string nome\+Prod)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um produto nos fornecedores ou não. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a1e7b16521f28afea1890083934bd284b}{Existe\+Produto\+Fornecedor}} (string nome\+Prod, string nome\+Forn)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um produto num certo fornecedor ou não. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a5ac3eab27e6afaaabfa831183a2f27cb}{Inserir\+Produto}} (\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} prod, string nome\+Forn)
+\begin{DoxyCompactList}\small\item\em Insere um produto nos Fornecedores. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a930e49842c9afbf9e2a11eff7f106e90}{Remover\+Produto}} (string nome\+Prod, string nome\+Forn)
+\begin{DoxyCompactList}\small\item\em Remove um produto de um fornecedor. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a4c6b81b825d5bc91b4dda1bc260d9dcd}{Existe\+Fornecedor}} (string nome)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um fornecedor. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a971d927ff7065d5e1994efb42af3df27}{Quantidade\+Fornecedores}} (out int contador)
+\begin{DoxyCompactList}\small\item\em Obtém a quantidade de fornecedores do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_aadc204e839e42a5893a3e4d64814b327}{Lista\+Fornecedores}} (out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_fornecedor}{Fornecedor}} $>$ lista)
+\begin{DoxyCompactList}\small\item\em Obtém a lista de todos os fornecedores do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a872add859cd27360ff91da5ce498007b}{Inserir\+Fornecedor}} (\mbox{\hyperlink{class_objetos_negocio_1_1_fornecedor}{Fornecedor}} forn)
+\begin{DoxyCompactList}\small\item\em Insere um fornecedor. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a14c430b953505c342355d84ef6defd1e}{Remover\+Fornecedor}} (string nome)
+\begin{DoxyCompactList}\small\item\em Remove um fornecedor. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a4724a91e52a92e1c5510325a978cbb68}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_fornecedores_a2632b5077489977d31dafbbc2d885036}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Regras\+Fornecedores de classe Created by\+: Diogo Created on\+: 24/10/2023. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a2632b5077489977d31dafbbc2d885036}\label{class_regras_negocio_1_1_regras_fornecedores_a2632b5077489977d31dafbbc2d885036}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Fornecedores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a4c6b81b825d5bc91b4dda1bc260d9dcd}\label{class_regras_negocio_1_1_regras_fornecedores_a4c6b81b825d5bc91b4dda1bc260d9dcd}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!ExisteFornecedor@{ExisteFornecedor}}
+\index{ExisteFornecedor@{ExisteFornecedor}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{ExisteFornecedor()}{ExisteFornecedor()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Existe\+Fornecedor (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um fornecedor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & nome\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existe ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Fornecedores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a1e7b16521f28afea1890083934bd284b}\label{class_regras_negocio_1_1_regras_fornecedores_a1e7b16521f28afea1890083934bd284b}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!ExisteProdutoFornecedor@{ExisteProdutoFornecedor}}
+\index{ExisteProdutoFornecedor@{ExisteProdutoFornecedor}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{ExisteProdutoFornecedor()}{ExisteProdutoFornecedor()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Existe\+Produto\+Fornecedor (\begin{DoxyParamCaption}\item[{string}]{nome\+Prod,  }\item[{string}]{nome\+Forn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um produto num certo fornecedor ou não. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Prod} & nome do produto\\
+\hline
+{\em nome\+Forn} & nome do fornecedor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existe ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a060bf9454607e1c93334d87d40ca5733}\label{class_regras_negocio_1_1_regras_fornecedores_a060bf9454607e1c93334d87d40ca5733}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!ExisteProdutoFornecedores@{ExisteProdutoFornecedores}}
+\index{ExisteProdutoFornecedores@{ExisteProdutoFornecedores}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{ExisteProdutoFornecedores()}{ExisteProdutoFornecedores()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Existe\+Produto\+Fornecedores (\begin{DoxyParamCaption}\item[{string}]{nome\+Prod }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um produto nos fornecedores ou não. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Prod} & nome do produto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existe ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a872add859cd27360ff91da5ce498007b}\label{class_regras_negocio_1_1_regras_fornecedores_a872add859cd27360ff91da5ce498007b}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!InserirFornecedor@{InserirFornecedor}}
+\index{InserirFornecedor@{InserirFornecedor}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{InserirFornecedor()}{InserirFornecedor()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Inserir\+Fornecedor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_fornecedor}{Fornecedor}}}]{forn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um fornecedor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em forn} & fornecedor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Fornecedores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a5ac3eab27e6afaaabfa831183a2f27cb}\label{class_regras_negocio_1_1_regras_fornecedores_a5ac3eab27e6afaaabfa831183a2f27cb}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!InserirProduto@{InserirProduto}}
+\index{InserirProduto@{InserirProduto}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{InserirProduto()}{InserirProduto()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Inserir\+Produto (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}}]{prod,  }\item[{string}]{nome\+Forn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um produto nos Fornecedores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prod} & produto\\
+\hline
+{\em nome\+Forn} & nome do fornecedor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_aadc204e839e42a5893a3e4d64814b327}\label{class_regras_negocio_1_1_regras_fornecedores_aadc204e839e42a5893a3e4d64814b327}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!ListaFornecedores@{ListaFornecedores}}
+\index{ListaFornecedores@{ListaFornecedores}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{ListaFornecedores()}{ListaFornecedores()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Lista\+Fornecedores (\begin{DoxyParamCaption}\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_fornecedor}{Fornecedor}} $>$}]{lista }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém a lista de todos os fornecedores do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & fornecedores\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a971d927ff7065d5e1994efb42af3df27}\label{class_regras_negocio_1_1_regras_fornecedores_a971d927ff7065d5e1994efb42af3df27}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!QuantidadeFornecedores@{QuantidadeFornecedores}}
+\index{QuantidadeFornecedores@{QuantidadeFornecedores}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{QuantidadeFornecedores()}{QuantidadeFornecedores()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Quantidade\+Fornecedores (\begin{DoxyParamCaption}\item[{out int}]{contador }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém a quantidade de fornecedores do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contador} & quantidade de fornecedores\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a14c430b953505c342355d84ef6defd1e}\label{class_regras_negocio_1_1_regras_fornecedores_a14c430b953505c342355d84ef6defd1e}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!RemoverFornecedor@{RemoverFornecedor}}
+\index{RemoverFornecedor@{RemoverFornecedor}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{RemoverFornecedor()}{RemoverFornecedor()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Remover\+Fornecedor (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um fornecedor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & nome\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Fornecedores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a930e49842c9afbf9e2a11eff7f106e90}\label{class_regras_negocio_1_1_regras_fornecedores_a930e49842c9afbf9e2a11eff7f106e90}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!RemoverProduto@{RemoverProduto}}
+\index{RemoverProduto@{RemoverProduto}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{RemoverProduto()}{RemoverProduto()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Remover\+Produto (\begin{DoxyParamCaption}\item[{string}]{nome\+Prod,  }\item[{string}]{nome\+Forn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um produto de um fornecedor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Prod} & nome do produto\\
+\hline
+{\em nome\+Forn} & nome do fornecedor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_fornecedores_a4724a91e52a92e1c5510325a978cbb68}\label{class_regras_negocio_1_1_regras_fornecedores_a4724a91e52a92e1c5510325a978cbb68}} 
+\index{RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!RegrasNegocio.RegrasFornecedores@{RegrasNegocio.RegrasFornecedores}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Fornecedores.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Fornecedores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Regras\+Negocio/\mbox{\hyperlink{_regras_fornecedores_8cs}{Regras\+Fornecedores.\+cs}}\end{DoxyCompactItemize}

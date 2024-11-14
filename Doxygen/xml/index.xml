@@ -1,0 +1,644 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+  <compound refid="class_dados_1_1_armazem" kind="class"><name>Dados::Armazem</name>
+    <member refid="class_dados_1_1_armazem_1a943fde13ef42c016ec1aea94f4c51114" kind="variable"><name>localizacao</name></member>
+    <member refid="class_dados_1_1_armazem_1a6e782db16fc4cbf706a820c8ed426f65" kind="variable"><name>produtos</name></member>
+    <member refid="class_dados_1_1_armazem_1a7a18fde73c080a7fd772c97cc6995f1e" kind="property"><name>Localizacao</name></member>
+    <member refid="class_dados_1_1_armazem_1ad0c820dc8a743d62eb406e7ed454a2ea" kind="property"><name>Produtos</name></member>
+    <member refid="class_dados_1_1_armazem_1a8084833bd9670e1bdde85b4e6fd697f2" kind="function"><name>Armazem</name></member>
+    <member refid="class_dados_1_1_armazem_1afa30938912a97b2628a0adb6b189366c" kind="function"><name>Armazem</name></member>
+    <member refid="class_dados_1_1_armazem_1a592dc2cd926b4a278497d3a2c6a91d09" kind="function"><name>Armazem</name></member>
+    <member refid="class_dados_1_1_armazem_1adc9bf97a23329bee43b503d1976fe941" kind="function"><name>ExisteProdutoArmazem</name></member>
+    <member refid="class_dados_1_1_armazem_1ae2cb45c983d222c8eb895b42b6c457f8" kind="function"><name>QuantidadeProdutoArmazem</name></member>
+    <member refid="class_dados_1_1_armazem_1a25bbb61a0089fb5e7b9f995550ca617c" kind="function"><name>ProdutosMarcaArmazem</name></member>
+    <member refid="class_dados_1_1_armazem_1a288af38bd046f91338de5964ad81cf0b" kind="function"><name>ProdutosCategoriaArmazem</name></member>
+    <member refid="class_dados_1_1_armazem_1a3d689b8861f1b0511445ed5b7b2b3016" kind="function"><name>ProdutosMarcaCategoriaArmazem</name></member>
+    <member refid="class_dados_1_1_armazem_1a9e3b16631b8525aecd756a493b53ec8d" kind="function"><name>AcrescentarProdutosArmazem</name></member>
+    <member refid="class_dados_1_1_armazem_1aefc34c0532d7341798fc29711b1c5243" kind="function"><name>RetirarProdutosArmazem</name></member>
+    <member refid="class_dados_1_1_armazem_1aea2e444fc120e0b0a41ccd52710d1c07" kind="function"><name>InserirProdutoArmazem</name></member>
+    <member refid="class_dados_1_1_armazem_1aa7c74d0bef9d7e8aa8a7bc4f7b5a98e6" kind="function"><name>RemoverProdutoArmazem</name></member>
+    <member refid="class_dados_1_1_armazem_1a32adab5112b3ac0176e15cd44cc0431b" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_dados_1_1_armazem_1a11d872f44b324676d9e2898f7ac882a1" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_excecoes_1_1_armazem_excecoes" kind="class"><name>Excecoes::ArmazemExcecoes</name>
+    <member refid="class_excecoes_1_1_armazem_excecoes_1af81e010df20810beb3f3723a6b55634d" kind="function"><name>ArmazemExcecoes</name></member>
+    <member refid="class_excecoes_1_1_armazem_excecoes_1ab77fc5fa3dada1ad09785919b4cb6a50" kind="function"><name>ArmazemExcecoes</name></member>
+    <member refid="class_excecoes_1_1_armazem_excecoes_1a5f93ef659fd4cb94fa49a025696362ce" kind="function"><name>ArmazemExcecoes</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_carrinho_compra" kind="class"><name>ObjetosNegocio::CarrinhoCompra</name>
+    <member refid="class_objetos_negocio_1_1_carrinho_compra_1ac2c6618e7b6d5d913603de38b2cdcc83" kind="variable"><name>prods</name></member>
+    <member refid="class_objetos_negocio_1_1_carrinho_compra_1ad3e1faa8fe0dba26bac37be8cf8f56ea" kind="property"><name>Prods</name></member>
+    <member refid="class_objetos_negocio_1_1_carrinho_compra_1aa41aa4ab8be56041f2f9e65fcda27ef3" kind="function"><name>CarrinhoCompra</name></member>
+    <member refid="class_objetos_negocio_1_1_carrinho_compra_1acffd2e40878bffbdd008c557997929c5" kind="function"><name>CarrinhoCompra</name></member>
+  </compound>
+  <compound refid="class_excecoes_1_1_carrinho_compra_excecoes" kind="class"><name>Excecoes::CarrinhoCompraExcecoes</name>
+    <member refid="class_excecoes_1_1_carrinho_compra_excecoes_1a76dd9709f84ebb670cc9871f16d10c7a" kind="function"><name>CarrinhoCompraExcecoes</name></member>
+    <member refid="class_excecoes_1_1_carrinho_compra_excecoes_1a243e07b677bdf7fdd9340a9c9e62ed79" kind="function"><name>CarrinhoCompraExcecoes</name></member>
+    <member refid="class_excecoes_1_1_carrinho_compra_excecoes_1aa7ef27a119a4c45da1bfece76bd707b1" kind="function"><name>CarrinhoCompraExcecoes</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_categoria" kind="class"><name>ObjetosNegocio::Categoria</name>
+    <member refid="class_objetos_negocio_1_1_categoria_1a927b7a1f8419fb8f8c50cb843ab43974" kind="variable"><name>nome</name></member>
+    <member refid="class_objetos_negocio_1_1_categoria_1a0b6637c68c56c80d58d75897abad6d5f" kind="variable"><name>descricao</name></member>
+    <member refid="class_objetos_negocio_1_1_categoria_1a31073b014c40a8b3a6a3b905f2af9a89" kind="property"><name>Nome</name></member>
+    <member refid="class_objetos_negocio_1_1_categoria_1adc4ef11b1150948d248662ac0627cb1d" kind="property"><name>Descricao</name></member>
+    <member refid="class_objetos_negocio_1_1_categoria_1ab541949a3161722a840590386a0debb9" kind="function"><name>Categoria</name></member>
+    <member refid="class_objetos_negocio_1_1_categoria_1adae8eff29acd88f16e68789186f9e6cf" kind="function"><name>Categoria</name></member>
+    <member refid="class_objetos_negocio_1_1_categoria_1af206a14fc97f277dc486dca4d8fb65a2" kind="function"><name>Equals</name></member>
+    <member refid="class_objetos_negocio_1_1_categoria_1a058a6461aeedb049f553dc280f38a9d7" kind="function"><name>ToString</name></member>
+    <member refid="class_objetos_negocio_1_1_categoria_1a483afeaee3a80958e27b871af1f958b7" kind="function"><name>operator==</name></member>
+    <member refid="class_objetos_negocio_1_1_categoria_1a84e1ebd3d2e2ca08890f9e20a6c8dbf0" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_compra" kind="class"><name>ObjetosNegocio::Compra</name>
+    <member refid="class_objetos_negocio_1_1_compra_1ae81e12da5bc027d765938dd3d8f6060b" kind="function"><name>EmitirFatura</name></member>
+    <member refid="class_objetos_negocio_1_1_compra_1a38296f0a8d5708cbee484c02d7825501" kind="function"><name>CompareTo</name></member>
+  </compound>
+  <compound refid="class_dados_1_1_compras" kind="class"><name>Dados::Compras</name>
+    <member refid="class_dados_1_1_compras_1a3a6c07d1362a5c17a73ff0f0dd203e24" kind="variable"><name>cs</name></member>
+    <member refid="class_dados_1_1_compras_1a476384fa77ac80dadbc3a42188c6cb5d" kind="property"><name>VS</name></member>
+    <member refid="class_dados_1_1_compras_1ac772683b03348cf4e978c184e197b5df" kind="function"><name>Compras</name></member>
+    <member refid="class_dados_1_1_compras_1ac54eb0c2a2fa35a2cfb3993068936c0a" kind="function"><name>InserirCompra</name></member>
+    <member refid="class_dados_1_1_compras_1ac69e5ff6b64c56b14519cff3ffaadf97" kind="function"><name>ComprasData</name></member>
+    <member refid="class_dados_1_1_compras_1a811063acdd7e537e238eb13cf4df9142" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_dados_1_1_compras_1aa28ac93ae900989f623da3107a6fe0d7" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_excecoes_1_1_compras_excecoes" kind="class"><name>Excecoes::ComprasExcecoes</name>
+    <member refid="class_excecoes_1_1_compras_excecoes_1a7675a97e0b86a7465877c24b48dc9a99" kind="function"><name>ComprasExcecoes</name></member>
+    <member refid="class_excecoes_1_1_compras_excecoes_1adaacfe39633e9688539cb1f68e05f1a8" kind="function"><name>ComprasExcecoes</name></member>
+    <member refid="class_excecoes_1_1_compras_excecoes_1a026a12438823ca55fd15adb4afcfd2de" kind="function"><name>ComprasExcecoes</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_fornecedor" kind="class"><name>ObjetosNegocio::Fornecedor</name>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1ac3399b40ab889dba0d37bf994ec90c9b" kind="variable"><name>nome</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1ae04ae93ca33a49e383265fc502758871" kind="variable"><name>contacto</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1ab89a37ab168743b69d98d043b7678040" kind="variable"><name>prods</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1aaa744f75883c01782ff07d9d42e3aa17" kind="property"><name>Nome</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1a97db9f64560c3e019c856fb0e73a5c2f" kind="property"><name>Contacto</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1a862b925cd6547c686d6d533e137352f1" kind="property"><name>Prods</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1a9205fb6e58267780baa7180da94b6c94" kind="function"><name>Fornecedor</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1a2f98b1e591a3cc8eb852587e2ccc1d86" kind="function"><name>Fornecedor</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1af19c2eb88455673e1488d2d3d46a9832" kind="function"><name>Equals</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1a867535bf3f713025d15e1f5df6684e50" kind="function"><name>ToString</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1a6b4b0030519f7a9222a20c060a77fcba" kind="function"><name>operator==</name></member>
+    <member refid="class_objetos_negocio_1_1_fornecedor_1aa5870a5e2b08a54fc3a4ab37d221c5f2" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="class_dados_1_1_fornecedores" kind="class"><name>Dados::Fornecedores</name>
+    <member refid="class_dados_1_1_fornecedores_1a2966c3af3cde5c5467ec0142d1be002d" kind="variable"><name>forns</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a07509aec24d8d83a817f720c0e53100d" kind="variable"><name>totProd</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a0c9ac1557ea5820a8dcdd3269ede3dfb" kind="property"><name>Forns</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a1ef6b611f3032e79938533b9037f846c" kind="property"><name>TotProd</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a6c7bde922fe6b42f58b9fc4b734b9ee3" kind="function"><name>Fornecedores</name></member>
+    <member refid="class_dados_1_1_fornecedores_1ab4cc6589290eaedb5e01c291ecf4c4be" kind="function"><name>InicializarTotProd</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a52a9f12f6170a824f3a808eab769b66f" kind="function"><name>ExisteProdutoFornecedores</name></member>
+    <member refid="class_dados_1_1_fornecedores_1ae056e4b436eeda7395b824defff3dd5d" kind="function"><name>ExisteProdutoFornecedor</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a55d393b542b745a929393e1046b806d0" kind="function"><name>DarReferencia</name></member>
+    <member refid="class_dados_1_1_fornecedores_1acfce009e4d8769a48b7915666067b39e" kind="function"><name>InserirProdutoFornecedor</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a61f7dc81ecb684519b3bb2aadbb81d33" kind="function"><name>RemoverProdutoFornecedor</name></member>
+    <member refid="class_dados_1_1_fornecedores_1aaadf9f558adad3dc27ba6f84e62400af" kind="function"><name>ExisteFornecedorSistema</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a51e231c23a39204f9ed6c5b8badca0a2" kind="function"><name>InserirFornecedorSistema</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a310bbfba66c6b4289f746359cb5e04b0" kind="function"><name>RemoverFornecedorSistema</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a9911d858083949ec3c71155dda04bd1d" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_dados_1_1_fornecedores_1a43d3c658203d6470e79c267674afc245" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_excecoes_1_1_fornecedores_excecoes" kind="class"><name>Excecoes::FornecedoresExcecoes</name>
+    <member refid="class_excecoes_1_1_fornecedores_excecoes_1af7a6f1bfb72fcd239dea4f48f4a64470" kind="function"><name>FornecedoresExcecoes</name></member>
+    <member refid="class_excecoes_1_1_fornecedores_excecoes_1aaa49e49bb76d20e1205500549506ec95" kind="function"><name>FornecedoresExcecoes</name></member>
+    <member refid="class_excecoes_1_1_fornecedores_excecoes_1a215954445552adfd32a6c4df4e286d46" kind="function"><name>FornecedoresExcecoes</name></member>
+  </compound>
+  <compound refid="interface_objetos_negocio_1_1_i_carrinho_compra" kind="interface"><name>ObjetosNegocio::ICarrinhoCompra</name>
+    <member refid="interface_objetos_negocio_1_1_i_carrinho_compra_1ac80f3e746b284a7e93879debd9b8e5cf" kind="property"><name>Prods</name></member>
+  </compound>
+  <compound refid="interface_objetos_negocio_1_1_i_categoria" kind="interface"><name>ObjetosNegocio::ICategoria</name>
+    <member refid="interface_objetos_negocio_1_1_i_categoria_1a4e905203c001a6c5c60b7a6b5fba2995" kind="property"><name>Nome</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_categoria_1a5fb7d06e3c60eabc76a7c8482b21364c" kind="property"><name>Descricao</name></member>
+  </compound>
+  <compound refid="interface_objetos_negocio_1_1_i_fornecedor" kind="interface"><name>ObjetosNegocio::IFornecedor</name>
+    <member refid="interface_objetos_negocio_1_1_i_fornecedor_1a0aeb5573a918588ec00d1cce57a1af36" kind="property"><name>Nome</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_fornecedor_1a4623b557f454fcf1ca272bdb66cb48d2" kind="property"><name>Contacto</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_fornecedor_1a152d6e92489c4c41111db1719b12769d" kind="property"><name>Prods</name></member>
+  </compound>
+  <compound refid="interface_objetos_negocio_1_1_i_marca" kind="interface"><name>ObjetosNegocio::IMarca</name>
+    <member refid="interface_objetos_negocio_1_1_i_marca_1a4177601a1bbd88d256d5be2c665d7477" kind="property"><name>Nome</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_marca_1ae8db28d73f93ad76880d58a32bed66da" kind="property"><name>Contacto</name></member>
+  </compound>
+  <compound refid="interface_objetos_negocio_1_1_i_morada" kind="interface"><name>ObjetosNegocio::IMorada</name>
+    <member refid="interface_objetos_negocio_1_1_i_morada_1a3a35a168e8d4b6851b82021e3bf508ac" kind="property"><name>Cidade</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_morada_1a452c992106181912be119af7ce203f1c" kind="property"><name>Distrito</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_morada_1a5650e19ab8b003923cf02f537f78fa13" kind="property"><name>Rua</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_morada_1a0f1dba34872307f97e3d3ff83800180c" kind="property"><name>NumPorta</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_morada_1a21a6485a03e302c31d8c49b13414a57d" kind="property"><name>CodigoPostal</name></member>
+  </compound>
+  <compound refid="class_frontend_1_1_i_o" kind="class"><name>Frontend::IO</name>
+    <member refid="class_frontend_1_1_i_o_1aaefccaaeae6cee973ae6ee03c3e28de1" kind="function"><name>MostrarProdutosArmazem</name></member>
+    <member refid="class_frontend_1_1_i_o_1a102984aa9e85a4635ff72922bc9af391" kind="function"><name>MostrarProdutosMarcaArmazem</name></member>
+    <member refid="class_frontend_1_1_i_o_1a4a5ceedb151bfff2710f31183fc4f117" kind="function"><name>MostrarProdutosCategoriaArmazem</name></member>
+    <member refid="class_frontend_1_1_i_o_1af34ec062adf55d8a05fc6007f441da57" kind="function"><name>MostrarProdutosMarcaCategoriaArmazem</name></member>
+    <member refid="class_frontend_1_1_i_o_1a31d8b0aa5ddb6c619a360f2dbeba1bb1" kind="function"><name>ExisteProdutoArmazem</name></member>
+    <member refid="class_frontend_1_1_i_o_1ab20993d32f164dddf2f6eabd3bc69c09" kind="function"><name>InserirProdutoArmazem</name></member>
+    <member refid="class_frontend_1_1_i_o_1ac61028204f41ea6191f59ac978c92c8c" kind="function"><name>RemoverProdutoArmazem</name></member>
+    <member refid="class_frontend_1_1_i_o_1a4245e80882f5594e8b11ee0c4a295f79" kind="function"><name>SalvarDadosArmazem</name></member>
+    <member refid="class_frontend_1_1_i_o_1a234d7f6b75cc05607764d4b7087246d9" kind="function"><name>CarregarDadosArmazem</name></member>
+    <member refid="class_frontend_1_1_i_o_1a156d79cf256eeabcaef10ee0eddfdfe1" kind="function"><name>QuantidadeUtilizadoresSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1aa074376ea50a604878895c8f3de07ca7" kind="function"><name>MostrarUtilizadoresSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1acf3332cb9990c6910ab052f45d4cf173" kind="function"><name>ExisteEmailSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1afcb75390868bd2ce556ed8c4a8716cfc" kind="function"><name>ExisteContaSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1a2d97c1edb76fa03c44526000df8479f1" kind="function"><name>InserirUtilizadorSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1aec040b8b871d3442622e4e1876e0e9e8" kind="function"><name>RemoverUtilizadorSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1a1aa026bc3e00f7b84614abf2d54e5214" kind="function"><name>AlterarEmailSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1a4112f484d3578a6bfadd5ddabcfc8277" kind="function"><name>AlterarPasswordSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1a96dfa5f9f0651616bc58a3fd0025ba07" kind="function"><name>SalvarDadosUtilizadores</name></member>
+    <member refid="class_frontend_1_1_i_o_1a45deb43812d4c57e8817a7f924c4c1af" kind="function"><name>CarregarDadosUtilizadores</name></member>
+    <member refid="class_frontend_1_1_i_o_1a4ba81a69c50e0d09c4b001ec4d52b904" kind="function"><name>ExisteProdutoFornecedores</name></member>
+    <member refid="class_frontend_1_1_i_o_1af59ad1e1b3104579db826f76f10a70e4" kind="function"><name>ExisteProdutoFornecedor</name></member>
+    <member refid="class_frontend_1_1_i_o_1a54e742d18ee798ee021192af1ed79036" kind="function"><name>InserirProdutoFornecedor</name></member>
+    <member refid="class_frontend_1_1_i_o_1a1cfb5d9ef0173c872219ea1e74aca5db" kind="function"><name>RemoverProdutoFornecedor</name></member>
+    <member refid="class_frontend_1_1_i_o_1a278443860cb530e4de16f6741b88359b" kind="function"><name>QuantidadeFornecedoresSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1a866b3f527510d6bb6169606b574562a4" kind="function"><name>MostrarFornecedoresSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1a80962bc43b9984e972be2e62cd357692" kind="function"><name>ExisteFornecedorSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1ace6f75fd524a867f2b86e4049b248d86" kind="function"><name>InserirFornecedorSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1ad38a08e016d55b521666d9d3ee7ecfae" kind="function"><name>RemoverFornecedorSistema</name></member>
+    <member refid="class_frontend_1_1_i_o_1a3b65605217ac4de0b30790d11233daf2" kind="function"><name>SalvarDadosFornecedores</name></member>
+    <member refid="class_frontend_1_1_i_o_1a71284ea22afa7f663ae2d107a7850033" kind="function"><name>CarregarDadosFornecedores</name></member>
+    <member refid="class_frontend_1_1_i_o_1abc0ac37a8c7a601f190bf1905cff9b8c" kind="function"><name>InserirCompra</name></member>
+    <member refid="class_frontend_1_1_i_o_1a8d7fb3ca28595f8e9b5dfd4ebfc638a8" kind="function"><name>MostrarComprasData</name></member>
+    <member refid="class_frontend_1_1_i_o_1a8bec1dbfb578b522c3c46b41534dae0b" kind="function"><name>SalvarDadosCompras</name></member>
+    <member refid="class_frontend_1_1_i_o_1a338ad05656631ebc36abd1f4e33d6cc7" kind="function"><name>CarregarDadosCompras</name></member>
+    <member refid="class_frontend_1_1_i_o_1a3421b081de36852eceb3253a0c11e8f5" kind="function"><name>InserirVenda</name></member>
+    <member refid="class_frontend_1_1_i_o_1a1b40ddbe473d02b37ffeb502929e214f" kind="function"><name>MostrarVendasData</name></member>
+    <member refid="class_frontend_1_1_i_o_1abeb2f0631fa751c52619596bddc04dfc" kind="function"><name>SalvarDadosVendas</name></member>
+    <member refid="class_frontend_1_1_i_o_1a0a6c0460dd82507172ca64ab719ace39" kind="function"><name>CarregarDadosVendas</name></member>
+  </compound>
+  <compound refid="interface_objetos_negocio_1_1_i_operacao" kind="interface"><name>ObjetosNegocio::IOperacao</name>
+    <member refid="interface_objetos_negocio_1_1_i_operacao_1a508f6cf2020c388aa39c8e5a8bd1f1db" kind="property"><name>DataOp</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_operacao_1a89bc8f71dd4b5fefce545cbfe3b51b16" kind="property"><name>Username</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_operacao_1ad75f77cdcfd7e8fd9b21764087f48565" kind="property"><name>Prods</name></member>
+  </compound>
+  <compound refid="interface_objetos_negocio_1_1_i_pessoa" kind="interface"><name>ObjetosNegocio::IPessoa</name>
+    <member refid="interface_objetos_negocio_1_1_i_pessoa_1aa5e1675f125c425f0a321bde4c9dfa5c" kind="property"><name>Nome</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_pessoa_1a0988ce8a996054cd4de16c2713b14d89" kind="property"><name>DataNascimento</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_pessoa_1a32eb2834341102fa0f752b3b5dc05a70" kind="property"><name>Localizacao</name></member>
+  </compound>
+  <compound refid="interface_objetos_negocio_1_1_i_produto" kind="interface"><name>ObjetosNegocio::IProduto</name>
+    <member refid="interface_objetos_negocio_1_1_i_produto_1aea6336d878c49578affa7899afb963f6" kind="property"><name>RefProd</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_produto_1a0e7a0bea6a8f44c9cb0f7111a71bdb77" kind="property"><name>Quantidade</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_produto_1a9cc6346f59ecf6a76052b478218adef4" kind="property"><name>Nome</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_produto_1aa5841cc2bcd0ef84886921a5063cb190" kind="property"><name>Preco</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_produto_1a4b41e03691c221f889b2fe72558f5dea" kind="property"><name>Cat</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_produto_1a8ff2e2cecd3dc1eef82a7e7ea7157a6c" kind="property"><name>Mar</name></member>
+  </compound>
+  <compound refid="interface_objetos_negocio_1_1_i_utilizador" kind="interface"><name>ObjetosNegocio::IUtilizador</name>
+    <member refid="interface_objetos_negocio_1_1_i_utilizador_1ae41104592e2c54ad6ef25609a7ff0f0e" kind="property"><name>Email</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_utilizador_1acbf51a6d07fe593c1711acd2a8138d20" kind="property"><name>Password</name></member>
+    <member refid="interface_objetos_negocio_1_1_i_utilizador_1aea907af5d6f93891636438083e76e0e3" kind="property"><name>Carrinho</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_marca" kind="class"><name>ObjetosNegocio::Marca</name>
+    <member refid="class_objetos_negocio_1_1_marca_1a33c2c1fc21c919c8db998b75e769603e" kind="variable"><name>nome</name></member>
+    <member refid="class_objetos_negocio_1_1_marca_1a5cc5b9e62a66c1e0e2217a3f5738bb27" kind="variable"><name>contacto</name></member>
+    <member refid="class_objetos_negocio_1_1_marca_1a6955322e9e70aed67ccfe048f04d679c" kind="property"><name>Nome</name></member>
+    <member refid="class_objetos_negocio_1_1_marca_1ac16a80837466518bb8fde225114075b6" kind="property"><name>Contacto</name></member>
+    <member refid="class_objetos_negocio_1_1_marca_1a470215e3de693fbbb76478c91f203a69" kind="function"><name>Marca</name></member>
+    <member refid="class_objetos_negocio_1_1_marca_1aa497a0cf842a82f1c273fcd9634b14ad" kind="function"><name>Marca</name></member>
+    <member refid="class_objetos_negocio_1_1_marca_1a2ad57880bd5e344c917d2995814e963f" kind="function"><name>Equals</name></member>
+    <member refid="class_objetos_negocio_1_1_marca_1af6c89f3bf55f5cb0d35d371f4aeb5d51" kind="function"><name>ToString</name></member>
+    <member refid="class_objetos_negocio_1_1_marca_1abb7bb3ef5e8eb678ea229c997cbdcbe9" kind="function"><name>operator==</name></member>
+    <member refid="class_objetos_negocio_1_1_marca_1a19420a95c717491dcb852a6237c0a875" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_morada" kind="class"><name>ObjetosNegocio::Morada</name>
+    <member refid="class_objetos_negocio_1_1_morada_1a2ef1d71c310630a648cd371f7eb1a356" kind="variable"><name>cidade</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1afe903ef65a0853ee85808b70e39e394c" kind="variable"><name>distrito</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1ac36ec182cd1e845c62e31902f42e85c8" kind="variable"><name>rua</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1a90892df4291eded5c56840fe218b976b" kind="variable"><name>codigoPostal</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1a2f3aed0b0be247a36adbb53bc8971eda" kind="variable"><name>numPorta</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1a37ef659bed91c59bdb6b3cba51f3cee1" kind="property"><name>Cidade</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1a64cc04656df8ec35d1f855ffa666d3f3" kind="property"><name>Distrito</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1ae76784ae9a7a218db05f8fbc2b3c0983" kind="property"><name>Rua</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1aef1a144dc7cb75696e1566429e1260ce" kind="property"><name>NumPorta</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1a28a863a4e7f3da1ca05f9dfd3d575654" kind="property"><name>CodigoPostal</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1ac58c4598eccc839242d50295911162a7" kind="function"><name>Morada</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1a3ce0f6d28e91ee479dc20c59f2ac9419" kind="function"><name>Morada</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1a670e7070d7fb629c791576bc7b8c86f4" kind="function"><name>ToString</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1a5a703ef3917196dd26ca25ea93d998da" kind="function"><name>Equals</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1ad5eada1d0c5e5ec66b78a3355391ded3" kind="function"><name>operator==</name></member>
+    <member refid="class_objetos_negocio_1_1_morada_1a12a914495821f32d8bcf5880e11f330e" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_operacao" kind="class"><name>ObjetosNegocio::Operacao</name>
+    <member refid="class_objetos_negocio_1_1_operacao_1adae78b58becd5c693360923046eb1eaf" kind="variable"><name>prods</name></member>
+    <member refid="class_objetos_negocio_1_1_operacao_1a9cc1205871d10af8c6b24290c8a35365" kind="variable"><name>username</name></member>
+    <member refid="class_objetos_negocio_1_1_operacao_1a8824b38afbe4ab3341683046b1799c1b" kind="variable"><name>dataOp</name></member>
+    <member refid="class_objetos_negocio_1_1_operacao_1ae556173973778ef0f6af58058b4e183c" kind="property"><name>DataOp</name></member>
+    <member refid="class_objetos_negocio_1_1_operacao_1ab5a8e940c7c638129ba623777680c7be" kind="property"><name>Username</name></member>
+    <member refid="class_objetos_negocio_1_1_operacao_1a27d97e02c189c294530d1b1051e512f4" kind="property"><name>Prods</name></member>
+    <member refid="class_objetos_negocio_1_1_operacao_1af033914f92bb4e5386c5fc5c02368a43" kind="function"><name>Operacao</name></member>
+    <member refid="class_objetos_negocio_1_1_operacao_1a8e14d0f977879a023f642b002543298c" kind="function"><name>Operacao</name></member>
+    <member refid="class_objetos_negocio_1_1_operacao_1a92fc719408269ff498b3a8fae54b19a8" kind="function"><name>EmitirFatura</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_pessoa" kind="class"><name>ObjetosNegocio::Pessoa</name>
+    <member refid="class_objetos_negocio_1_1_pessoa_1a9bab829f25271107e20a6e60407583f0" kind="variable"><name>nome</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1a1895c105dd3f1a8c39281005d42b1c24" kind="variable"><name>dataNascimento</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1affacc3a4eb01b0c5399dc79d064cdf66" kind="variable"><name>localizacao</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1a6c6e1174264ecb79dd92b24089480421" kind="property"><name>Nome</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1a3d3e872a180f7c53265c11d1b7b8d329" kind="property"><name>DataNascimento</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1a472ba9f345e10e13d0d219f5571921a1" kind="property"><name>Localizacao</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1af413e5c5c6631617514bdb6aabce0cd9" kind="function"><name>Pessoa</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1adced49bbc34ceeb2c7c3c9f1aaf209ec" kind="function"><name>Pessoa</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1a100590cda5ba431aa78ac2432d614973" kind="function"><name>Equals</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1ac2cf6387370a9caf0a80dca664323560" kind="function"><name>ToString</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1a485d24f86e7118c005fd038fa9419603" kind="function"><name>CompareTo</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1ace5485c54104984e0e2248035fb6af6c" kind="function"><name>operator==</name></member>
+    <member refid="class_objetos_negocio_1_1_pessoa_1a442904e769c4943df780f5c9870e3f36" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_produto" kind="class"><name>ObjetosNegocio::Produto</name>
+    <member refid="class_objetos_negocio_1_1_produto_1a635dd358e769dc95e5cf9c2d836c10e4" kind="variable"><name>refProd</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1a19fec564303ba1d562895ecafada425a" kind="variable"><name>quantidade</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1a7e11022d892388af5b17945c80f7bc43" kind="variable"><name>nome</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1a940899cf7f0bc9d9eecd895bd1c77dc8" kind="variable"><name>preco</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1afaad4c74958850f473fddf9b930b4470" kind="variable"><name>cat</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1a1b5a56a7c465969e0299680dbd94acd4" kind="variable"><name>mar</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1ac40348a555b6171bc8789eeaa56817b0" kind="property"><name>RefProd</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1a8e55191ddd0a644f5bce97bab871c157" kind="property"><name>Quantidade</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1aea1fbc809f44c90ba65762f82587bea2" kind="property"><name>Nome</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1a3fb4b067bfc88c3441e2b21642cb7beb" kind="property"><name>Preco</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1aa95ddf5955d0ec515366d96a2ad11587" kind="property"><name>Cat</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1af433ebea611a7a9b914e45ba72831900" kind="property"><name>Mar</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1a1003e058a967f2a32df8ea3f0c051605" kind="function"><name>Produto</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1a8510fab39484e2686069390615d2a4c3" kind="function"><name>Produto</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1a0ed8c3cc7299663b17689b2f797fdfa8" kind="function"><name>Equals</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1ac8df3fb8aba48f42192ad497aa66ede3" kind="function"><name>ToString</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1ad7f2fcab4006c8fe69e2a3db1b406023" kind="function"><name>CompareTo</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1ac53d3331cc71fb4317815cb03f072f0c" kind="function"><name>operator==</name></member>
+    <member refid="class_objetos_negocio_1_1_produto_1aad8b05d97da4a89a7a00eee71942e3e9" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="class_excecoes_1_1_produto_excecoes" kind="class"><name>Excecoes::ProdutoExcecoes</name>
+    <member refid="class_excecoes_1_1_produto_excecoes_1a78e3bcb3de01517245d202a16ee00ad9" kind="function"><name>ProdutoExcecoes</name></member>
+    <member refid="class_excecoes_1_1_produto_excecoes_1a22525038a2500ecd3ed495912fa26749" kind="function"><name>ProdutoExcecoes</name></member>
+    <member refid="class_excecoes_1_1_produto_excecoes_1a9372103d86eb708b5714149f3565cfbe" kind="function"><name>ProdutoExcecoes</name></member>
+  </compound>
+  <compound refid="class_gere_loja_1_1_program" kind="class"><name>GereLoja::Program</name>
+    <member refid="class_gere_loja_1_1_program_1a31a96e6d7bad891cdd46bcc0a3c08e7b" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_regras_negocio_1_1_regras_armazem" kind="class"><name>RegrasNegocio::RegrasArmazem</name>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1a820bc643bbef2f596cf182b11622e553" kind="function"><name>ExisteProduto</name></member>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1a10cb682f6cfff1ff3c0c7b12a4b1e11a" kind="function"><name>QuantidadeProduto</name></member>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1a73d4316d38dcf38b483dda94620264df" kind="function"><name>ProdutosMarca</name></member>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1a5eefe9e56559e69e6c28d66aeb2fd159" kind="function"><name>ProdutosCategoria</name></member>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1a4dced490cc702cb0b48a5cf581d116c5" kind="function"><name>ProdutosMarcaCategoria</name></member>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1a655d63f50e584767969d584f567a0311" kind="function"><name>Produtos</name></member>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1a03e7a5badc69647db97d5b40d83b3451" kind="function"><name>InserirProduto</name></member>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1aa1ede96c2358ab5f6c30b56090af28af" kind="function"><name>RemoverProduto</name></member>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1ab10a712ff081b7cb1ff110fd0275debc" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_regras_negocio_1_1_regras_armazem_1a5cff76897c74631ec2764b1e6fed039b" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_regras_negocio_1_1_regras_compras" kind="class"><name>RegrasNegocio::RegrasCompras</name>
+    <member refid="class_regras_negocio_1_1_regras_compras_1a5158c8fdca4141f7f3d895dd35ce9854" kind="function"><name>InserirCompra</name></member>
+    <member refid="class_regras_negocio_1_1_regras_compras_1af29bc96ac4ba20cc5541883cc7ad5a29" kind="function"><name>ComprasData</name></member>
+    <member refid="class_regras_negocio_1_1_regras_compras_1adec053f3b22c466bc386b4281aaafc2d" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_regras_negocio_1_1_regras_compras_1a9d2a888a62cb613343e276a42c14a1d0" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_regras_negocio_1_1_regras_fornecedores" kind="class"><name>RegrasNegocio::RegrasFornecedores</name>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a060bf9454607e1c93334d87d40ca5733" kind="function"><name>ExisteProdutoFornecedores</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a1e7b16521f28afea1890083934bd284b" kind="function"><name>ExisteProdutoFornecedor</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a5ac3eab27e6afaaabfa831183a2f27cb" kind="function"><name>InserirProduto</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a930e49842c9afbf9e2a11eff7f106e90" kind="function"><name>RemoverProduto</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a4c6b81b825d5bc91b4dda1bc260d9dcd" kind="function"><name>ExisteFornecedor</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a971d927ff7065d5e1994efb42af3df27" kind="function"><name>QuantidadeFornecedores</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1aadc204e839e42a5893a3e4d64814b327" kind="function"><name>ListaFornecedores</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a872add859cd27360ff91da5ce498007b" kind="function"><name>InserirFornecedor</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a14c430b953505c342355d84ef6defd1e" kind="function"><name>RemoverFornecedor</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a4724a91e52a92e1c5510325a978cbb68" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_regras_negocio_1_1_regras_fornecedores_1a2632b5077489977d31dafbbc2d885036" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_regras_negocio_1_1_regras_utilizadores" kind="class"><name>RegrasNegocio::RegrasUtilizadores</name>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1abff06fbd66f3431910b14d126cb41202" kind="function"><name>ExisteEmail</name></member>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1ac6c282ea523c2088573e7e36e930e9a2" kind="function"><name>ExisteConta</name></member>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1af0149628b92330ffb8065d65fead880e" kind="function"><name>QuantidadeUtilizadores</name></member>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1abe37d0b953b138fadbb848f5f9f02377" kind="function"><name>ListaUtilizadores</name></member>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1ae47e1c6c5378dee739a0080f8a696f2a" kind="function"><name>InserirUtilizador</name></member>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1a23a29909f979ec1e29fb7c10a9c3ef61" kind="function"><name>RemoverUtilizador</name></member>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1a08714c17a9429a9b106f679c4f043699" kind="function"><name>AlterarEmail</name></member>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1accc098f46c52ba0fc8139f60c0b2b526" kind="function"><name>AlterarPassword</name></member>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1a8df34787abc7f65d138bb8d4864f85a6" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_regras_negocio_1_1_regras_utilizadores_1af2983ab1631af3f86b45db595c2c8125" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_regras_negocio_1_1_regras_vendas" kind="class"><name>RegrasNegocio::RegrasVendas</name>
+    <member refid="class_regras_negocio_1_1_regras_vendas_1a0dc44e7783df5f63a7e838fd245dbf69" kind="function"><name>InserirVenda</name></member>
+    <member refid="class_regras_negocio_1_1_regras_vendas_1a7cbc8abdf9ea8a128346149fc6998a2e" kind="function"><name>VendasData</name></member>
+    <member refid="class_regras_negocio_1_1_regras_vendas_1a193b2974c90ebef06899f869dae294ac" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_regras_negocio_1_1_regras_vendas_1a0d1a5e71259f3c130cc729b173be9833" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_testes_unitarios_1_1_testes_dados" kind="class"><name>TestesUnitarios::TestesDados</name>
+    <member refid="class_testes_unitarios_1_1_testes_dados_1acfcd9d7e24b390aeb298b0dcea212ee9" kind="function"><name>InicializarTeste</name></member>
+    <member refid="class_testes_unitarios_1_1_testes_dados_1aaba59568ea880f7069354fb05ab5011b" kind="function"><name>TesteExistenciaSemAcrescentar</name></member>
+    <member refid="class_testes_unitarios_1_1_testes_dados_1a57ce1a5791f63cce59d067f1647cd151" kind="function"><name>TesteAcrescentarProdArmazem</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_utilizador" kind="class"><name>ObjetosNegocio::Utilizador</name>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a7265e87f259f51e7552641422c27c782" kind="variable"><name>email</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a21fbebf16c4385dd8d0fd7c2e58bef4b" kind="variable"><name>password</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a852894f817a27fe5b0b4e374698b7254" kind="variable"><name>carrinho</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a68e8fd96cbea2974e34539c9988a47c3" kind="property"><name>Email</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1add4ce2b066206f3703ba58d0fb7dd130" kind="property"><name>Password</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a60a145d9e4fc1affa499c46b37729541" kind="property"><name>Carrinho</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1aa6818dde4126526a9daec37dd1630628" kind="function"><name>Utilizador</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a657baf94726055d69ab702fe8c4c8dce" kind="function"><name>Utilizador</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a903e4d4e3fcbf7225e88dc6a650a1ce8" kind="function"><name>Utilizador</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1ab75ada5927fbf05c61585bcb54e1a109" kind="function"><name>Equals</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a48bc648d9bd5b8879a6a11cd98d585b4" kind="function"><name>ToString</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a1503ce98dbca1f0eff5f7f6c63dcaff5" kind="function"><name>operator==</name></member>
+    <member refid="class_objetos_negocio_1_1_utilizador_1a2e4d1320159fe5dbd1e95c5028def4f6" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="class_dados_1_1_utilizadores" kind="class"><name>Dados::Utilizadores</name>
+    <member refid="class_dados_1_1_utilizadores_1af841741894af6db2e4c3ea1a9919407b" kind="variable"><name>users</name></member>
+    <member refid="class_dados_1_1_utilizadores_1a6a45c4987f31cdb2d5cf7e4a73479dce" kind="property"><name>Users</name></member>
+    <member refid="class_dados_1_1_utilizadores_1a279f18ff4fa48b75c212235fd5c1ce6f" kind="function"><name>Utilizadores</name></member>
+    <member refid="class_dados_1_1_utilizadores_1a746af8250d3f816bc5d782cf5b0107f9" kind="function"><name>ExisteEmailSistema</name></member>
+    <member refid="class_dados_1_1_utilizadores_1a79e220dbc5f721d453275a5e54fbffb5" kind="function"><name>ExisteContaSistema</name></member>
+    <member refid="class_dados_1_1_utilizadores_1a740ab06891ecd7ac71c838657b1686a7" kind="function"><name>InserirUtilizadorSistema</name></member>
+    <member refid="class_dados_1_1_utilizadores_1a66542458633cbb9a207c656459095d4b" kind="function"><name>RemoverUtilizadorSistema</name></member>
+    <member refid="class_dados_1_1_utilizadores_1a9fafae19547bfc190092157ea7299850" kind="function"><name>AlterarEmailSistema</name></member>
+    <member refid="class_dados_1_1_utilizadores_1a130846b12919b61fa667b54d78776825" kind="function"><name>AlterarPasswordSistema</name></member>
+    <member refid="class_dados_1_1_utilizadores_1a373026104d19a4d78c724ef405a02b16" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_dados_1_1_utilizadores_1abbda4458525988c7efa656a2a1a54495" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_excecoes_1_1_utilizadores_excecoes" kind="class"><name>Excecoes::UtilizadoresExcecoes</name>
+    <member refid="class_excecoes_1_1_utilizadores_excecoes_1a4889446976577cd1751cac33cf7d639c" kind="function"><name>UtilizadoresExcecoes</name></member>
+    <member refid="class_excecoes_1_1_utilizadores_excecoes_1a694239968151f6793f3e38fb32f964ce" kind="function"><name>UtilizadoresExcecoes</name></member>
+    <member refid="class_excecoes_1_1_utilizadores_excecoes_1a1ed260bec67dab0cdc78bc3a34b248a0" kind="function"><name>UtilizadoresExcecoes</name></member>
+  </compound>
+  <compound refid="class_objetos_negocio_1_1_venda" kind="class"><name>ObjetosNegocio::Venda</name>
+    <member refid="class_objetos_negocio_1_1_venda_1a32612a54e8b9cbb52f1c8d3e7427963f" kind="function"><name>Venda</name></member>
+    <member refid="class_objetos_negocio_1_1_venda_1ab2046515b2ac93c3003e179bd93ac818" kind="function"><name>Venda</name></member>
+    <member refid="class_objetos_negocio_1_1_venda_1a0c0078cbedb65615fd6b1ea25a58b4aa" kind="function"><name>EmitirFatura</name></member>
+    <member refid="class_objetos_negocio_1_1_venda_1ad13e5f3a0b0e92042620880c7f30c66c" kind="function"><name>CompareTo</name></member>
+  </compound>
+  <compound refid="class_dados_1_1_vendas" kind="class"><name>Dados::Vendas</name>
+    <member refid="class_dados_1_1_vendas_1a1a10395d091196383be05cfa55c8cb31" kind="variable"><name>vs</name></member>
+    <member refid="class_dados_1_1_vendas_1a03f8a4858711b65b879a8303c84f71f4" kind="property"><name>VS</name></member>
+    <member refid="class_dados_1_1_vendas_1a8d09fe127d58c549cd584f95889a0218" kind="function"><name>Vendas</name></member>
+    <member refid="class_dados_1_1_vendas_1afe73a0297ca3cf8623dae5b1e0756d88" kind="function"><name>InserirVenda</name></member>
+    <member refid="class_dados_1_1_vendas_1a0dfcb45a64f7a9e7f2e30802d1649b95" kind="function"><name>VendasData</name></member>
+    <member refid="class_dados_1_1_vendas_1a16e708f72e24136b80b3342280bbb901" kind="function"><name>SalvarDados</name></member>
+    <member refid="class_dados_1_1_vendas_1a5da1a4347dd817711a522fb13e2f4ac5" kind="function"><name>CarregarDados</name></member>
+  </compound>
+  <compound refid="class_excecoes_1_1_vendas_excecoes" kind="class"><name>Excecoes::VendasExcecoes</name>
+    <member refid="class_excecoes_1_1_vendas_excecoes_1afe38d2ec7f90e151e4717d686a1ef36c" kind="function"><name>VendasExcecoes</name></member>
+    <member refid="class_excecoes_1_1_vendas_excecoes_1a3a68f0ef5264677143036c73181404e1" kind="function"><name>VendasExcecoes</name></member>
+    <member refid="class_excecoes_1_1_vendas_excecoes_1ac36701d4bb692126603f36f5c5741c27" kind="function"><name>VendasExcecoes</name></member>
+  </compound>
+  <compound refid="class_verificacoes_1_1_verificacoes" kind="class"><name>Verificacoes::Verificacoes</name>
+    <member refid="class_verificacoes_1_1_verificacoes_1ae37d324334338b18c94625f80e96f98e" kind="function"><name>Referencia</name></member>
+    <member refid="class_verificacoes_1_1_verificacoes_1a88fdef980a70ba5a785c1a2f4d00cb2b" kind="function"><name>Quantidade</name></member>
+    <member refid="class_verificacoes_1_1_verificacoes_1a8400b1623f3fde2a417c6a3247034fd8" kind="function"><name>Email</name></member>
+    <member refid="class_verificacoes_1_1_verificacoes_1a203a7ff89aacb142cbf7595aaaf44694" kind="function"><name>Password</name></member>
+    <member refid="class_verificacoes_1_1_verificacoes_1a2ef278f503efd407c4fb3364abe5e399" kind="function"><name>Nome</name></member>
+    <member refid="class_verificacoes_1_1_verificacoes_1ab143066262cbca5bb82452f1347559f9" kind="function"><name>Contacto</name></member>
+  </compound>
+  <compound refid="namespace_dados" kind="namespace"><name>Dados</name>
+  </compound>
+  <compound refid="namespace_excecoes" kind="namespace"><name>Excecoes</name>
+  </compound>
+  <compound refid="namespace_frontend" kind="namespace"><name>Frontend</name>
+  </compound>
+  <compound refid="namespace_gere_loja" kind="namespace"><name>GereLoja</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing" kind="namespace"><name>Microsoft::VisualStudio::TestTools::UnitTesting</name>
+  </compound>
+  <compound refid="namespace_objetos_negocio" kind="namespace"><name>ObjetosNegocio</name>
+  </compound>
+  <compound refid="namespace_regras_negocio" kind="namespace"><name>RegrasNegocio</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics_1_1_contracts" kind="namespace"><name>System::Diagnostics::Contracts</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_binary" kind="namespace"><name>System::Runtime::Serialization::Formatters::Binary</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography" kind="namespace"><name>System::Security::Cryptography</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography_1_1_x509_certificates" kind="namespace"><name>System::Security::Cryptography::X509Certificates</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_json_1_1_serialization" kind="namespace"><name>System::Text::Json::Serialization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_testes_unitarios" kind="namespace"><name>TestesUnitarios</name>
+  </compound>
+  <compound refid="namespace_verificacoes" kind="namespace"><name>Verificacoes</name>
+  </compound>
+  <compound refid="_armazem_8cs" kind="file"><name>Armazem.cs</name>
+  </compound>
+  <compound refid="_compras_8cs" kind="file"><name>Compras.cs</name>
+  </compound>
+  <compound refid="_fornecedores_8cs" kind="file"><name>Fornecedores.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_dados_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_excecoes_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_frontend_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_objetos_negocio_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_regras_negocio_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_verificacoes_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_programa_2_gere_loja_2obj_2_debug_2_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_dados_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_excecoes_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_frontend_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_objetos_negocio_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_regras_negocio_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_d_l_ls_2_verificacoes_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_programa_2_gere_loja_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_utilizadores_8cs" kind="file"><name>Utilizadores.cs</name>
+  </compound>
+  <compound refid="_vendas_8cs" kind="file"><name>Vendas.cs</name>
+  </compound>
+  <compound refid="_armazem_excecoes_8cs" kind="file"><name>ArmazemExcecoes.cs</name>
+  </compound>
+  <compound refid="_carrinho_compra_excecoes_8cs" kind="file"><name>CarrinhoCompraExcecoes.cs</name>
+  </compound>
+  <compound refid="_compras_excecoes_8cs" kind="file"><name>ComprasExcecoes.cs</name>
+  </compound>
+  <compound refid="_fornecedores_excecoes_8cs" kind="file"><name>FornecedoresExcecoes.cs</name>
+  </compound>
+  <compound refid="_produto_excecoes_8cs" kind="file"><name>ProdutoExcecoes.cs</name>
+  </compound>
+  <compound refid="_utilizadores_excecoes_8cs" kind="file"><name>UtilizadoresExcecoes.cs</name>
+  </compound>
+  <compound refid="_vendas_excecoes_8cs" kind="file"><name>VendasExcecoes.cs</name>
+  </compound>
+  <compound refid="_i_o_8cs" kind="file"><name>IO.cs</name>
+  </compound>
+  <compound refid="_carrinho_compra_8cs" kind="file"><name>CarrinhoCompra.cs</name>
+  </compound>
+  <compound refid="_categoria_8cs" kind="file"><name>Categoria.cs</name>
+  </compound>
+  <compound refid="_compra_8cs" kind="file"><name>Compra.cs</name>
+  </compound>
+  <compound refid="_fornecedor_8cs" kind="file"><name>Fornecedor.cs</name>
+  </compound>
+  <compound refid="_i_carrinho_compra_8cs" kind="file"><name>ICarrinhoCompra.cs</name>
+  </compound>
+  <compound refid="_i_categoria_8cs" kind="file"><name>ICategoria.cs</name>
+  </compound>
+  <compound refid="_i_fornecedor_8cs" kind="file"><name>IFornecedor.cs</name>
+  </compound>
+  <compound refid="_i_marca_8cs" kind="file"><name>IMarca.cs</name>
+  </compound>
+  <compound refid="_i_morada_8cs" kind="file"><name>IMorada.cs</name>
+  </compound>
+  <compound refid="_i_operacao_8cs" kind="file"><name>IOperacao.cs</name>
+  </compound>
+  <compound refid="_i_pessoa_8cs" kind="file"><name>IPessoa.cs</name>
+  </compound>
+  <compound refid="_i_produto_8cs" kind="file"><name>IProduto.cs</name>
+  </compound>
+  <compound refid="_i_utilizador_8cs" kind="file"><name>IUtilizador.cs</name>
+  </compound>
+  <compound refid="_marca_8cs" kind="file"><name>Marca.cs</name>
+  </compound>
+  <compound refid="_morada_8cs" kind="file"><name>Morada.cs</name>
+  </compound>
+  <compound refid="_operacao_8cs" kind="file"><name>Operacao.cs</name>
+  </compound>
+  <compound refid="_pessoa_8cs" kind="file"><name>Pessoa.cs</name>
+  </compound>
+  <compound refid="_produto_8cs" kind="file"><name>Produto.cs</name>
+  </compound>
+  <compound refid="_utilizador_8cs" kind="file"><name>Utilizador.cs</name>
+  </compound>
+  <compound refid="_venda_8cs" kind="file"><name>Venda.cs</name>
+  </compound>
+  <compound refid="_regras_armazem_8cs" kind="file"><name>RegrasArmazem.cs</name>
+  </compound>
+  <compound refid="_regras_compras_8cs" kind="file"><name>RegrasCompras.cs</name>
+  </compound>
+  <compound refid="_regras_fornecedores_8cs" kind="file"><name>RegrasFornecedores.cs</name>
+  </compound>
+  <compound refid="_regras_utilizadores_8cs" kind="file"><name>RegrasUtilizadores.cs</name>
+  </compound>
+  <compound refid="_regras_vendas_8cs" kind="file"><name>RegrasVendas.cs</name>
+  </compound>
+  <compound refid="_verificacoes_8cs" kind="file"><name>Verificacoes.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_global_usings_8cs" kind="file"><name>GlobalUsings.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_testes_unitarios_8_assembly_info_8cs" kind="file"><name>TestesUnitarios.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_testes_unitarios_8_global_usings_8g_8cs" kind="file"><name>TestesUnitarios.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_testes_dados_8cs" kind="file"><name>TestesDados.cs</name>
+  </compound>
+  <compound refid="dir_76dc60d87c53aeb515a932b0005cc7e1" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados</name>
+  </compound>
+  <compound refid="dir_84b2014bc4c540aa3024641696fa764e" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/obj/Debug</name>
+  </compound>
+  <compound refid="dir_dc9dbe048c3ad29c17aa2e4273c9454f" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/obj/Debug</name>
+  </compound>
+  <compound refid="dir_44bfafe1316a59b8480d8650881d7706" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/obj/Debug</name>
+  </compound>
+  <compound refid="dir_0d90192a5adfcbad0dbe2cfa9abb0f8d" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/obj/Debug</name>
+  </compound>
+  <compound refid="dir_02a8e42ac47ca600b10f6938293840e7" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/obj/Debug</name>
+  </compound>
+  <compound refid="dir_7fc8a037e2257a05d2fdc248da00a5ec" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/obj/Debug</name>
+  </compound>
+  <compound refid="dir_0b424e62134537660cfdc424facc6fff" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Programa/GereLoja/obj/Debug</name>
+  </compound>
+  <compound refid="dir_b658d024e6d6180adfb3febcf3848a5b" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/obj/Debug</name>
+  </compound>
+  <compound refid="dir_c80403da6073519da03706fbf1403ef3" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs</name>
+  </compound>
+  <compound refid="dir_364fbcc050528f14a4aaee0952bd8582" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes</name>
+  </compound>
+  <compound refid="dir_8f7af58779f78d078713efc7fd05dee5" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend</name>
+  </compound>
+  <compound refid="dir_9080c70cf8a28142028b97ece4b56cfe" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Programa/GereLoja</name>
+  </compound>
+  <compound refid="dir_d47c4703283e994c3e8d86abbefc43ff" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_865f624dbc142def71193077b061b7e9" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/obj</name>
+  </compound>
+  <compound refid="dir_dcb7925996cd935fcf699238d98cdb19" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/obj</name>
+  </compound>
+  <compound refid="dir_b3a6a72cfc680224e7353aea3dcd4f02" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/obj</name>
+  </compound>
+  <compound refid="dir_690bc56cd9e37abe1d58e6b90bca1dff" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/obj</name>
+  </compound>
+  <compound refid="dir_c2366eaa0cfc994dd63738ee9c4d7199" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/obj</name>
+  </compound>
+  <compound refid="dir_4242f2e15679cc78d6d02fdda969d94f" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/obj</name>
+  </compound>
+  <compound refid="dir_38e2d12d909c632c4ad36a5bb4f6f6b6" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Programa/GereLoja/obj</name>
+  </compound>
+  <compound refid="dir_135808a2793c882be157e76cf15c4495" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/obj</name>
+  </compound>
+  <compound refid="dir_cfe516ee0620cd88a752bb1f3654cc9b" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio</name>
+  </compound>
+  <compound refid="dir_b95cfa88e914f69965fad8464792e603" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Programa</name>
+  </compound>
+  <compound refid="dir_ba182296a953d5e0c76ac1a5a12fba3b" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO</name>
+  </compound>
+  <compound refid="dir_fae5915f9c5d6b0b4b1bb3a0fb17cbe7" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Properties</name>
+  </compound>
+  <compound refid="dir_75906188c62c51db3c84c21558b03802" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/Properties</name>
+  </compound>
+  <compound refid="dir_297a3fd548853d1b994e3e8bf0c53f25" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend/Properties</name>
+  </compound>
+  <compound refid="dir_e15250636f86d3d110fb07c60d3ef386" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Properties</name>
+  </compound>
+  <compound refid="dir_9f7ace44c9ccf25162977690d55ec0a2" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/Properties</name>
+  </compound>
+  <compound refid="dir_46f9b2229ae19f0d640d8e5a8d00e0f1" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes/Properties</name>
+  </compound>
+  <compound refid="dir_9143c3cd1b5056e84277645080360964" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Programa/GereLoja/Properties</name>
+  </compound>
+  <compound refid="dir_8a468ad2e25e389a8d8d7d2c2a9fafb8" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio</name>
+  </compound>
+  <compound refid="dir_2baa3a3e8a66d75fdad148684b4cd5af" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes</name>
+  </compound>
+  <compound refid="dir_63cd502fea7ddd3d4f8ddb017bc13de6" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios</name>
+  </compound>
+  <compound refid="dir_00d7ca9d56e723a0f76fd3885c960ff4" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006</name>
+  </compound>
+  <compound refid="dir_d69e5d16db264cb1dd2c280dbc4b665c" kind="dir"><name>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes</name>
+  </compound>
+</doxygenindex>

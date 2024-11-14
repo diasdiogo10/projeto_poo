@@ -1,0 +1,253 @@
+.TH "ObjetosNegocio.Produto" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ObjetosNegocio.Produto \- Purpose: Classe de Produto Created by: Diogo Created on: 06/12/2023 23:11:28\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBObjetosNegocio\&.IProduto\fP, and IComparable< Produto >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBProduto\fP ()"
+.br
+.RI "Construtor de classe por defeito\&. "
+.ti -1c
+.RI "\fBProduto\fP (string nome, double preco, \fBCategoria\fP cat, \fBMarca\fP mar)"
+.br
+.RI "Construtor de classe com os atributos declarados\&. "
+.ti -1c
+.RI "override bool \fBEquals\fP (object obj)"
+.br
+.RI "Compara 2 objetos\&. "
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.RI "Devolve uma string com todos os atributos de um produto\&. "
+.ti -1c
+.RI "int \fBCompareTo\fP (\fBProduto\fP p)"
+.br
+.RI "Compara 2 produtos e é útil para utilizar o \&.Sort na classe de produtos\&. "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBoperator==\fP (\fBProduto\fP p1, \fBProduto\fP p2)"
+.br
+.RI "Compara a igualdade de dois produtos através dos seus parâmetros\&. "
+.ti -1c
+.RI "static bool \fBoperator!=\fP (\fBProduto\fP p1, \fBProduto\fP p2)"
+.br
+.RI "Compara a diferenciabilidade de dois produtos através dos seus parâmetros\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "int \fBRefProd\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para referencia de produto\&. "
+.ti -1c
+.RI "int \fBQuantidade\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para quantidade do produto\&. "
+.ti -1c
+.RI "string \fBNome\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para nome\&. "
+.ti -1c
+.RI "double \fBPreco\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para preco\&. "
+.ti -1c
+.RI "\fBCategoria\fP \fBCat\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para categoria do produto\&. "
+.ti -1c
+.RI "\fBMarca\fP \fBMar\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para marca do produto\&. "
+.in -1c
+
+Properties inherited from \fBObjetosNegocio\&.IProduto\fP
+.in +1c
+.ti -1c
+.RI "int \fBRefProd\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para referencia de produto\&. "
+.ti -1c
+.RI "int \fBQuantidade\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para quantidade do produto\&. "
+.ti -1c
+.RI "string \fBNome\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para nome\&. "
+.ti -1c
+.RI "double \fBPreco\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para preco\&. "
+.ti -1c
+.RI "\fBCategoria\fP \fBCat\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para categoria do produto\&. "
+.ti -1c
+.RI "\fBMarca\fP \fBMar\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para marca do produto\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Classe de Produto Created by: Diogo Created on: 06/12/2023 23:11:28\&. 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ObjetosNegocio\&.Produto\&.Produto ()"
+
+.PP
+Construtor de classe por defeito\&. 
+.SS "ObjetosNegocio\&.Produto\&.Produto (string nome, double preco, \fBCategoria\fP cat, \fBMarca\fP mar)"
+
+.PP
+Construtor de classe com os atributos declarados\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInome\fP nome do produto
+.br
+\fIpreco\fP preco do produto
+.br
+\fIcat\fP categoria do produto
+.br
+\fImar\fP marca do produto
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "int ObjetosNegocio\&.Produto\&.CompareTo (\fBProduto\fP p)"
+
+.PP
+Compara 2 produtos e é útil para utilizar o \&.Sort na classe de produtos\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIp\fP produto
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "override bool ObjetosNegocio\&.Produto\&.Equals (object obj)"
+
+.PP
+Compara 2 objetos\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIobj\fP objeto
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for igual ou não
+.RE
+.PP
+
+.SS "static bool ObjetosNegocio\&.Produto\&.operator!= (\fBProduto\fP p1, \fBProduto\fP p2)\fC [static]\fP"
+
+.PP
+Compara a diferenciabilidade de dois produtos através dos seus parâmetros\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIp1\fP produto 1
+.br
+\fIp2\fP produto 2
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for igual ou não
+.RE
+.PP
+
+.SS "static bool ObjetosNegocio\&.Produto\&.operator== (\fBProduto\fP p1, \fBProduto\fP p2)\fC [static]\fP"
+
+.PP
+Compara a igualdade de dois produtos através dos seus parâmetros\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIp1\fP produto 1
+.br
+\fIp2\fP produto 2
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for igual ou não
+.RE
+.PP
+
+.SS "override string ObjetosNegocio\&.Produto\&.ToString ()"
+
+.PP
+Devolve uma string com todos os atributos de um produto\&. 
+.PP
+\fBReturns\fP
+.RS 4
+string final
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "\fBCategoria\fP ObjetosNegocio\&.Produto\&.Cat\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para categoria do produto\&. 
+.PP
+Implements \fBObjetosNegocio\&.IProduto\fP\&.
+.SS "\fBMarca\fP ObjetosNegocio\&.Produto\&.Mar\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para marca do produto\&. 
+.PP
+Implements \fBObjetosNegocio\&.IProduto\fP\&.
+.SS "string ObjetosNegocio\&.Produto\&.Nome\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para nome\&. 
+.PP
+Implements \fBObjetosNegocio\&.IProduto\fP\&.
+.SS "double ObjetosNegocio\&.Produto\&.Preco\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para preco\&. 
+.PP
+Implements \fBObjetosNegocio\&.IProduto\fP\&.
+.SS "int ObjetosNegocio\&.Produto\&.Quantidade\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para quantidade do produto\&. 
+.PP
+Implements \fBObjetosNegocio\&.IProduto\fP\&.
+.SS "int ObjetosNegocio\&.Produto\&.RefProd\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para referencia de produto\&. 
+.PP
+Implements \fBObjetosNegocio\&.IProduto\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

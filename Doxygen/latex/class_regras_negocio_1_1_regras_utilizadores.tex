@@ -1,0 +1,273 @@
+\hypertarget{class_regras_negocio_1_1_regras_utilizadores}{}\doxysection{Regras\+Negocio.\+Regras\+Utilizadores Class Reference}
+\label{class_regras_negocio_1_1_regras_utilizadores}\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+
+
+Purpose\+: Created by\+: Diogo Created on\+: 09/12/2023 00\+:23\+:58.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_abff06fbd66f3431910b14d126cb41202}{Existe\+Email}} (string email)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um email igual no sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_ac6c282ea523c2088573e7e36e930e9a2}{Existe\+Conta}} (string email, string password)
+\begin{DoxyCompactList}\small\item\em Verifica se existe um utiizador com aqueles dados no sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_af0149628b92330ffb8065d65fead880e}{Quantidade\+Utilizadores}} (out int contador)
+\begin{DoxyCompactList}\small\item\em Obtém a quantidade de utilizadores no sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_abe37d0b953b138fadbb848f5f9f02377}{Lista\+Utilizadores}} (out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}} $>$ util)
+\begin{DoxyCompactList}\small\item\em Obtém todos os utilizadores do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_ae47e1c6c5378dee739a0080f8a696f2a}{Inserir\+Utilizador}} (\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}} util)
+\begin{DoxyCompactList}\small\item\em Insere um utilizador na lista de utilizadores do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_a23a29909f979ec1e29fb7c10a9c3ef61}{Remover\+Utilizador}} (string email)
+\begin{DoxyCompactList}\small\item\em Remove um utilizador do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_a08714c17a9429a9b106f679c4f043699}{Alterar\+Email}} (string antigo\+Email, string password, string novo\+Email)
+\begin{DoxyCompactList}\small\item\em Altera um email de um utilizador do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_accc098f46c52ba0fc8139f60c0b2b526}{Alterar\+Password}} (string email, string antiga\+Password, string nova\+Password)
+\begin{DoxyCompactList}\small\item\em Altera uma password de um utilizador do sistema. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_a8df34787abc7f65d138bb8d4864f85a6}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_regras_negocio_1_1_regras_utilizadores_af2983ab1631af3f86b45db595c2c8125}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Created by\+: Diogo Created on\+: 09/12/2023 00\+:23\+:58. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_a08714c17a9429a9b106f679c4f043699}\label{class_regras_negocio_1_1_regras_utilizadores_a08714c17a9429a9b106f679c4f043699}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!AlterarEmail@{AlterarEmail}}
+\index{AlterarEmail@{AlterarEmail}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{AlterarEmail()}{AlterarEmail()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Alterar\+Email (\begin{DoxyParamCaption}\item[{string}]{antigo\+Email,  }\item[{string}]{password,  }\item[{string}]{novo\+Email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Altera um email de um utilizador do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em antigo\+Email} & email antigo\\
+\hline
+{\em password} & passowrd\\
+\hline
+{\em novo\+Email} & novo email\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Utilizadores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_accc098f46c52ba0fc8139f60c0b2b526}\label{class_regras_negocio_1_1_regras_utilizadores_accc098f46c52ba0fc8139f60c0b2b526}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!AlterarPassword@{AlterarPassword}}
+\index{AlterarPassword@{AlterarPassword}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{AlterarPassword()}{AlterarPassword()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Alterar\+Password (\begin{DoxyParamCaption}\item[{string}]{email,  }\item[{string}]{antiga\+Password,  }\item[{string}]{nova\+Password }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Altera uma password de um utilizador do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & \\
+\hline
+{\em antiga\+Password} & \\
+\hline
+{\em nova\+Password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Utilizadores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_af2983ab1631af3f86b45db595c2c8125}\label{class_regras_negocio_1_1_regras_utilizadores_af2983ab1631af3f86b45db595c2c8125}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Utilizadores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_ac6c282ea523c2088573e7e36e930e9a2}\label{class_regras_negocio_1_1_regras_utilizadores_ac6c282ea523c2088573e7e36e930e9a2}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!ExisteConta@{ExisteConta}}
+\index{ExisteConta@{ExisteConta}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{ExisteConta()}{ExisteConta()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Existe\+Conta (\begin{DoxyParamCaption}\item[{string}]{email,  }\item[{string}]{password }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um utiizador com aqueles dados no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & email\\
+\hline
+{\em password} & password\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existir ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Utilizadores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_abff06fbd66f3431910b14d126cb41202}\label{class_regras_negocio_1_1_regras_utilizadores_abff06fbd66f3431910b14d126cb41202}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!ExisteEmail@{ExisteEmail}}
+\index{ExisteEmail@{ExisteEmail}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{ExisteEmail()}{ExisteEmail()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Existe\+Email (\begin{DoxyParamCaption}\item[{string}]{email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se existe um email igual no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & email\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existir ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Utilizadores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_ae47e1c6c5378dee739a0080f8a696f2a}\label{class_regras_negocio_1_1_regras_utilizadores_ae47e1c6c5378dee739a0080f8a696f2a}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!InserirUtilizador@{InserirUtilizador}}
+\index{InserirUtilizador@{InserirUtilizador}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{InserirUtilizador()}{InserirUtilizador()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Inserir\+Utilizador (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}}}]{util }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um utilizador na lista de utilizadores do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em util} & utilizador\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Utilizadores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_abe37d0b953b138fadbb848f5f9f02377}\label{class_regras_negocio_1_1_regras_utilizadores_abe37d0b953b138fadbb848f5f9f02377}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!ListaUtilizadores@{ListaUtilizadores}}
+\index{ListaUtilizadores@{ListaUtilizadores}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{ListaUtilizadores()}{ListaUtilizadores()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Lista\+Utilizadores (\begin{DoxyParamCaption}\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_utilizador}{Utilizador}} $>$}]{util }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém todos os utilizadores do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em util} & utilizadores do sistema\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_af0149628b92330ffb8065d65fead880e}\label{class_regras_negocio_1_1_regras_utilizadores_af0149628b92330ffb8065d65fead880e}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!QuantidadeUtilizadores@{QuantidadeUtilizadores}}
+\index{QuantidadeUtilizadores@{QuantidadeUtilizadores}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{QuantidadeUtilizadores()}{QuantidadeUtilizadores()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Quantidade\+Utilizadores (\begin{DoxyParamCaption}\item[{out int}]{contador }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Obtém a quantidade de utilizadores no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contador} & quantidade de utilizadores\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_a23a29909f979ec1e29fb7c10a9c3ef61}\label{class_regras_negocio_1_1_regras_utilizadores_a23a29909f979ec1e29fb7c10a9c3ef61}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!RemoverUtilizador@{RemoverUtilizador}}
+\index{RemoverUtilizador@{RemoverUtilizador}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{RemoverUtilizador()}{RemoverUtilizador()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Remover\+Utilizador (\begin{DoxyParamCaption}\item[{string}]{email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um utilizador do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & email\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Utilizadores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_regras_negocio_1_1_regras_utilizadores_a8df34787abc7f65d138bb8d4864f85a6}\label{class_regras_negocio_1_1_regras_utilizadores_a8df34787abc7f65d138bb8d4864f85a6}} 
+\index{RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!RegrasNegocio.RegrasUtilizadores@{RegrasNegocio.RegrasUtilizadores}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Regras\+Negocio.\+Regras\+Utilizadores.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Utilizadores\+Excecoes} & possivel exceção lançada\\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Regras\+Negocio/\mbox{\hyperlink{_regras_utilizadores_8cs}{Regras\+Utilizadores.\+cs}}\end{DoxyCompactItemize}

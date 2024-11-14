@@ -1,0 +1,336 @@
+\hypertarget{class_dados_1_1_armazem}{}\doxysection{Dados.\+Armazem Class Reference}
+\label{class_dados_1_1_armazem}\index{Dados.Armazem@{Dados.Armazem}}
+
+
+Purpose\+: Created by\+: Diogo Created on\+: 06/12/2023 23\+:09\+:36.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_armazem_a8084833bd9670e1bdde85b4e6fd697f2}{Armazem}} ()
+\begin{DoxyCompactList}\small\item\em Construtor de classe por defeito. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_armazem_afa30938912a97b2628a0adb6b189366c}{Armazem}} (\mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} localizacao)
+\begin{DoxyCompactList}\small\item\em Construtor de classe com atributos declarados. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_adc9bf97a23329bee43b503d1976fe941}{Existe\+Produto\+Armazem}} (int ref\+Prod)
+\begin{DoxyCompactList}\small\item\em Verifica se um produto existe. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_ae2cb45c983d222c8eb895b42b6c457f8}{Quantidade\+Produto\+Armazem}} (int ref\+Prod, out int contador)
+\begin{DoxyCompactList}\small\item\em Procura a quantidade de um produto. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_a25bbb61a0089fb5e7b9f995550ca617c}{Produtos\+Marca\+Armazem}} (string marca, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$ p)
+\begin{DoxyCompactList}\small\item\em Procura todos os produtos de uma marca. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_a288af38bd046f91338de5964ad81cf0b}{Produtos\+Categoria\+Armazem}} (string categoria, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$ p)
+\begin{DoxyCompactList}\small\item\em Procura todos os produtos de uma categoria. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_a3d689b8861f1b0511445ed5b7b2b3016}{Produtos\+Marca\+Categoria\+Armazem}} (string marca, string categoria, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$ p)
+\begin{DoxyCompactList}\small\item\em Procura todos os produtos de uma marca e categoria. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_a9e3b16631b8525aecd756a493b53ec8d}{Acrescentar\+Produtos\+Armazem}} (int ref\+Prod, int quantidade)
+\begin{DoxyCompactList}\small\item\em Acrescenta produtos \char`\"{}fisicamente\char`\"{} no armazém. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_aefc34c0532d7341798fc29711b1c5243}{Retirar\+Produtos\+Armazem}} (int ref\+Prod, int quantidade)
+\begin{DoxyCompactList}\small\item\em Retira produtos \char`\"{}fiscamente\char`\"{} no armazém. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_aea2e444fc120e0b0a41ccd52710d1c07}{Inserir\+Produto\+Armazem}} (\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} produto)
+\begin{DoxyCompactList}\small\item\em Insere um produto nos dados do armazem. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_aa7c74d0bef9d7e8aa8a7bc4f7b5a98e6}{Remover\+Produto\+Armazem}} (int ref\+Prod)
+\begin{DoxyCompactList}\small\item\em Remove um produto dos dados do armazem. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_a32adab5112b3ac0176e15cd44cc0431b}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_armazem_a11d872f44b324676d9e2898f7ac882a1}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} \mbox{\hyperlink{class_dados_1_1_armazem_a7a18fde73c080a7fd772c97cc6995f1e}{Localizacao}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para localizacao de um armazém. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$ \mbox{\hyperlink{class_dados_1_1_armazem_ad0c820dc8a743d62eb406e7ed454a2ea}{Produtos}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para lista de produto(produtos) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Created by\+: Diogo Created on\+: 06/12/2023 23\+:09\+:36. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_dados_1_1_armazem_a8084833bd9670e1bdde85b4e6fd697f2}\label{class_dados_1_1_armazem_a8084833bd9670e1bdde85b4e6fd697f2}} 
+\index{Dados.Armazem@{Dados.Armazem}!Armazem@{Armazem}}
+\index{Armazem@{Armazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{Armazem()}{Armazem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Dados.\+Armazem.\+Armazem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construtor de classe por defeito. 
+
+\mbox{\Hypertarget{class_dados_1_1_armazem_afa30938912a97b2628a0adb6b189366c}\label{class_dados_1_1_armazem_afa30938912a97b2628a0adb6b189366c}} 
+\index{Dados.Armazem@{Dados.Armazem}!Armazem@{Armazem}}
+\index{Armazem@{Armazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{Armazem()}{Armazem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Dados.\+Armazem.\+Armazem (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}}}]{localizacao }\end{DoxyParamCaption})}
+
+
+
+Construtor de classe com atributos declarados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em localizacao} & localizacao para a criacao do objeto\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_dados_1_1_armazem_a9e3b16631b8525aecd756a493b53ec8d}\label{class_dados_1_1_armazem_a9e3b16631b8525aecd756a493b53ec8d}} 
+\index{Dados.Armazem@{Dados.Armazem}!AcrescentarProdutosArmazem@{AcrescentarProdutosArmazem}}
+\index{AcrescentarProdutosArmazem@{AcrescentarProdutosArmazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{AcrescentarProdutosArmazem()}{AcrescentarProdutosArmazem()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Acrescentar\+Produtos\+Armazem (\begin{DoxyParamCaption}\item[{int}]{ref\+Prod,  }\item[{int}]{quantidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Acrescenta produtos \char`\"{}fisicamente\char`\"{} no armazém. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ref\+Prod} & referência do produto\\
+\hline
+{\em quantidade} & quantidade que queremos acrescentar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_armazem_a11d872f44b324676d9e2898f7ac882a1}\label{class_dados_1_1_armazem_a11d872f44b324676d9e2898f7ac882a1}} 
+\index{Dados.Armazem@{Dados.Armazem}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & possivel exceção lancada\\
+\hline
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_dados_1_1_armazem_adc9bf97a23329bee43b503d1976fe941}\label{class_dados_1_1_armazem_adc9bf97a23329bee43b503d1976fe941}} 
+\index{Dados.Armazem@{Dados.Armazem}!ExisteProdutoArmazem@{ExisteProdutoArmazem}}
+\index{ExisteProdutoArmazem@{ExisteProdutoArmazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{ExisteProdutoArmazem()}{ExisteProdutoArmazem()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Existe\+Produto\+Armazem (\begin{DoxyParamCaption}\item[{int}]{ref\+Prod }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Verifica se um produto existe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ref\+Prod} & referência de produto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se existe ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_armazem_aea2e444fc120e0b0a41ccd52710d1c07}\label{class_dados_1_1_armazem_aea2e444fc120e0b0a41ccd52710d1c07}} 
+\index{Dados.Armazem@{Dados.Armazem}!InserirProdutoArmazem@{InserirProdutoArmazem}}
+\index{InserirProdutoArmazem@{InserirProdutoArmazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{InserirProdutoArmazem()}{InserirProdutoArmazem()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Inserir\+Produto\+Armazem (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}}]{produto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere um produto nos dados do armazem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em produto} & produto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_armazem_a288af38bd046f91338de5964ad81cf0b}\label{class_dados_1_1_armazem_a288af38bd046f91338de5964ad81cf0b}} 
+\index{Dados.Armazem@{Dados.Armazem}!ProdutosCategoriaArmazem@{ProdutosCategoriaArmazem}}
+\index{ProdutosCategoriaArmazem@{ProdutosCategoriaArmazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{ProdutosCategoriaArmazem()}{ProdutosCategoriaArmazem()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Produtos\+Categoria\+Armazem (\begin{DoxyParamCaption}\item[{string}]{categoria,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todos os produtos de uma categoria. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em categoria} & categoria\\
+\hline
+{\em p} & produtos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_armazem_a25bbb61a0089fb5e7b9f995550ca617c}\label{class_dados_1_1_armazem_a25bbb61a0089fb5e7b9f995550ca617c}} 
+\index{Dados.Armazem@{Dados.Armazem}!ProdutosMarcaArmazem@{ProdutosMarcaArmazem}}
+\index{ProdutosMarcaArmazem@{ProdutosMarcaArmazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{ProdutosMarcaArmazem()}{ProdutosMarcaArmazem()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Produtos\+Marca\+Armazem (\begin{DoxyParamCaption}\item[{string}]{marca,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todos os produtos de uma marca. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em marca} & marca\\
+\hline
+{\em p} & produtos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_armazem_a3d689b8861f1b0511445ed5b7b2b3016}\label{class_dados_1_1_armazem_a3d689b8861f1b0511445ed5b7b2b3016}} 
+\index{Dados.Armazem@{Dados.Armazem}!ProdutosMarcaCategoriaArmazem@{ProdutosMarcaCategoriaArmazem}}
+\index{ProdutosMarcaCategoriaArmazem@{ProdutosMarcaCategoriaArmazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{ProdutosMarcaCategoriaArmazem()}{ProdutosMarcaCategoriaArmazem()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Produtos\+Marca\+Categoria\+Armazem (\begin{DoxyParamCaption}\item[{string}]{marca,  }\item[{string}]{categoria,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} $>$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todos os produtos de uma marca e categoria. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em marca} & marca\\
+\hline
+{\em categoria} & categoria\\
+\hline
+{\em p} & produtos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_armazem_ae2cb45c983d222c8eb895b42b6c457f8}\label{class_dados_1_1_armazem_ae2cb45c983d222c8eb895b42b6c457f8}} 
+\index{Dados.Armazem@{Dados.Armazem}!QuantidadeProdutoArmazem@{QuantidadeProdutoArmazem}}
+\index{QuantidadeProdutoArmazem@{QuantidadeProdutoArmazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{QuantidadeProdutoArmazem()}{QuantidadeProdutoArmazem()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Quantidade\+Produto\+Armazem (\begin{DoxyParamCaption}\item[{int}]{ref\+Prod,  }\item[{out int}]{contador }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura a quantidade de um produto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ref\+Prod} & referencia de produto\\
+\hline
+{\em contador} & quantidade\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_armazem_aa7c74d0bef9d7e8aa8a7bc4f7b5a98e6}\label{class_dados_1_1_armazem_aa7c74d0bef9d7e8aa8a7bc4f7b5a98e6}} 
+\index{Dados.Armazem@{Dados.Armazem}!RemoverProdutoArmazem@{RemoverProdutoArmazem}}
+\index{RemoverProdutoArmazem@{RemoverProdutoArmazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{RemoverProdutoArmazem()}{RemoverProdutoArmazem()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Remover\+Produto\+Armazem (\begin{DoxyParamCaption}\item[{int}]{ref\+Prod }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove um produto dos dados do armazem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ref\+Prod} & referencia de produto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_armazem_aefc34c0532d7341798fc29711b1c5243}\label{class_dados_1_1_armazem_aefc34c0532d7341798fc29711b1c5243}} 
+\index{Dados.Armazem@{Dados.Armazem}!RetirarProdutosArmazem@{RetirarProdutosArmazem}}
+\index{RetirarProdutosArmazem@{RetirarProdutosArmazem}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{RetirarProdutosArmazem()}{RetirarProdutosArmazem()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Retirar\+Produtos\+Armazem (\begin{DoxyParamCaption}\item[{int}]{ref\+Prod,  }\item[{int}]{quantidade }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Retira produtos \char`\"{}fiscamente\char`\"{} no armazém. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ref\+Prod} & referência do produto\\
+\hline
+{\em quantidade} & quantidade que queremos acrescentar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_armazem_a32adab5112b3ac0176e15cd44cc0431b}\label{class_dados_1_1_armazem_a32adab5112b3ac0176e15cd44cc0431b}} 
+\index{Dados.Armazem@{Dados.Armazem}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Armazem.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\texorpdfstring{$<$}{<}exception cref=\char`\"{}\+IOException\char`\"{}possivel exceção lancada\texorpdfstring{$>$}{>}
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_dados_1_1_armazem_a7a18fde73c080a7fd772c97cc6995f1e}\label{class_dados_1_1_armazem_a7a18fde73c080a7fd772c97cc6995f1e}} 
+\index{Dados.Armazem@{Dados.Armazem}!Localizacao@{Localizacao}}
+\index{Localizacao@{Localizacao}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{Localizacao}{Localizacao}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} Dados.\+Armazem.\+Localizacao\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para localizacao de um armazém. 
+
+\mbox{\Hypertarget{class_dados_1_1_armazem_ad0c820dc8a743d62eb406e7ed454a2ea}\label{class_dados_1_1_armazem_ad0c820dc8a743d62eb406e7ed454a2ea}} 
+\index{Dados.Armazem@{Dados.Armazem}!Produtos@{Produtos}}
+\index{Produtos@{Produtos}!Dados.Armazem@{Dados.Armazem}}
+\doxysubsubsection{\texorpdfstring{Produtos}{Produtos}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}$>$ Dados.\+Armazem.\+Produtos\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Propriedade para lista de produto(produtos) 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Dados/\mbox{\hyperlink{_armazem_8cs}{Armazem.\+cs}}\end{DoxyCompactItemize}

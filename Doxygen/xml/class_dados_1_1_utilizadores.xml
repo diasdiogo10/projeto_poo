@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_dados_1_1_utilizadores" kind="class" language="C#" prot="public">
+    <compoundname>Dados::Utilizadores</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dados_1_1_utilizadores_1af841741894af6db2e4c3ea1a9919407b" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref> &gt;</type>
+        <definition>List&lt;Utilizador&gt; Dados.Utilizadores.users</definition>
+        <argsstring></argsstring>
+        <name>users</name>
+        <qualifiedname>Dados.Utilizadores.users</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="31" column="21" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dados_1_1_utilizadores_1a6a45c4987f31cdb2d5cf7e4a73479dce" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref> &gt;</type>
+        <definition>List&lt;Utilizador&gt; Dados.Utilizadores.Users</definition>
+        <argsstring></argsstring>
+        <name>Users</name>
+        <qualifiedname>Dados.Utilizadores.Users</qualifiedname>
+        <briefdescription>
+<para>Propriedade para utilizadores. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="54" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="55" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_dados_1_1_utilizadores_1a279f18ff4fa48b75c212235fd5c1ce6f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Dados.Utilizadores.Utilizadores</definition>
+        <argsstring>()</argsstring>
+        <name>Utilizadores</name>
+        <qualifiedname>Dados.Utilizadores.Utilizadores</qualifiedname>
+        <briefdescription>
+<para>Construtor estátitoc para utilizadores. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="42" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dados_1_1_utilizadores_1a746af8250d3f816bc5d782cf5b0107f9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Utilizadores.ExisteEmailSistema</definition>
+        <argsstring>(string email)</argsstring>
+        <name>ExisteEmailSistema</name>
+        <qualifiedname>Dados.Utilizadores.ExisteEmailSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um email igual no sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existir ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="74" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="74" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_utilizadores_1a79e220dbc5f721d453275a5e54fbffb5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Utilizadores.ExisteContaSistema</definition>
+        <argsstring>(string email, string password)</argsstring>
+        <name>ExisteContaSistema</name>
+        <qualifiedname>Dados.Utilizadores.ExisteContaSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um utiizador com aqueles dados no sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existir ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="89" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_utilizadores_1a740ab06891ecd7ac71c838657b1686a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Utilizadores.InserirUtilizadorSistema</definition>
+        <argsstring>(Utilizador util)</argsstring>
+        <name>InserirUtilizadorSistema</name>
+        <qualifiedname>Dados.Utilizadores.InserirUtilizadorSistema</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref></type>
+          <declname>util</declname>
+        </param>
+        <briefdescription>
+<para>Insere um utilizador na lista de utilizadores do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>util</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>utilizador</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="103" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="103" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_utilizadores_1a66542458633cbb9a207c656459095d4b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Utilizadores.RemoverUtilizadorSistema</definition>
+        <argsstring>(string email)</argsstring>
+        <name>RemoverUtilizadorSistema</name>
+        <qualifiedname>Dados.Utilizadores.RemoverUtilizadorSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para>Remove um utilizador do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="119" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="119" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_utilizadores_1a9fafae19547bfc190092157ea7299850" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Utilizadores.AlterarEmailSistema</definition>
+        <argsstring>(string antigoEmail, string password, string novoEmail)</argsstring>
+        <name>AlterarEmailSistema</name>
+        <qualifiedname>Dados.Utilizadores.AlterarEmailSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>antigoEmail</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>novoEmail</declname>
+        </param>
+        <briefdescription>
+<para>Altera um email de um utilizador do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>antigoEmail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email antigo</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>passowrd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novoEmail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>novo email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="141" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="141" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_utilizadores_1a130846b12919b61fa667b54d78776825" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Utilizadores.AlterarPasswordSistema</definition>
+        <argsstring>(string email, string antigaPassword, string novaPassword)</argsstring>
+        <name>AlterarPasswordSistema</name>
+        <qualifiedname>Dados.Utilizadores.AlterarPasswordSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>antigaPassword</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>novaPassword</declname>
+        </param>
+        <briefdescription>
+<para>Altera uma password de um utilizador do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>antigaPassword</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novaPassword</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="160" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="160" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_utilizadores_1a373026104d19a4d78c724ef405a02b16" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Utilizadores.SalvarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDados</name>
+        <qualifiedname>Dados.Utilizadores.SalvarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Salva os dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+&lt;exception cref=&quot;IOException&quot;possivel exceção lancada&gt;</para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="180" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="180" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_utilizadores_1abbda4458525988c7efa656a2a1a54495" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Utilizadores.CarregarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDados</name>
+        <qualifiedname>Dados.Utilizadores.CarregarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os dados para o programa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="207" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="207" bodyend="229"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de utilizadores Created by: Diogo Created on: 06/12/2023 23:09:52. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" line="27" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Utilizadores.cs" bodystart="28" bodyend="236"/>
+    <listofallmembers>
+      <member refid="class_dados_1_1_utilizadores_1a9fafae19547bfc190092157ea7299850" prot="public" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>AlterarEmailSistema</name></member>
+      <member refid="class_dados_1_1_utilizadores_1a130846b12919b61fa667b54d78776825" prot="public" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>AlterarPasswordSistema</name></member>
+      <member refid="class_dados_1_1_utilizadores_1abbda4458525988c7efa656a2a1a54495" prot="public" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>CarregarDados</name></member>
+      <member refid="class_dados_1_1_utilizadores_1a79e220dbc5f721d453275a5e54fbffb5" prot="public" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>ExisteContaSistema</name></member>
+      <member refid="class_dados_1_1_utilizadores_1a746af8250d3f816bc5d782cf5b0107f9" prot="public" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>ExisteEmailSistema</name></member>
+      <member refid="class_dados_1_1_utilizadores_1a740ab06891ecd7ac71c838657b1686a7" prot="public" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>InserirUtilizadorSistema</name></member>
+      <member refid="class_dados_1_1_utilizadores_1a66542458633cbb9a207c656459095d4b" prot="public" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>RemoverUtilizadorSistema</name></member>
+      <member refid="class_dados_1_1_utilizadores_1a373026104d19a4d78c724ef405a02b16" prot="public" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>SalvarDados</name></member>
+      <member refid="class_dados_1_1_utilizadores_1af841741894af6db2e4c3ea1a9919407b" prot="private" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>users</name></member>
+      <member refid="class_dados_1_1_utilizadores_1a6a45c4987f31cdb2d5cf7e4a73479dce" prot="public" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>Users</name></member>
+      <member refid="class_dados_1_1_utilizadores_1a279f18ff4fa48b75c212235fd5c1ce6f" prot="private" virt="non-virtual"><scope>Dados::Utilizadores</scope><name>Utilizadores</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

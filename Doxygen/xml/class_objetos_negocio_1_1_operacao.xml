@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_operacao" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>ObjetosNegocio::Operacao</compoundname>
+    <basecompoundref refid="interface_objetos_negocio_1_1_i_operacao" prot="public" virt="non-virtual">ObjetosNegocio.IOperacao</basecompoundref>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_compra" prot="public" virt="non-virtual">ObjetosNegocio.Compra</derivedcompoundref>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_venda" prot="public" virt="non-virtual">ObjetosNegocio.Venda</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_operacao_1adae78b58becd5c693360923046eb1eaf" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; int, int &gt;</type>
+        <definition>Dictionary&lt;int, int&gt; ObjetosNegocio.Operacao.prods</definition>
+        <argsstring></argsstring>
+        <name>prods</name>
+        <qualifiedname>ObjetosNegocio.Operacao.prods</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="28" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_operacao_1a9cc1205871d10af8c6b24290c8a35365" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Operacao.username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <qualifiedname>ObjetosNegocio.Operacao.username</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="29" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_operacao_1a8824b38afbe4ab3341683046b1799c1b" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Operacao.dataOp</definition>
+        <argsstring></argsstring>
+        <name>dataOp</name>
+        <qualifiedname>ObjetosNegocio.Operacao.dataOp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="30" column="18" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_operacao_1ae556173973778ef0f6af58058b4e183c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Operacao.DataOp</definition>
+        <argsstring></argsstring>
+        <name>DataOp</name>
+        <qualifiedname>ObjetosNegocio.Operacao.DataOp</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_operacao_1a508f6cf2020c388aa39c8e5a8bd1f1db">DataOp</reimplements>
+        <briefdescription>
+<para>Propriedade para data de venda. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="69" column="25" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_operacao_1ab5a8e940c7c638129ba623777680c7be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Operacao.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>ObjetosNegocio.Operacao.Username</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_operacao_1a89bc8f71dd4b5fefce545cbfe3b51b16">Username</reimplements>
+        <briefdescription>
+<para>Propriedade para username. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="78" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_operacao_1a27d97e02c189c294530d1b1051e512f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; int, int &gt;</type>
+        <definition>Dictionary&lt;int, int&gt; ObjetosNegocio.Operacao.Prods</definition>
+        <argsstring></argsstring>
+        <name>Prods</name>
+        <qualifiedname>ObjetosNegocio.Operacao.Prods</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_operacao_1ad75f77cdcfd7e8fd9b21764087f48565">Prods</reimplements>
+        <briefdescription>
+<para>Propriedade para produtos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="87" column="27" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_operacao_1af033914f92bb4e5386c5fc5c02368a43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Operacao.Operacao</definition>
+        <argsstring>()</argsstring>
+        <name>Operacao</name>
+        <qualifiedname>ObjetosNegocio.Operacao.Operacao</qualifiedname>
+        <briefdescription>
+<para>Construtor de classe por defeito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="41" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_operacao_1a8e14d0f977879a023f642b002543298c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Operacao.Operacao</definition>
+        <argsstring>(Dictionary&lt; int, int &gt; prods, string username, DateTime dataOp)</argsstring>
+        <name>Operacao</name>
+        <qualifiedname>ObjetosNegocio.Operacao.Operacao</qualifiedname>
+        <param>
+          <type>Dictionary&lt; int, int &gt;</type>
+          <declname>prods</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataOp</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com os parâmetros definidos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prods</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produtos</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>username</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataOp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data de operacao</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="54" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_operacao_1a92fc719408269ff498b3a8fae54b19a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract bool</type>
+        <definition>abstract bool ObjetosNegocio.Operacao.EmitirFatura</definition>
+        <argsstring>()</argsstring>
+        <name>EmitirFatura</name>
+        <qualifiedname>ObjetosNegocio.Operacao.EmitirFatura</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_compra_1ae81e12da5bc027d765938dd3d8f6060b">EmitirFatura</reimplementedby>
+        <reimplementedby refid="class_objetos_negocio_1_1_venda_1a0c0078cbedb65615fd6b1ea25a58b4aa">EmitirFatura</reimplementedby>
+        <briefdescription>
+<para>Emite uma fatura. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true ou false, dependendo se tudo correu bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="107" column="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: Diogo Created on: 29/12/2023 21:20:29. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IOperacao</label>
+        <link refid="interface_objetos_negocio_1_1_i_operacao"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Operacao</label>
+        <link refid="class_objetos_negocio_1_1_operacao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ObjetosNegocio.Compra</label>
+        <link refid="class_objetos_negocio_1_1_compra"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ObjetosNegocio.Venda</label>
+        <link refid="class_objetos_negocio_1_1_venda"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IOperacao</label>
+        <link refid="interface_objetos_negocio_1_1_i_operacao"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Operacao</label>
+        <link refid="class_objetos_negocio_1_1_operacao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" line="24" column="21" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Operacao.cs" bodystart="25" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_operacao_1a8824b38afbe4ab3341683046b1799c1b" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Operacao</scope><name>dataOp</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1ae556173973778ef0f6af58058b4e183c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Operacao</scope><name>DataOp</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1a92fc719408269ff498b3a8fae54b19a8" prot="public" virt="pure-virtual"><scope>ObjetosNegocio::Operacao</scope><name>EmitirFatura</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1af033914f92bb4e5386c5fc5c02368a43" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Operacao</scope><name>Operacao</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1a8e14d0f977879a023f642b002543298c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Operacao</scope><name>Operacao</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1adae78b58becd5c693360923046eb1eaf" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Operacao</scope><name>prods</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1a27d97e02c189c294530d1b1051e512f4" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Operacao</scope><name>Prods</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1a9cc1205871d10af8c6b24290c8a35365" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Operacao</scope><name>username</name></member>
+      <member refid="class_objetos_negocio_1_1_operacao_1ab5a8e940c7c638129ba623777680c7be" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Operacao</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

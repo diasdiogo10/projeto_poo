@@ -1,0 +1,14 @@
+var searchData=
+[
+  ['inicializarteste_0',['InicializarTeste',['../class_testes_unitarios_1_1_testes_dados.html#acfcd9d7e24b390aeb298b0dcea212ee9',1,'TestesUnitarios::TestesDados']]],
+  ['inicializartotprod_1',['InicializarTotProd',['../class_dados_1_1_fornecedores.html#ab4cc6589290eaedb5e01c291ecf4c4be',1,'Dados::Fornecedores']]],
+  ['inserircompra_2',['InserirCompra',['../class_dados_1_1_compras.html#ac54eb0c2a2fa35a2cfb3993068936c0a',1,'Dados.Compras.InserirCompra()'],['../class_frontend_1_1_i_o.html#abc0ac37a8c7a601f190bf1905cff9b8c',1,'Frontend.IO.InserirCompra()'],['../class_regras_negocio_1_1_regras_compras.html#a5158c8fdca4141f7f3d895dd35ce9854',1,'RegrasNegocio.RegrasCompras.InserirCompra()']]],
+  ['inserirfornecedor_3',['InserirFornecedor',['../class_regras_negocio_1_1_regras_fornecedores.html#a872add859cd27360ff91da5ce498007b',1,'RegrasNegocio::RegrasFornecedores']]],
+  ['inserirfornecedorsistema_4',['InserirFornecedorSistema',['../class_dados_1_1_fornecedores.html#a51e231c23a39204f9ed6c5b8badca0a2',1,'Dados.Fornecedores.InserirFornecedorSistema()'],['../class_frontend_1_1_i_o.html#ace6f75fd524a867f2b86e4049b248d86',1,'Frontend.IO.InserirFornecedorSistema()']]],
+  ['inserirproduto_5',['InserirProduto',['../class_regras_negocio_1_1_regras_armazem.html#a03e7a5badc69647db97d5b40d83b3451',1,'RegrasNegocio.RegrasArmazem.InserirProduto()'],['../class_regras_negocio_1_1_regras_fornecedores.html#a5ac3eab27e6afaaabfa831183a2f27cb',1,'RegrasNegocio.RegrasFornecedores.InserirProduto()']]],
+  ['inserirprodutoarmazem_6',['InserirProdutoArmazem',['../class_dados_1_1_armazem.html#aea2e444fc120e0b0a41ccd52710d1c07',1,'Dados.Armazem.InserirProdutoArmazem()'],['../class_frontend_1_1_i_o.html#ab20993d32f164dddf2f6eabd3bc69c09',1,'Frontend.IO.InserirProdutoArmazem()']]],
+  ['inserirprodutofornecedor_7',['InserirProdutoFornecedor',['../class_dados_1_1_fornecedores.html#acfce009e4d8769a48b7915666067b39e',1,'Dados.Fornecedores.InserirProdutoFornecedor()'],['../class_frontend_1_1_i_o.html#a54e742d18ee798ee021192af1ed79036',1,'Frontend.IO.InserirProdutoFornecedor()']]],
+  ['inserirutilizador_8',['InserirUtilizador',['../class_regras_negocio_1_1_regras_utilizadores.html#ae47e1c6c5378dee739a0080f8a696f2a',1,'RegrasNegocio::RegrasUtilizadores']]],
+  ['inserirutilizadorsistema_9',['InserirUtilizadorSistema',['../class_dados_1_1_utilizadores.html#a740ab06891ecd7ac71c838657b1686a7',1,'Dados.Utilizadores.InserirUtilizadorSistema()'],['../class_frontend_1_1_i_o.html#a2d97c1edb76fa03c44526000df8479f1',1,'Frontend.IO.InserirUtilizadorSistema()']]],
+  ['inserirvenda_10',['InserirVenda',['../class_dados_1_1_vendas.html#afe73a0297ca3cf8623dae5b1e0756d88',1,'Dados.Vendas.InserirVenda()'],['../class_frontend_1_1_i_o.html#a3421b081de36852eceb3253a0c11e8f5',1,'Frontend.IO.InserirVenda()'],['../class_regras_negocio_1_1_regras_vendas.html#a0dc44e7783df5f63a7e838fd245dbf69',1,'RegrasNegocio.RegrasVendas.InserirVenda()']]]
+];

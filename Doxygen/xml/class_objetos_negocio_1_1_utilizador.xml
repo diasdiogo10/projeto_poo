@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_utilizador" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Utilizador</compoundname>
+    <basecompoundref refid="class_objetos_negocio_1_1_pessoa" prot="public" virt="non-virtual">ObjetosNegocio.Pessoa</basecompoundref>
+    <basecompoundref refid="interface_objetos_negocio_1_1_i_utilizador" prot="public" virt="non-virtual">ObjetosNegocio.IUtilizador</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_utilizador_1a7265e87f259f51e7552641422c27c782" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Utilizador.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.email</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="27" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_utilizador_1a21fbebf16c4385dd8d0fd7c2e58bef4b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Utilizador.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="28" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_utilizador_1a852894f817a27fe5b0b4e374698b7254" prot="private" static="no" mutable="no">
+        <type><ref refid="class_objetos_negocio_1_1_carrinho_compra" kindref="compound">CarrinhoCompra</ref></type>
+        <definition>CarrinhoCompra ObjetosNegocio.Utilizador.carrinho</definition>
+        <argsstring></argsstring>
+        <name>carrinho</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.carrinho</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="29" column="24" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_utilizador_1a68e8fd96cbea2974e34539c9988a47c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Utilizador.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.Email</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_utilizador_1ae41104592e2c54ad6ef25609a7ff0f0e">Email</reimplements>
+        <briefdescription>
+<para>Propriedade para email. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="84" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_utilizador_1add4ce2b066206f3703ba58d0fb7dd130" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Utilizador.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.Password</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_utilizador_1acbf51a6d07fe593c1711acd2a8138d20">Password</reimplements>
+        <briefdescription>
+<para>Propriedade para password. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="93" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_utilizador_1a60a145d9e4fc1affa499c46b37729541" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_objetos_negocio_1_1_carrinho_compra" kindref="compound">CarrinhoCompra</ref></type>
+        <definition>CarrinhoCompra ObjetosNegocio.Utilizador.Carrinho</definition>
+        <argsstring></argsstring>
+        <name>Carrinho</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.Carrinho</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_utilizador_1aea907af5d6f93891636438083e76e0e3">Carrinho</reimplements>
+        <briefdescription>
+<para>Propriedade para carrinho de compras. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="102" column="31" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_utilizador_1aa6818dde4126526a9daec37dd1630628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Utilizador.Utilizador</definition>
+        <argsstring>()</argsstring>
+        <name>Utilizador</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.Utilizador</qualifiedname>
+        <briefdescription>
+<para>Construtor de classe por defeito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="40" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_utilizador_1a657baf94726055d69ab702fe8c4c8dce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Utilizador.Utilizador</definition>
+        <argsstring>(string email, string password)</argsstring>
+        <name>Utilizador</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.Utilizador</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com os atributos declarados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email para login do utilizador</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password para login do utilizador</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="52" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_utilizador_1a903e4d4e3fcbf7225e88dc6a650a1ce8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Utilizador.Utilizador</definition>
+        <argsstring>(string email, string password, string nome, DateTime dataNasc, Morada localizacao)</argsstring>
+        <name>Utilizador</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.Utilizador</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataNasc</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_morada" kindref="compound">Morada</ref></type>
+          <declname>localizacao</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com os atributos declarados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email para login do utilizador</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password para login do utilizador</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataNasc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data de nascimento</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>localizacao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>localizacao</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="67" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="67" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_utilizador_1ab75ada5927fbf05c61585bcb54e1a109" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ObjetosNegocio.Utilizador.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Compara 2 objetos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objeto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="147" column="30" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="147" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_utilizador_1a48bc648d9bd5b8879a6a11cd98d585b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ObjetosNegocio.Utilizador.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.ToString</qualifiedname>
+        <briefdescription>
+<para>Devolve os dados do método da classe base(Pessoa) deste utilizador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string final</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="164" column="32" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="164" bodyend="167"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_utilizador_1a1503ce98dbca1f0eff5f7f6c63dcaff5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Utilizador.operator==</definition>
+        <argsstring>(Utilizador u1, Utilizador u2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.operator==</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref></type>
+          <declname>u1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref></type>
+          <declname>u2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a igualdade de dois utilizadores através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>u1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>utilizador 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>u2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>utilizador 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="118" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="118" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_utilizador_1a2e4d1320159fe5dbd1e95c5028def4f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Utilizador.operator!=</definition>
+        <argsstring>(Utilizador u1, Utilizador u2)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ObjetosNegocio.Utilizador.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref></type>
+          <declname>u1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref></type>
+          <declname>u2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a diferenciabilidade de dois utilizadores através de seus utilizadores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>u1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>utilizador 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>u2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>utilizador 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for diferente ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="131" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="131" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de utilizador Created by: Diogo Created on: 06/12/2023 23:04:52. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IComparable&lt; Pessoa &gt;</label>
+      </node>
+      <node id="3">
+        <label>IPessoa</label>
+        <link refid="interface_objetos_negocio_1_1_i_pessoa"/>
+      </node>
+      <node id="5">
+        <label>IUtilizador</label>
+        <link refid="interface_objetos_negocio_1_1_i_utilizador"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Utilizador</label>
+        <link refid="class_objetos_negocio_1_1_utilizador"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_objetos_negocio_1_1_pessoa"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IComparable&lt; Pessoa &gt;</label>
+      </node>
+      <node id="3">
+        <label>IPessoa</label>
+        <link refid="interface_objetos_negocio_1_1_i_pessoa"/>
+      </node>
+      <node id="5">
+        <label>IUtilizador</label>
+        <link refid="interface_objetos_negocio_1_1_i_utilizador"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Utilizador</label>
+        <link refid="class_objetos_negocio_1_1_utilizador"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_objetos_negocio_1_1_pessoa"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" line="23" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Utilizador.cs" bodystart="24" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a852894f817a27fe5b0b4e374698b7254" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>carrinho</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a60a145d9e4fc1affa499c46b37729541" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Carrinho</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a485d24f86e7118c005fd038fa9419603" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>CompareTo</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a3d3e872a180f7c53265c11d1b7b8d329" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>DataNascimento</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a7265e87f259f51e7552641422c27c782" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>email</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a68e8fd96cbea2974e34539c9988a47c3" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Email</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1ab75ada5927fbf05c61585bcb54e1a109" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Equals</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a472ba9f345e10e13d0d219f5571921a1" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Localizacao</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a6c6e1174264ecb79dd92b24089480421" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Nome</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a2e4d1320159fe5dbd1e95c5028def4f6" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>operator!=</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1a442904e769c4943df780f5c9870e3f36" prot="public" virt="non-virtual" ambiguityscope="ObjetosNegocio::Pessoa."><scope>ObjetosNegocio::Utilizador</scope><name>operator!=</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a1503ce98dbca1f0eff5f7f6c63dcaff5" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>operator==</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1ace5485c54104984e0e2248035fb6af6c" prot="public" virt="non-virtual" ambiguityscope="ObjetosNegocio::Pessoa."><scope>ObjetosNegocio::Utilizador</scope><name>operator==</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a21fbebf16c4385dd8d0fd7c2e58bef4b" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>password</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1add4ce2b066206f3703ba58d0fb7dd130" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Password</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1af413e5c5c6631617514bdb6aabce0cd9" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Pessoa</name></member>
+      <member refid="class_objetos_negocio_1_1_pessoa_1adced49bbc34ceeb2c7c3c9f1aaf209ec" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Pessoa</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a48bc648d9bd5b8879a6a11cd98d585b4" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>ToString</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1aa6818dde4126526a9daec37dd1630628" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Utilizador</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a657baf94726055d69ab702fe8c4c8dce" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Utilizador</name></member>
+      <member refid="class_objetos_negocio_1_1_utilizador_1a903e4d4e3fcbf7225e88dc6a650a1ce8" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Utilizador</scope><name>Utilizador</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

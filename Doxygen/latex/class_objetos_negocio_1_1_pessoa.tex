@@ -1,0 +1,230 @@
+\hypertarget{class_objetos_negocio_1_1_pessoa}{}\doxysection{Objetos\+Negocio.\+Pessoa Class Reference}
+\label{class_objetos_negocio_1_1_pessoa}\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+
+
+Purpose\+: Classe de Pessoa Created by\+: Diogo Created on\+: 06/12/2023 23\+:00\+:29.  
+
+
+Inheritance diagram for Objetos\+Negocio.\+Pessoa\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_objetos_negocio_1_1_pessoa}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_af413e5c5c6631617514bdb6aabce0cd9}{Pessoa}} ()
+\begin{DoxyCompactList}\small\item\em Construtor de classe por defeito. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_adced49bbc34ceeb2c7c3c9f1aaf209ec}{Pessoa}} (string nome, Date\+Time data\+Nascimento, \mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} localizacao)
+\begin{DoxyCompactList}\small\item\em Construtor de classe com os parâmetros definidos. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a100590cda5ba431aa78ac2432d614973}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Compara a igualdade de dois objetos. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_ac2cf6387370a9caf0a80dca664323560}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Devolve uma string com todos o nome e idade de uma pessoa. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a485d24f86e7118c005fd038fa9419603}{Compare\+To}} (\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p)
+\begin{DoxyCompactList}\small\item\em Compara 2 pessoas e é útil para utilizar o .Sort na classe de pessoas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_ace5485c54104984e0e2248035fb6af6c}{operator==}} (\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p1, \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p2)
+\begin{DoxyCompactList}\small\item\em Compara a igualdade de duas pessoas através dos seus parâmetros. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a442904e769c4943df780f5c9870e3f36}{operator!=}} (\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p1, \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}} p2)
+\begin{DoxyCompactList}\small\item\em Compara a diferenciabilidade de duas pessoas através dos seus parâmetros. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a6c6e1174264ecb79dd92b24089480421}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para nome. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a3d3e872a180f7c53265c11d1b7b8d329}{Data\+Nascimento}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para data de nascimento. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} \mbox{\hyperlink{class_objetos_negocio_1_1_pessoa_a472ba9f345e10e13d0d219f5571921a1}{Localizacao}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para localizacao. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties inherited from \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa}{Objetos\+Negocio.\+IPessoa}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa_aa5e1675f125c425f0a321bde4c9dfa5c}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para nome. \end{DoxyCompactList}\item 
+Date\+Time \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa_a0988ce8a996054cd4de16c2713b14d89}{Data\+Nascimento}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para data de nascimento. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa_a32eb2834341102fa0f752b3b5dc05a70}{Localizacao}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para localizacao. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Classe de Pessoa Created by\+: Diogo Created on\+: 06/12/2023 23\+:00\+:29. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_af413e5c5c6631617514bdb6aabce0cd9}\label{class_objetos_negocio_1_1_pessoa_af413e5c5c6631617514bdb6aabce0cd9}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!Pessoa@{Pessoa}}
+\index{Pessoa@{Pessoa}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{Pessoa()}{Pessoa()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Objetos\+Negocio.\+Pessoa.\+Pessoa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construtor de classe por defeito. 
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_adced49bbc34ceeb2c7c3c9f1aaf209ec}\label{class_objetos_negocio_1_1_pessoa_adced49bbc34ceeb2c7c3c9f1aaf209ec}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!Pessoa@{Pessoa}}
+\index{Pessoa@{Pessoa}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{Pessoa()}{Pessoa()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Objetos\+Negocio.\+Pessoa.\+Pessoa (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{Date\+Time}]{data\+Nascimento,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}}}]{localizacao }\end{DoxyParamCaption})}
+
+
+
+Construtor de classe com os parâmetros definidos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & nome da pessoa\\
+\hline
+{\em data\+Nascimento} & data de nascimento\\
+\hline
+{\em localizacao} & localizacao da pessoa\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_a485d24f86e7118c005fd038fa9419603}\label{class_objetos_negocio_1_1_pessoa_a485d24f86e7118c005fd038fa9419603}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!CompareTo@{CompareTo}}
+\index{CompareTo@{CompareTo}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{CompareTo()}{CompareTo()}}
+{\footnotesize\ttfamily int Objetos\+Negocio.\+Pessoa.\+Compare\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Compara 2 pessoas e é útil para utilizar o .Sort na classe de pessoas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_a100590cda5ba431aa78ac2432d614973}\label{class_objetos_negocio_1_1_pessoa_a100590cda5ba431aa78ac2432d614973}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!Equals@{Equals}}
+\index{Equals@{Equals}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily override bool Objetos\+Negocio.\+Pessoa.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj }\end{DoxyParamCaption})}
+
+
+
+Compara a igualdade de dois objetos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & objeto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se for diferente ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_a442904e769c4943df780f5c9870e3f36}\label{class_objetos_negocio_1_1_pessoa_a442904e769c4943df780f5c9870e3f36}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily static bool Objetos\+Negocio.\+Pessoa.\+operator!= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}}}]{p1,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}}}]{p2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compara a diferenciabilidade de duas pessoas através dos seus parâmetros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & pessoa 1\\
+\hline
+{\em p2} & pessoa 2\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se for diferente ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_ace5485c54104984e0e2248035fb6af6c}\label{class_objetos_negocio_1_1_pessoa_ace5485c54104984e0e2248035fb6af6c}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!operator==@{operator==}}
+\index{operator==@{operator==}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily static bool Objetos\+Negocio.\+Pessoa.\+operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}}}]{p1,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_pessoa}{Pessoa}}}]{p2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compara a igualdade de duas pessoas através dos seus parâmetros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & pessoa 1\\
+\hline
+{\em p2} & pessoa 2\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se for igual ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_ac2cf6387370a9caf0a80dca664323560}\label{class_objetos_negocio_1_1_pessoa_ac2cf6387370a9caf0a80dca664323560}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!ToString@{ToString}}
+\index{ToString@{ToString}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string Objetos\+Negocio.\+Pessoa.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Devolve uma string com todos o nome e idade de uma pessoa. 
+
+\begin{DoxyReturn}{Returns}
+string final
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_a3d3e872a180f7c53265c11d1b7b8d329}\label{class_objetos_negocio_1_1_pessoa_a3d3e872a180f7c53265c11d1b7b8d329}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!DataNascimento@{DataNascimento}}
+\index{DataNascimento@{DataNascimento}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{DataNascimento}{DataNascimento}}
+{\footnotesize\ttfamily Date\+Time Objetos\+Negocio.\+Pessoa.\+Data\+Nascimento\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para data de nascimento. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa_a0988ce8a996054cd4de16c2713b14d89}{Objetos\+Negocio.\+IPessoa}}.
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_a472ba9f345e10e13d0d219f5571921a1}\label{class_objetos_negocio_1_1_pessoa_a472ba9f345e10e13d0d219f5571921a1}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!Localizacao@{Localizacao}}
+\index{Localizacao@{Localizacao}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{Localizacao}{Localizacao}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_objetos_negocio_1_1_morada}{Morada}} Objetos\+Negocio.\+Pessoa.\+Localizacao\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para localizacao. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa_a32eb2834341102fa0f752b3b5dc05a70}{Objetos\+Negocio.\+IPessoa}}.
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_pessoa_a6c6e1174264ecb79dd92b24089480421}\label{class_objetos_negocio_1_1_pessoa_a6c6e1174264ecb79dd92b24089480421}} 
+\index{ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}!Nome@{Nome}}
+\index{Nome@{Nome}!ObjetosNegocio.Pessoa@{ObjetosNegocio.Pessoa}}
+\doxysubsubsection{\texorpdfstring{Nome}{Nome}}
+{\footnotesize\ttfamily string Objetos\+Negocio.\+Pessoa.\+Nome\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para nome. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_pessoa_aa5e1675f125c425f0a321bde4c9dfa5c}{Objetos\+Negocio.\+IPessoa}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Objetos\+Negocio/\mbox{\hyperlink{_pessoa_8cs}{Pessoa.\+cs}}\end{DoxyCompactItemize}

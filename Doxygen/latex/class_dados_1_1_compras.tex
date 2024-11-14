@@ -1,0 +1,137 @@
+\hypertarget{class_dados_1_1_compras}{}\doxysection{Dados.\+Compras Class Reference}
+\label{class_dados_1_1_compras}\index{Dados.Compras@{Dados.Compras}}
+
+
+Purpose\+: Compras de classe Created by\+: Diogo Created on\+: 24/10/2023.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_dados_1_1_compras_ac54eb0c2a2fa35a2cfb3993068936c0a}{Inserir\+Compra}} (\mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}} c)
+\begin{DoxyCompactList}\small\item\em Insere uma compra nos dados das compras. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_compras_ac69e5ff6b64c56b14519cff3ffaadf97}{Compras\+Data}} (Date\+Time data\+Compra, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}} $>$ c)
+\begin{DoxyCompactList}\small\item\em Procura todas as compras numa determinada data. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_compras_a811063acdd7e537e238eb13cf4df9142}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_compras_aa28ac93ae900989f623da3107a6fe0d7}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}} $>$ \mbox{\hyperlink{class_dados_1_1_compras_a476384fa77ac80dadbc3a42188c6cb5d}{VS}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para compras. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Compras de classe Created by\+: Diogo Created on\+: 24/10/2023. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_dados_1_1_compras_aa28ac93ae900989f623da3107a6fe0d7}\label{class_dados_1_1_compras_aa28ac93ae900989f623da3107a6fe0d7}} 
+\index{Dados.Compras@{Dados.Compras}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!Dados.Compras@{Dados.Compras}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Compras.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & possivel exceção lancada\\
+\hline
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_dados_1_1_compras_ac69e5ff6b64c56b14519cff3ffaadf97}\label{class_dados_1_1_compras_ac69e5ff6b64c56b14519cff3ffaadf97}} 
+\index{Dados.Compras@{Dados.Compras}!ComprasData@{ComprasData}}
+\index{ComprasData@{ComprasData}!Dados.Compras@{Dados.Compras}}
+\doxysubsubsection{\texorpdfstring{ComprasData()}{ComprasData()}}
+{\footnotesize\ttfamily static bool Dados.\+Compras.\+Compras\+Data (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Compra,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}} $>$}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todas as compras numa determinada data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+Compra} & data de compra\\
+\hline
+{\em c} & compras\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_compras_ac54eb0c2a2fa35a2cfb3993068936c0a}\label{class_dados_1_1_compras_ac54eb0c2a2fa35a2cfb3993068936c0a}} 
+\index{Dados.Compras@{Dados.Compras}!InserirCompra@{InserirCompra}}
+\index{InserirCompra@{InserirCompra}!Dados.Compras@{Dados.Compras}}
+\doxysubsubsection{\texorpdfstring{InserirCompra()}{InserirCompra()}}
+{\footnotesize\ttfamily static bool Dados.\+Compras.\+Inserir\+Compra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere uma compra nos dados das compras. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & compra\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_compras_a811063acdd7e537e238eb13cf4df9142}\label{class_dados_1_1_compras_a811063acdd7e537e238eb13cf4df9142}} 
+\index{Dados.Compras@{Dados.Compras}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!Dados.Compras@{Dados.Compras}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Compras.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & possivel exceção lancada\\
+\hline
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_dados_1_1_compras_a476384fa77ac80dadbc3a42188c6cb5d}\label{class_dados_1_1_compras_a476384fa77ac80dadbc3a42188c6cb5d}} 
+\index{Dados.Compras@{Dados.Compras}!VS@{VS}}
+\index{VS@{VS}!Dados.Compras@{Dados.Compras}}
+\doxysubsubsection{\texorpdfstring{VS}{VS}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_objetos_negocio_1_1_compra}{Compra}}$>$ Dados.\+Compras.\+VS\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Propriedade para compras. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Dados/\mbox{\hyperlink{_compras_8cs}{Compras.\+cs}}\end{DoxyCompactItemize}

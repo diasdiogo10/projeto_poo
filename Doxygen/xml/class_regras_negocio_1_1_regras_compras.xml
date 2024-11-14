@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_regras_negocio_1_1_regras_compras" kind="class" language="C#" prot="public">
+    <compoundname>RegrasNegocio::RegrasCompras</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_compras_1a5158c8fdca4141f7f3d895dd35ce9854" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasCompras.InserirCompra</definition>
+        <argsstring>(Compra c)</argsstring>
+        <name>InserirCompra</name>
+        <qualifiedname>RegrasNegocio.RegrasCompras.InserirCompra</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_compra" kindref="compound">Compra</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Insere uma compra nos dados das compras. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>compra</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" line="52" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" bodystart="52" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_compras_1af29bc96ac4ba20cc5541883cc7ad5a29" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasCompras.ComprasData</definition>
+        <argsstring>(DateTime dataCompra, out List&lt; Compra &gt; c)</argsstring>
+        <name>ComprasData</name>
+        <qualifiedname>RegrasNegocio.RegrasCompras.ComprasData</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>dataCompra</declname>
+        </param>
+        <param>
+          <type>out List&lt; <ref refid="class_objetos_negocio_1_1_compra" kindref="compound">Compra</ref> &gt;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Procura todas as compras numa determinada data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataCompra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data de compra</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>compras</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ComprasExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" line="75" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" bodystart="75" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_compras_1adec053f3b22c466bc386b4281aaafc2d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasCompras.SalvarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDados</name>
+        <qualifiedname>RegrasNegocio.RegrasCompras.SalvarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Salva os dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ComprasExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" line="96" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" bodystart="96" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_compras_1a9d2a888a62cb613343e276a42c14a1d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasCompras.CarregarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDados</name>
+        <qualifiedname>RegrasNegocio.RegrasCompras.CarregarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os dados para o programa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ComprasExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" line="117" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" bodystart="117" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: RegrasCompras de classe Created by: Diogo Created on: 24/10/2023. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" line="26" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasCompras.cs" bodystart="27" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_regras_negocio_1_1_regras_compras_1a9d2a888a62cb613343e276a42c14a1d0" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasCompras</scope><name>CarregarDados</name></member>
+      <member refid="class_regras_negocio_1_1_regras_compras_1af29bc96ac4ba20cc5541883cc7ad5a29" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasCompras</scope><name>ComprasData</name></member>
+      <member refid="class_regras_negocio_1_1_regras_compras_1a5158c8fdca4141f7f3d895dd35ce9854" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasCompras</scope><name>InserirCompra</name></member>
+      <member refid="class_regras_negocio_1_1_regras_compras_1adec053f3b22c466bc386b4281aaafc2d" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasCompras</scope><name>SalvarDados</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

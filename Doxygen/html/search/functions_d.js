@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['salvardados_0',['SalvarDados',['../class_dados_1_1_armazem.html#a32adab5112b3ac0176e15cd44cc0431b',1,'Dados.Armazem.SalvarDados()'],['../class_dados_1_1_compras.html#a811063acdd7e537e238eb13cf4df9142',1,'Dados.Compras.SalvarDados()'],['../class_dados_1_1_fornecedores.html#a9911d858083949ec3c71155dda04bd1d',1,'Dados.Fornecedores.SalvarDados()'],['../class_dados_1_1_utilizadores.html#a373026104d19a4d78c724ef405a02b16',1,'Dados.Utilizadores.SalvarDados()'],['../class_dados_1_1_vendas.html#a16e708f72e24136b80b3342280bbb901',1,'Dados.Vendas.SalvarDados()'],['../class_regras_negocio_1_1_regras_armazem.html#ab10a712ff081b7cb1ff110fd0275debc',1,'RegrasNegocio.RegrasArmazem.SalvarDados()'],['../class_regras_negocio_1_1_regras_compras.html#adec053f3b22c466bc386b4281aaafc2d',1,'RegrasNegocio.RegrasCompras.SalvarDados()'],['../class_regras_negocio_1_1_regras_fornecedores.html#a4724a91e52a92e1c5510325a978cbb68',1,'RegrasNegocio.RegrasFornecedores.SalvarDados()'],['../class_regras_negocio_1_1_regras_utilizadores.html#a8df34787abc7f65d138bb8d4864f85a6',1,'RegrasNegocio.RegrasUtilizadores.SalvarDados()'],['../class_regras_negocio_1_1_regras_vendas.html#a193b2974c90ebef06899f869dae294ac',1,'RegrasNegocio.RegrasVendas.SalvarDados()']]],
+  ['salvardadosarmazem_1',['SalvarDadosArmazem',['../class_frontend_1_1_i_o.html#a4245e80882f5594e8b11ee0c4a295f79',1,'Frontend::IO']]],
+  ['salvardadoscompras_2',['SalvarDadosCompras',['../class_frontend_1_1_i_o.html#a8bec1dbfb578b522c3c46b41534dae0b',1,'Frontend::IO']]],
+  ['salvardadosfornecedores_3',['SalvarDadosFornecedores',['../class_frontend_1_1_i_o.html#a3b65605217ac4de0b30790d11233daf2',1,'Frontend::IO']]],
+  ['salvardadosutilizadores_4',['SalvarDadosUtilizadores',['../class_frontend_1_1_i_o.html#a96dfa5f9f0651616bc58a3fd0025ba07',1,'Frontend::IO']]],
+  ['salvardadosvendas_5',['SalvarDadosVendas',['../class_frontend_1_1_i_o.html#abeb2f0631fa751c52619596bddc04dfc',1,'Frontend::IO']]]
+];

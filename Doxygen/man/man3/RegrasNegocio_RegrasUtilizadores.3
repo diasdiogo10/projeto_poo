@@ -1,0 +1,274 @@
+.TH "RegrasNegocio.RegrasUtilizadores" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RegrasNegocio.RegrasUtilizadores \- Purpose: Created by: Diogo Created on: 09/12/2023 00:23:58\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBExisteEmail\fP (string email)"
+.br
+.RI "Verifica se existe um email igual no sistema\&. "
+.ti -1c
+.RI "static bool \fBExisteConta\fP (string email, string password)"
+.br
+.RI "Verifica se existe um utiizador com aqueles dados no sistema\&. "
+.ti -1c
+.RI "static bool \fBQuantidadeUtilizadores\fP (out int contador)"
+.br
+.RI "Obtém a quantidade de utilizadores no sistema\&. "
+.ti -1c
+.RI "static bool \fBListaUtilizadores\fP (out List< \fBUtilizador\fP > util)"
+.br
+.RI "Obtém todos os utilizadores do sistema\&. "
+.ti -1c
+.RI "static bool \fBInserirUtilizador\fP (\fBUtilizador\fP util)"
+.br
+.RI "Insere um utilizador na lista de utilizadores do sistema\&. "
+.ti -1c
+.RI "static bool \fBRemoverUtilizador\fP (string email)"
+.br
+.RI "Remove um utilizador do sistema\&. "
+.ti -1c
+.RI "static bool \fBAlterarEmail\fP (string antigoEmail, string password, string novoEmail)"
+.br
+.RI "Altera um email de um utilizador do sistema\&. "
+.ti -1c
+.RI "static bool \fBAlterarPassword\fP (string email, string antigaPassword, string novaPassword)"
+.br
+.RI "Altera uma password de um utilizador do sistema\&. "
+.ti -1c
+.RI "static bool \fBSalvarDados\fP (string nomeFicheiro)"
+.br
+.RI "Salva os dados num ficheiro\&. "
+.ti -1c
+.RI "static bool \fBCarregarDados\fP (string nomeFicheiro)"
+.br
+.RI "Carrega os dados para o programa\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Created by: Diogo Created on: 09/12/2023 00:23:58\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.AlterarEmail (string antigoEmail, string password, string novoEmail)\fC [static]\fP"
+
+.PP
+Altera um email de um utilizador do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIantigoEmail\fP email antigo
+.br
+\fIpassword\fP passowrd
+.br
+\fInovoEmail\fP novo email
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIUtilizadoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.AlterarPassword (string email, string antigaPassword, string novaPassword)\fC [static]\fP"
+
+.PP
+Altera uma password de um utilizador do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP 
+.br
+\fIantigaPassword\fP 
+.br
+\fInovaPassword\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIUtilizadoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.CarregarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Carrega os dados para o programa\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIUtilizadoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.ExisteConta (string email, string password)\fC [static]\fP"
+
+.PP
+Verifica se existe um utiizador com aqueles dados no sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.br
+\fIpassword\fP password
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existir ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIUtilizadoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.ExisteEmail (string email)\fC [static]\fP"
+
+.PP
+Verifica se existe um email igual no sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se existir ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIUtilizadoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.InserirUtilizador (\fBUtilizador\fP util)\fC [static]\fP"
+
+.PP
+Insere um utilizador na lista de utilizadores do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIutil\fP utilizador
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIUtilizadoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.ListaUtilizadores (out List< \fBUtilizador\fP > util)\fC [static]\fP"
+
+.PP
+Obtém todos os utilizadores do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIutil\fP utilizadores do sistema
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.QuantidadeUtilizadores (out int contador)\fC [static]\fP"
+
+.PP
+Obtém a quantidade de utilizadores no sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcontador\fP quantidade de utilizadores
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.RemoverUtilizador (string email)\fC [static]\fP"
+
+.PP
+Remove um utilizador do sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIUtilizadoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+.SS "static bool RegrasNegocio\&.RegrasUtilizadores\&.SalvarDados (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Salva os dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se correu tudo bem ou não
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIUtilizadoresExcecoes\fP possivel exceção lançada
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

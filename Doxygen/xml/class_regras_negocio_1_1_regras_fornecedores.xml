@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_regras_negocio_1_1_regras_fornecedores" kind="class" language="C#" prot="public">
+    <compoundname>RegrasNegocio::RegrasFornecedores</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a060bf9454607e1c93334d87d40ca5733" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.ExisteProdutoFornecedores</definition>
+        <argsstring>(string nomeProd)</argsstring>
+        <name>ExisteProdutoFornecedores</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.ExisteProdutoFornecedores</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um produto nos fornecedores ou não. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existe ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="52" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="52" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a1e7b16521f28afea1890083934bd284b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.ExisteProdutoFornecedor</definition>
+        <argsstring>(string nomeProd, string nomeForn)</argsstring>
+        <name>ExisteProdutoFornecedor</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.ExisteProdutoFornecedor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nomeForn</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um produto num certo fornecedor ou não. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nomeForn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existe ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="74" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="74" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a5ac3eab27e6afaaabfa831183a2f27cb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.InserirProduto</definition>
+        <argsstring>(Produto prod, string nomeForn)</argsstring>
+        <name>InserirProduto</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.InserirProduto</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref></type>
+          <declname>prod</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nomeForn</declname>
+        </param>
+        <briefdescription>
+<para>Insere um produto nos Fornecedores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nomeForn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="96" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="96" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a930e49842c9afbf9e2a11eff7f106e90" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.RemoverProduto</definition>
+        <argsstring>(string nomeProd, string nomeForn)</argsstring>
+        <name>RemoverProduto</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.RemoverProduto</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nomeForn</declname>
+        </param>
+        <briefdescription>
+<para>Remove um produto de um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nomeForn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="118" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="118" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a4c6b81b825d5bc91b4dda1bc260d9dcd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.ExisteFornecedor</definition>
+        <argsstring>(string nome)</argsstring>
+        <name>ExisteFornecedor</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.ExisteFornecedor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existe ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>FornecedoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="140" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="140" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a971d927ff7065d5e1994efb42af3df27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.QuantidadeFornecedores</definition>
+        <argsstring>(out int contador)</argsstring>
+        <name>QuantidadeFornecedores</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.QuantidadeFornecedores</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>contador</declname>
+        </param>
+        <briefdescription>
+<para>Obtém a quantidade de fornecedores do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>contador</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>quantidade de fornecedores</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="161" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="161" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1aadc204e839e42a5893a3e4d64814b327" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.ListaFornecedores</definition>
+        <argsstring>(out List&lt; Fornecedor &gt; lista)</argsstring>
+        <name>ListaFornecedores</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.ListaFornecedores</qualifiedname>
+        <param>
+          <type>out List&lt; <ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref> &gt;</type>
+          <declname>lista</declname>
+        </param>
+        <briefdescription>
+<para>Obtém a lista de todos os fornecedores do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lista</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fornecedores</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="172" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="172" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a872add859cd27360ff91da5ce498007b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.InserirFornecedor</definition>
+        <argsstring>(Fornecedor forn)</argsstring>
+        <name>InserirFornecedor</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.InserirFornecedor</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref></type>
+          <declname>forn</declname>
+        </param>
+        <briefdescription>
+<para>Insere um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>forn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>FornecedoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="184" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="184" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a14c430b953505c342355d84ef6defd1e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.RemoverFornecedor</definition>
+        <argsstring>(string nome)</argsstring>
+        <name>RemoverFornecedor</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.RemoverFornecedor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Remove um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>FornecedoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="206" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="206" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a4724a91e52a92e1c5510325a978cbb68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.SalvarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDados</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.SalvarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Salva os dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>FornecedoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="228" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="228" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_fornecedores_1a2632b5077489977d31dafbbc2d885036" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasFornecedores.CarregarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDados</name>
+        <qualifiedname>RegrasNegocio.RegrasFornecedores.CarregarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os dados para o programa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>FornecedoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="250" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="250" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: RegrasFornecedores de classe Created by: Diogo Created on: 24/10/2023. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" line="26" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasFornecedores.cs" bodystart="27" bodyend="270"/>
+    <listofallmembers>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a2632b5077489977d31dafbbc2d885036" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>CarregarDados</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a4c6b81b825d5bc91b4dda1bc260d9dcd" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>ExisteFornecedor</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a1e7b16521f28afea1890083934bd284b" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>ExisteProdutoFornecedor</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a060bf9454607e1c93334d87d40ca5733" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>ExisteProdutoFornecedores</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a872add859cd27360ff91da5ce498007b" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>InserirFornecedor</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a5ac3eab27e6afaaabfa831183a2f27cb" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>InserirProduto</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1aadc204e839e42a5893a3e4d64814b327" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>ListaFornecedores</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a971d927ff7065d5e1994efb42af3df27" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>QuantidadeFornecedores</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a14c430b953505c342355d84ef6defd1e" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>RemoverFornecedor</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a930e49842c9afbf9e2a11eff7f106e90" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>RemoverProduto</name></member>
+      <member refid="class_regras_negocio_1_1_regras_fornecedores_1a4724a91e52a92e1c5510325a978cbb68" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasFornecedores</scope><name>SalvarDados</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

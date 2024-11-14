@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_produto_excecoes" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ProdutoExcecoes</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_produto_excecoes_1a78e3bcb3de01517245d202a16ee00ad9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ProdutoExcecoes.ProdutoExcecoes</definition>
+        <argsstring>(string mensagem)</argsstring>
+        <name>ProdutoExcecoes</name>
+        <qualifiedname>Excecoes.ProdutoExcecoes.ProdutoExcecoes</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>mensagem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ProdutoExcecoes.cs" line="30" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ProdutoExcecoes.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_excecoes_1_1_produto_excecoes_1a22525038a2500ecd3ed495912fa26749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ProdutoExcecoes.ProdutoExcecoes</definition>
+        <argsstring>()</argsstring>
+        <name>ProdutoExcecoes</name>
+        <qualifiedname>Excecoes.ProdutoExcecoes.ProdutoExcecoes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ProdutoExcecoes.cs" line="31" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ProdutoExcecoes.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_excecoes_1_1_produto_excecoes_1a9372103d86eb708b5714149f3565cfbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ProdutoExcecoes.ProdutoExcecoes</definition>
+        <argsstring>(string mensagem, Exception e)</argsstring>
+        <name>ProdutoExcecoes</name>
+        <qualifiedname>Excecoes.ProdutoExcecoes.ProdutoExcecoes</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>mensagem</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ProdutoExcecoes.cs" line="32" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ProdutoExcecoes.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de exceções de produto Created by: Diogo Created on: 24/10/2023. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ProdutoExcecoes</label>
+        <link refid="class_excecoes_1_1_produto_excecoes"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ProdutoExcecoes</label>
+        <link refid="class_excecoes_1_1_produto_excecoes"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ProdutoExcecoes.cs" line="21" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ProdutoExcecoes.cs" bodystart="22" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_produto_excecoes_1a78e3bcb3de01517245d202a16ee00ad9" prot="public" virt="non-virtual"><scope>Excecoes::ProdutoExcecoes</scope><name>ProdutoExcecoes</name></member>
+      <member refid="class_excecoes_1_1_produto_excecoes_1a22525038a2500ecd3ed495912fa26749" prot="public" virt="non-virtual"><scope>Excecoes::ProdutoExcecoes</scope><name>ProdutoExcecoes</name></member>
+      <member refid="class_excecoes_1_1_produto_excecoes_1a9372103d86eb708b5714149f3565cfbe" prot="public" virt="non-virtual"><scope>Excecoes::ProdutoExcecoes</scope><name>ProdutoExcecoes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interface_objetos_negocio_1_1_i_fornecedor" kind="interface" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::IFornecedor</compoundname>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_fornecedor" prot="public" virt="non-virtual">ObjetosNegocio.Fornecedor</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_fornecedor_1a0aeb5573a918588ec00d1cce57a1af36" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IFornecedor.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.IFornecedor.Nome</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_fornecedor_1aaa744f75883c01782ff07d9d42e3aa17">Nome</reimplementedby>
+        <briefdescription>
+<para>Propriedade para nome. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IFornecedor.cs" line="33" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IFornecedor.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_fornecedor_1a4623b557f454fcf1ca272bdb66cb48d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IFornecedor.Contacto</definition>
+        <argsstring></argsstring>
+        <name>Contacto</name>
+        <qualifiedname>ObjetosNegocio.IFornecedor.Contacto</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_fornecedor_1a97db9f64560c3e019c856fb0e73a5c2f">Contacto</reimplementedby>
+        <briefdescription>
+<para>Propriedade para contacto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IFornecedor.cs" line="42" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IFornecedor.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_fornecedor_1a152d6e92489c4c41111db1719b12769d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref> &gt;</type>
+        <definition>List&lt;Produto&gt; ObjetosNegocio.IFornecedor.Prods</definition>
+        <argsstring></argsstring>
+        <name>Prods</name>
+        <qualifiedname>ObjetosNegocio.IFornecedor.Prods</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_fornecedor_1a862b925cd6547c686d6d533e137352f1">Prods</reimplementedby>
+        <briefdescription>
+<para>Propriedade para produtos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IFornecedor.cs" line="51" column="14" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IFornecedor.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Interface de fornecedor Created by: Diogo Created on: 20/12/2023 03:32:38. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ObjetosNegocio.IFornecedor</label>
+        <link refid="interface_objetos_negocio_1_1_i_fornecedor"/>
+      </node>
+      <node id="2">
+        <label>ObjetosNegocio.Fornecedor</label>
+        <link refid="class_objetos_negocio_1_1_fornecedor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IFornecedor.cs" line="24" column="22" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IFornecedor.cs" bodystart="25" bodyend="72"/>
+    <listofallmembers>
+      <member refid="interface_objetos_negocio_1_1_i_fornecedor_1a4623b557f454fcf1ca272bdb66cb48d2" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IFornecedor</scope><name>Contacto</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_fornecedor_1a0aeb5573a918588ec00d1cce57a1af36" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IFornecedor</scope><name>Nome</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_fornecedor_1a152d6e92489c4c41111db1719b12769d" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IFornecedor</scope><name>Prods</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

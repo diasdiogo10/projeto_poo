@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_armazem_excecoes" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ArmazemExcecoes</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_armazem_excecoes_1af81e010df20810beb3f3723a6b55634d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ArmazemExcecoes.ArmazemExcecoes</definition>
+        <argsstring>(string mensagem)</argsstring>
+        <name>ArmazemExcecoes</name>
+        <qualifiedname>Excecoes.ArmazemExcecoes.ArmazemExcecoes</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>mensagem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ArmazemExcecoes.cs" line="31" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ArmazemExcecoes.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_excecoes_1_1_armazem_excecoes_1ab77fc5fa3dada1ad09785919b4cb6a50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ArmazemExcecoes.ArmazemExcecoes</definition>
+        <argsstring>()</argsstring>
+        <name>ArmazemExcecoes</name>
+        <qualifiedname>Excecoes.ArmazemExcecoes.ArmazemExcecoes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ArmazemExcecoes.cs" line="32" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ArmazemExcecoes.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_excecoes_1_1_armazem_excecoes_1a5f93ef659fd4cb94fa49a025696362ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ArmazemExcecoes.ArmazemExcecoes</definition>
+        <argsstring>(string mensagem, Exception e)</argsstring>
+        <name>ArmazemExcecoes</name>
+        <qualifiedname>Excecoes.ArmazemExcecoes.ArmazemExcecoes</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>mensagem</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ArmazemExcecoes.cs" line="33" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ArmazemExcecoes.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de exceções de armazem Created by: Diogo Created on: 06/12/2023 22:34:55. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ArmazemExcecoes</label>
+        <link refid="class_excecoes_1_1_armazem_excecoes"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ArmazemExcecoes</label>
+        <link refid="class_excecoes_1_1_armazem_excecoes"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ArmazemExcecoes.cs" line="22" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ArmazemExcecoes.cs" bodystart="23" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_armazem_excecoes_1af81e010df20810beb3f3723a6b55634d" prot="public" virt="non-virtual"><scope>Excecoes::ArmazemExcecoes</scope><name>ArmazemExcecoes</name></member>
+      <member refid="class_excecoes_1_1_armazem_excecoes_1ab77fc5fa3dada1ad09785919b4cb6a50" prot="public" virt="non-virtual"><scope>Excecoes::ArmazemExcecoes</scope><name>ArmazemExcecoes</name></member>
+      <member refid="class_excecoes_1_1_armazem_excecoes_1a5f93ef659fd4cb94fa49a025696362ce" prot="public" virt="non-virtual"><scope>Excecoes::ArmazemExcecoes</scope><name>ArmazemExcecoes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_testes_unitarios_1_1_testes_dados" kind="class" language="C#" prot="public">
+    <compoundname>TestesUnitarios::TestesDados</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_testes_unitarios_1_1_testes_dados_1acfcd9d7e24b390aeb298b0dcea212ee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestesUnitarios.TestesDados.InicializarTeste</definition>
+        <argsstring>()</argsstring>
+        <name>InicializarTeste</name>
+        <qualifiedname>TestesUnitarios.TestesDados.InicializarTeste</qualifiedname>
+        <briefdescription>
+<para>Limpa todos os dados antes de cada teste. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/TestesDados.cs" line="16" column="21" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/TestesDados.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_testes_unitarios_1_1_testes_dados_1aaba59568ea880f7069354fb05ab5011b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestesUnitarios.TestesDados.TesteExistenciaSemAcrescentar</definition>
+        <argsstring>()</argsstring>
+        <name>TesteExistenciaSemAcrescentar</name>
+        <qualifiedname>TestesUnitarios.TestesDados.TesteExistenciaSemAcrescentar</qualifiedname>
+        <briefdescription>
+<para>Testa se o produto existe se não tiver lá nenhum produto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/TestesDados.cs" line="27" column="21" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/TestesDados.cs" bodystart="27" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_testes_unitarios_1_1_testes_dados_1a57ce1a5791f63cce59d067f1647cd151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestesUnitarios.TestesDados.TesteAcrescentarProdArmazem</definition>
+        <argsstring>()</argsstring>
+        <name>TesteAcrescentarProdArmazem</name>
+        <qualifiedname>TestesUnitarios.TestesDados.TesteAcrescentarProdArmazem</qualifiedname>
+        <briefdescription>
+<para>Testa o adicionar marca, categoria, fornecedor, prodFornecedor, produtoArmazem. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/TestesDados.cs" line="42" column="21" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/TestesDados.cs" bodystart="42" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/TestesDados.cs" line="10" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/Testes/TestesUnitarios/TestesDados.cs" bodystart="11" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_testes_unitarios_1_1_testes_dados_1acfcd9d7e24b390aeb298b0dcea212ee9" prot="public" virt="non-virtual"><scope>TestesUnitarios::TestesDados</scope><name>InicializarTeste</name></member>
+      <member refid="class_testes_unitarios_1_1_testes_dados_1a57ce1a5791f63cce59d067f1647cd151" prot="public" virt="non-virtual"><scope>TestesUnitarios::TestesDados</scope><name>TesteAcrescentarProdArmazem</name></member>
+      <member refid="class_testes_unitarios_1_1_testes_dados_1aaba59568ea880f7069354fb05ab5011b" prot="public" virt="non-virtual"><scope>TestesUnitarios::TestesDados</scope><name>TesteExistenciaSemAcrescentar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

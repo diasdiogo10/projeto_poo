@@ -1,0 +1,286 @@
+\hypertarget{class_objetos_negocio_1_1_produto}{}\doxysection{Objetos\+Negocio.\+Produto Class Reference}
+\label{class_objetos_negocio_1_1_produto}\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+
+
+Purpose\+: Classe de Produto Created by\+: Diogo Created on\+: 06/12/2023 23\+:11\+:28.  
+
+
+Inheritance diagram for Objetos\+Negocio.\+Produto\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_objetos_negocio_1_1_produto}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_produto_a1003e058a967f2a32df8ea3f0c051605}{Produto}} ()
+\begin{DoxyCompactList}\small\item\em Construtor de classe por defeito. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_produto_a8510fab39484e2686069390615d2a4c3}{Produto}} (string nome, double preco, \mbox{\hyperlink{class_objetos_negocio_1_1_categoria}{Categoria}} cat, \mbox{\hyperlink{class_objetos_negocio_1_1_marca}{Marca}} mar)
+\begin{DoxyCompactList}\small\item\em Construtor de classe com os atributos declarados. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_objetos_negocio_1_1_produto_a0ed8c3cc7299663b17689b2f797fdfa8}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Compara 2 objetos. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_objetos_negocio_1_1_produto_ac8df3fb8aba48f42192ad497aa66ede3}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Devolve uma string com todos os atributos de um produto. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_objetos_negocio_1_1_produto_ad7f2fcab4006c8fe69e2a3db1b406023}{Compare\+To}} (\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} p)
+\begin{DoxyCompactList}\small\item\em Compara 2 produtos e é útil para utilizar o .Sort na classe de produtos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_objetos_negocio_1_1_produto_ac53d3331cc71fb4317815cb03f072f0c}{operator==}} (\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} p1, \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} p2)
+\begin{DoxyCompactList}\small\item\em Compara a igualdade de dois produtos através dos seus parâmetros. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_objetos_negocio_1_1_produto_aad8b05d97da4a89a7a00eee71942e3e9}{operator!=}} (\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} p1, \mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}} p2)
+\begin{DoxyCompactList}\small\item\em Compara a diferenciabilidade de dois produtos através dos seus parâmetros. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_objetos_negocio_1_1_produto_ac40348a555b6171bc8789eeaa56817b0}{Ref\+Prod}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para referencia de produto. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_objetos_negocio_1_1_produto_a8e55191ddd0a644f5bce97bab871c157}{Quantidade}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para quantidade do produto. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_objetos_negocio_1_1_produto_aea1fbc809f44c90ba65762f82587bea2}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para nome. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_objetos_negocio_1_1_produto_a3fb4b067bfc88c3441e2b21642cb7beb}{Preco}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para preco. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_categoria}{Categoria}} \mbox{\hyperlink{class_objetos_negocio_1_1_produto_aa95ddf5955d0ec515366d96a2ad11587}{Cat}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para categoria do produto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_marca}{Marca}} \mbox{\hyperlink{class_objetos_negocio_1_1_produto_af433ebea611a7a9b914e45ba72831900}{Mar}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para marca do produto. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties inherited from \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto}{Objetos\+Negocio.\+IProduto}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_aea6336d878c49578affa7899afb963f6}{Ref\+Prod}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para referencia de produto. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_a0e7a0bea6a8f44c9cb0f7111a71bdb77}{Quantidade}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para quantidade do produto. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_a9cc6346f59ecf6a76052b478218adef4}{Nome}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para nome. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_aa5841cc2bcd0ef84886921a5063cb190}{Preco}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para preco. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_categoria}{Categoria}} \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_a4b41e03691c221f889b2fe72558f5dea}{Cat}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para categoria do produto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_marca}{Marca}} \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_a8ff2e2cecd3dc1eef82a7e7ea7157a6c}{Mar}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para marca do produto. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Classe de Produto Created by\+: Diogo Created on\+: 06/12/2023 23\+:11\+:28. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_a1003e058a967f2a32df8ea3f0c051605}\label{class_objetos_negocio_1_1_produto_a1003e058a967f2a32df8ea3f0c051605}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!Produto@{Produto}}
+\index{Produto@{Produto}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{Produto()}{Produto()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Objetos\+Negocio.\+Produto.\+Produto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construtor de classe por defeito. 
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_a8510fab39484e2686069390615d2a4c3}\label{class_objetos_negocio_1_1_produto_a8510fab39484e2686069390615d2a4c3}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!Produto@{Produto}}
+\index{Produto@{Produto}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{Produto()}{Produto()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Objetos\+Negocio.\+Produto.\+Produto (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{double}]{preco,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_categoria}{Categoria}}}]{cat,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_marca}{Marca}}}]{mar }\end{DoxyParamCaption})}
+
+
+
+Construtor de classe com os atributos declarados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & nome do produto\\
+\hline
+{\em preco} & preco do produto\\
+\hline
+{\em cat} & categoria do produto\\
+\hline
+{\em mar} & marca do produto\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_ad7f2fcab4006c8fe69e2a3db1b406023}\label{class_objetos_negocio_1_1_produto_ad7f2fcab4006c8fe69e2a3db1b406023}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!CompareTo@{CompareTo}}
+\index{CompareTo@{CompareTo}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{CompareTo()}{CompareTo()}}
+{\footnotesize\ttfamily int Objetos\+Negocio.\+Produto.\+Compare\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Compara 2 produtos e é útil para utilizar o .Sort na classe de produtos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & produto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_a0ed8c3cc7299663b17689b2f797fdfa8}\label{class_objetos_negocio_1_1_produto_a0ed8c3cc7299663b17689b2f797fdfa8}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!Equals@{Equals}}
+\index{Equals@{Equals}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily override bool Objetos\+Negocio.\+Produto.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj }\end{DoxyParamCaption})}
+
+
+
+Compara 2 objetos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & objeto\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se for igual ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_aad8b05d97da4a89a7a00eee71942e3e9}\label{class_objetos_negocio_1_1_produto_aad8b05d97da4a89a7a00eee71942e3e9}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily static bool Objetos\+Negocio.\+Produto.\+operator!= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}}]{p1,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}}]{p2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compara a diferenciabilidade de dois produtos através dos seus parâmetros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & produto 1\\
+\hline
+{\em p2} & produto 2\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se for igual ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_ac53d3331cc71fb4317815cb03f072f0c}\label{class_objetos_negocio_1_1_produto_ac53d3331cc71fb4317815cb03f072f0c}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!operator==@{operator==}}
+\index{operator==@{operator==}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily static bool Objetos\+Negocio.\+Produto.\+operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}}]{p1,  }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_produto}{Produto}}}]{p2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compara a igualdade de dois produtos através dos seus parâmetros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & produto 1\\
+\hline
+{\em p2} & produto 2\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se for igual ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_ac8df3fb8aba48f42192ad497aa66ede3}\label{class_objetos_negocio_1_1_produto_ac8df3fb8aba48f42192ad497aa66ede3}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!ToString@{ToString}}
+\index{ToString@{ToString}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string Objetos\+Negocio.\+Produto.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Devolve uma string com todos os atributos de um produto. 
+
+\begin{DoxyReturn}{Returns}
+string final
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_aa95ddf5955d0ec515366d96a2ad11587}\label{class_objetos_negocio_1_1_produto_aa95ddf5955d0ec515366d96a2ad11587}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!Cat@{Cat}}
+\index{Cat@{Cat}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{Cat}{Cat}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_objetos_negocio_1_1_categoria}{Categoria}} Objetos\+Negocio.\+Produto.\+Cat\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para categoria do produto. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_a4b41e03691c221f889b2fe72558f5dea}{Objetos\+Negocio.\+IProduto}}.
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_af433ebea611a7a9b914e45ba72831900}\label{class_objetos_negocio_1_1_produto_af433ebea611a7a9b914e45ba72831900}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!Mar@{Mar}}
+\index{Mar@{Mar}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{Mar}{Mar}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_objetos_negocio_1_1_marca}{Marca}} Objetos\+Negocio.\+Produto.\+Mar\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para marca do produto. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_a8ff2e2cecd3dc1eef82a7e7ea7157a6c}{Objetos\+Negocio.\+IProduto}}.
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_aea1fbc809f44c90ba65762f82587bea2}\label{class_objetos_negocio_1_1_produto_aea1fbc809f44c90ba65762f82587bea2}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!Nome@{Nome}}
+\index{Nome@{Nome}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{Nome}{Nome}}
+{\footnotesize\ttfamily string Objetos\+Negocio.\+Produto.\+Nome\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para nome. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_a9cc6346f59ecf6a76052b478218adef4}{Objetos\+Negocio.\+IProduto}}.
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_a3fb4b067bfc88c3441e2b21642cb7beb}\label{class_objetos_negocio_1_1_produto_a3fb4b067bfc88c3441e2b21642cb7beb}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!Preco@{Preco}}
+\index{Preco@{Preco}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{Preco}{Preco}}
+{\footnotesize\ttfamily double Objetos\+Negocio.\+Produto.\+Preco\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para preco. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_aa5841cc2bcd0ef84886921a5063cb190}{Objetos\+Negocio.\+IProduto}}.
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_a8e55191ddd0a644f5bce97bab871c157}\label{class_objetos_negocio_1_1_produto_a8e55191ddd0a644f5bce97bab871c157}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!Quantidade@{Quantidade}}
+\index{Quantidade@{Quantidade}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{Quantidade}{Quantidade}}
+{\footnotesize\ttfamily int Objetos\+Negocio.\+Produto.\+Quantidade\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para quantidade do produto. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_a0e7a0bea6a8f44c9cb0f7111a71bdb77}{Objetos\+Negocio.\+IProduto}}.
+
+\mbox{\Hypertarget{class_objetos_negocio_1_1_produto_ac40348a555b6171bc8789eeaa56817b0}\label{class_objetos_negocio_1_1_produto_ac40348a555b6171bc8789eeaa56817b0}} 
+\index{ObjetosNegocio.Produto@{ObjetosNegocio.Produto}!RefProd@{RefProd}}
+\index{RefProd@{RefProd}!ObjetosNegocio.Produto@{ObjetosNegocio.Produto}}
+\doxysubsubsection{\texorpdfstring{RefProd}{RefProd}}
+{\footnotesize\ttfamily int Objetos\+Negocio.\+Produto.\+Ref\+Prod\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Propriedade para referencia de produto. 
+
+
+
+Implements \mbox{\hyperlink{interface_objetos_negocio_1_1_i_produto_aea6336d878c49578affa7899afb963f6}{Objetos\+Negocio.\+IProduto}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Objetos\+Negocio/\mbox{\hyperlink{_produto_8cs}{Produto.\+cs}}\end{DoxyCompactItemize}

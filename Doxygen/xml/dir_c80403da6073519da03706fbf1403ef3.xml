@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_c80403da6073519da03706fbf1403ef3" kind="dir">
+    <compoundname>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs</compoundname>
+    <innerdir refid="dir_76dc60d87c53aeb515a932b0005cc7e1">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados</innerdir>
+    <innerdir refid="dir_364fbcc050528f14a4aaee0952bd8582">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes</innerdir>
+    <innerdir refid="dir_8f7af58779f78d078713efc7fd05dee5">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Frontend</innerdir>
+    <innerdir refid="dir_cfe516ee0620cd88a752bb1f3654cc9b">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio</innerdir>
+    <innerdir refid="dir_8a468ad2e25e389a8d8d7d2c2a9fafb8">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio</innerdir>
+    <innerdir refid="dir_d69e5d16db264cb1dd2c280dbc4b665c">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Verificacoes</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/"/>
+  </compounddef>
+</doxygen>

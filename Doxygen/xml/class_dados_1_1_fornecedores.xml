@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_dados_1_1_fornecedores" kind="class" language="C#" prot="public">
+    <compoundname>Dados::Fornecedores</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dados_1_1_fornecedores_1a2966c3af3cde5c5467ec0142d1be002d" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref> &gt;</type>
+        <definition>List&lt;Fornecedor&gt; Dados.Fornecedores.forns</definition>
+        <argsstring></argsstring>
+        <name>forns</name>
+        <qualifiedname>Dados.Fornecedores.forns</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="32" column="21" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dados_1_1_fornecedores_1a07509aec24d8d83a817f720c0e53100d" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Dados.Fornecedores.totProd</definition>
+        <argsstring></argsstring>
+        <name>totProd</name>
+        <qualifiedname>Dados.Fornecedores.totProd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="33" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dados_1_1_fornecedores_1a0c9ac1557ea5820a8dcdd3269ede3dfb" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref> &gt;</type>
+        <definition>List&lt;Fornecedor&gt; Dados.Fornecedores.Forns</definition>
+        <argsstring></argsstring>
+        <name>Forns</name>
+        <qualifiedname>Dados.Fornecedores.Forns</qualifiedname>
+        <briefdescription>
+<para>Propriedade para fornecedores. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="57" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dados_1_1_fornecedores_1a1ef6b611f3032e79938533b9037f846c" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Dados.Fornecedores.TotProd</definition>
+        <argsstring></argsstring>
+        <name>TotProd</name>
+        <qualifiedname>Dados.Fornecedores.TotProd</qualifiedname>
+        <briefdescription>
+<para>Propriedade para total de produtos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="65" column="27" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="66" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1a6c7bde922fe6b42f58b9fc4b734b9ee3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Dados.Fornecedores.Fornecedores</definition>
+        <argsstring>()</argsstring>
+        <name>Fornecedores</name>
+        <qualifiedname>Dados.Fornecedores.Fornecedores</qualifiedname>
+        <briefdescription>
+<para>Construtor estatico. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="44" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1ab4cc6589290eaedb5e01c291ecf4c4be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.InicializarTotProd</definition>
+        <argsstring>(out int tot)</argsstring>
+        <name>InicializarTotProd</name>
+        <qualifiedname>Dados.Fornecedores.InicializarTotProd</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>tot</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa o atributo totProd após o carregamento com a ref de produto mais alta. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tot</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ref de produto mais alta</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="85" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="85" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1a52a9f12f6170a824f3a808eab769b66f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.ExisteProdutoFornecedores</definition>
+        <argsstring>(string nomeProd)</argsstring>
+        <name>ExisteProdutoFornecedores</name>
+        <qualifiedname>Dados.Fornecedores.ExisteProdutoFornecedores</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um produto nos fornecedores ou não. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existe ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="106" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="106" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1ae056e4b436eeda7395b824defff3dd5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.ExisteProdutoFornecedor</definition>
+        <argsstring>(string nomeProd, string nomeForn)</argsstring>
+        <name>ExisteProdutoFornecedor</name>
+        <qualifiedname>Dados.Fornecedores.ExisteProdutoFornecedor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nomeForn</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um produto num certo fornecedor ou não. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nomeForn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existe ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="126" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="126" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1a55d393b542b745a929393e1046b806d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.DarReferencia</definition>
+        <argsstring>(string nomeProd, out int refNova)</argsstring>
+        <name>DarReferencia</name>
+        <qualifiedname>Dados.Fornecedores.DarReferencia</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>refNova</declname>
+        </param>
+        <briefdescription>
+<para>Dá uma referência de um produto já existente. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refNova</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>referencia nova</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="147" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="147" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1acfce009e4d8769a48b7915666067b39e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.InserirProdutoFornecedor</definition>
+        <argsstring>(Produto prod, string nomeForn)</argsstring>
+        <name>InserirProdutoFornecedor</name>
+        <qualifiedname>Dados.Fornecedores.InserirProdutoFornecedor</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref></type>
+          <declname>prod</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nomeForn</declname>
+        </param>
+        <briefdescription>
+<para>Insere um produto nos Fornecedores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prod</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nomeForn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="175" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="175" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1a61f7dc81ecb684519b3bb2aadbb81d33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.RemoverProdutoFornecedor</definition>
+        <argsstring>(string nomeProd, string nomeForn)</argsstring>
+        <name>RemoverProdutoFornecedor</name>
+        <qualifiedname>Dados.Fornecedores.RemoverProdutoFornecedor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeProd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nomeForn</declname>
+        </param>
+        <briefdescription>
+<para>Remove um produto de um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeProd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nomeForn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="205" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="205" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1aaadf9f558adad3dc27ba6f84e62400af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.ExisteFornecedorSistema</definition>
+        <argsstring>(string nome)</argsstring>
+        <name>ExisteFornecedorSistema</name>
+        <qualifiedname>Dados.Fornecedores.ExisteFornecedorSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existe ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="223" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="223" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1a51e231c23a39204f9ed6c5b8badca0a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.InserirFornecedorSistema</definition>
+        <argsstring>(Fornecedor forn)</argsstring>
+        <name>InserirFornecedorSistema</name>
+        <qualifiedname>Dados.Fornecedores.InserirFornecedorSistema</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_fornecedor" kindref="compound">Fornecedor</ref></type>
+          <declname>forn</declname>
+        </param>
+        <briefdescription>
+<para>Insere um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>forn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fornecedor</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="237" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="237" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1a310bbfba66c6b4289f746359cb5e04b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.RemoverFornecedorSistema</definition>
+        <argsstring>(string nome)</argsstring>
+        <name>RemoverFornecedorSistema</name>
+        <qualifiedname>Dados.Fornecedores.RemoverFornecedorSistema</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Remove um fornecedor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="253" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="253" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1a9911d858083949ec3c71155dda04bd1d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.SalvarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDados</name>
+        <qualifiedname>Dados.Fornecedores.SalvarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Salva os dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="275" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="275" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_fornecedores_1a43d3c658203d6470e79c267674afc245" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.Fornecedores.CarregarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDados</name>
+        <qualifiedname>Dados.Fornecedores.CarregarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os dados para o programa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lancada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="302" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="302" bodyend="327"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Fornecedores de classe Created by: Diogo Created on: 24/10/2023. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" line="28" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Dados/Fornecedores.cs" bodystart="29" bodyend="333"/>
+    <listofallmembers>
+      <member refid="class_dados_1_1_fornecedores_1a43d3c658203d6470e79c267674afc245" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>CarregarDados</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a55d393b542b745a929393e1046b806d0" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>DarReferencia</name></member>
+      <member refid="class_dados_1_1_fornecedores_1aaadf9f558adad3dc27ba6f84e62400af" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>ExisteFornecedorSistema</name></member>
+      <member refid="class_dados_1_1_fornecedores_1ae056e4b436eeda7395b824defff3dd5d" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>ExisteProdutoFornecedor</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a52a9f12f6170a824f3a808eab769b66f" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>ExisteProdutoFornecedores</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a6c7bde922fe6b42f58b9fc4b734b9ee3" prot="private" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>Fornecedores</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a2966c3af3cde5c5467ec0142d1be002d" prot="private" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>forns</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a0c9ac1557ea5820a8dcdd3269ede3dfb" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>Forns</name></member>
+      <member refid="class_dados_1_1_fornecedores_1ab4cc6589290eaedb5e01c291ecf4c4be" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>InicializarTotProd</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a51e231c23a39204f9ed6c5b8badca0a2" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>InserirFornecedorSistema</name></member>
+      <member refid="class_dados_1_1_fornecedores_1acfce009e4d8769a48b7915666067b39e" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>InserirProdutoFornecedor</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a310bbfba66c6b4289f746359cb5e04b0" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>RemoverFornecedorSistema</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a61f7dc81ecb684519b3bb2aadbb81d33" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>RemoverProdutoFornecedor</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a9911d858083949ec3c71155dda04bd1d" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>SalvarDados</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a07509aec24d8d83a817f720c0e53100d" prot="private" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>totProd</name></member>
+      <member refid="class_dados_1_1_fornecedores_1a1ef6b611f3032e79938533b9037f846c" prot="public" virt="non-virtual"><scope>Dados::Fornecedores</scope><name>TotProd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

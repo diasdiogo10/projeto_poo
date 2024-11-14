@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_364fbcc050528f14a4aaee0952bd8582" kind="dir">
+    <compoundname>C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes</compoundname>
+    <innerdir refid="dir_dcb7925996cd935fcf699238d98cdb19">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/obj</innerdir>
+    <innerdir refid="dir_75906188c62c51db3c84c21558b03802">C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/Properties</innerdir>
+    <innerfile refid="_armazem_excecoes_8cs">ArmazemExcecoes.cs</innerfile>
+    <innerfile refid="_carrinho_compra_excecoes_8cs">CarrinhoCompraExcecoes.cs</innerfile>
+    <innerfile refid="_compras_excecoes_8cs">ComprasExcecoes.cs</innerfile>
+    <innerfile refid="_fornecedores_excecoes_8cs">FornecedoresExcecoes.cs</innerfile>
+    <innerfile refid="_produto_excecoes_8cs">ProdutoExcecoes.cs</innerfile>
+    <innerfile refid="_utilizadores_excecoes_8cs">UtilizadoresExcecoes.cs</innerfile>
+    <innerfile refid="_vendas_excecoes_8cs">VendasExcecoes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/"/>
+  </compounddef>
+</doxygen>

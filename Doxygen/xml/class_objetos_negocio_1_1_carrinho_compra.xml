@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_carrinho_compra" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::CarrinhoCompra</compoundname>
+    <basecompoundref refid="interface_objetos_negocio_1_1_i_carrinho_compra" prot="public" virt="non-virtual">ObjetosNegocio.ICarrinhoCompra</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_carrinho_compra_1ac2c6618e7b6d5d913603de38b2cdcc83" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; int, int &gt;</type>
+        <definition>Dictionary&lt;int, int&gt; ObjetosNegocio.CarrinhoCompra.prods</definition>
+        <argsstring></argsstring>
+        <name>prods</name>
+        <qualifiedname>ObjetosNegocio.CarrinhoCompra.prods</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" line="28" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_carrinho_compra_1ad3e1faa8fe0dba26bac37be8cf8f56ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; int, int &gt;</type>
+        <definition>Dictionary&lt;int, int&gt; ObjetosNegocio.CarrinhoCompra.Prods</definition>
+        <argsstring></argsstring>
+        <name>Prods</name>
+        <qualifiedname>ObjetosNegocio.CarrinhoCompra.Prods</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_carrinho_compra_1ac80f3e746b284a7e93879debd9b8e5cf">Prods</reimplements>
+        <briefdescription>
+<para>Propriedade de produtos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" line="60" column="27" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_carrinho_compra_1aa41aa4ab8be56041f2f9e65fcda27ef3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.CarrinhoCompra.CarrinhoCompra</definition>
+        <argsstring>()</argsstring>
+        <name>CarrinhoCompra</name>
+        <qualifiedname>ObjetosNegocio.CarrinhoCompra.CarrinhoCompra</qualifiedname>
+        <briefdescription>
+<para>Construtor de classe por defeito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" line="39" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_carrinho_compra_1acffd2e40878bffbdd008c557997929c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.CarrinhoCompra.CarrinhoCompra</definition>
+        <argsstring>(Dictionary&lt; int, int &gt; prods)</argsstring>
+        <name>CarrinhoCompra</name>
+        <qualifiedname>ObjetosNegocio.CarrinhoCompra.CarrinhoCompra</qualifiedname>
+        <param>
+          <type>Dictionary&lt; int, int &gt;</type>
+          <declname>prods</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com ôs parâmetros definidos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prods</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produtos</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" line="48" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de carrinho de compra Created by: Diogo Created on: 07/12/2023 21:21:00. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ICarrinhoCompra</label>
+        <link refid="interface_objetos_negocio_1_1_i_carrinho_compra"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.CarrinhoCompra</label>
+        <link refid="class_objetos_negocio_1_1_carrinho_compra"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ICarrinhoCompra</label>
+        <link refid="interface_objetos_negocio_1_1_i_carrinho_compra"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.CarrinhoCompra</label>
+        <link refid="class_objetos_negocio_1_1_carrinho_compra"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" line="24" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/CarrinhoCompra.cs" bodystart="25" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_carrinho_compra_1aa41aa4ab8be56041f2f9e65fcda27ef3" prot="public" virt="non-virtual"><scope>ObjetosNegocio::CarrinhoCompra</scope><name>CarrinhoCompra</name></member>
+      <member refid="class_objetos_negocio_1_1_carrinho_compra_1acffd2e40878bffbdd008c557997929c5" prot="public" virt="non-virtual"><scope>ObjetosNegocio::CarrinhoCompra</scope><name>CarrinhoCompra</name></member>
+      <member refid="class_objetos_negocio_1_1_carrinho_compra_1ac2c6618e7b6d5d913603de38b2cdcc83" prot="private" virt="non-virtual"><scope>ObjetosNegocio::CarrinhoCompra</scope><name>prods</name></member>
+      <member refid="class_objetos_negocio_1_1_carrinho_compra_1ad3e1faa8fe0dba26bac37be8cf8f56ea" prot="public" virt="non-virtual"><scope>ObjetosNegocio::CarrinhoCompra</scope><name>Prods</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

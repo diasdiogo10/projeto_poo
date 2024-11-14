@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['carrinho_0',['Carrinho',['../interface_objetos_negocio_1_1_i_utilizador.html#aea907af5d6f93891636438083e76e0e3',1,'ObjetosNegocio.IUtilizador.Carrinho()'],['../class_objetos_negocio_1_1_utilizador.html#a60a145d9e4fc1affa499c46b37729541',1,'ObjetosNegocio.Utilizador.Carrinho()']]],
+  ['cat_1',['Cat',['../interface_objetos_negocio_1_1_i_produto.html#a4b41e03691c221f889b2fe72558f5dea',1,'ObjetosNegocio.IProduto.Cat()'],['../class_objetos_negocio_1_1_produto.html#aa95ddf5955d0ec515366d96a2ad11587',1,'ObjetosNegocio.Produto.Cat()']]],
+  ['cidade_2',['Cidade',['../interface_objetos_negocio_1_1_i_morada.html#a3a35a168e8d4b6851b82021e3bf508ac',1,'ObjetosNegocio.IMorada.Cidade()'],['../class_objetos_negocio_1_1_morada.html#a37ef659bed91c59bdb6b3cba51f3cee1',1,'ObjetosNegocio.Morada.Cidade()']]],
+  ['codigopostal_3',['CodigoPostal',['../interface_objetos_negocio_1_1_i_morada.html#a21a6485a03e302c31d8c49b13414a57d',1,'ObjetosNegocio.IMorada.CodigoPostal()'],['../class_objetos_negocio_1_1_morada.html#a28a863a4e7f3da1ca05f9dfd3d575654',1,'ObjetosNegocio.Morada.CodigoPostal()']]],
+  ['contacto_4',['Contacto',['../class_objetos_negocio_1_1_fornecedor.html#a97db9f64560c3e019c856fb0e73a5c2f',1,'ObjetosNegocio.Fornecedor.Contacto()'],['../interface_objetos_negocio_1_1_i_fornecedor.html#a4623b557f454fcf1ca272bdb66cb48d2',1,'ObjetosNegocio.IFornecedor.Contacto()'],['../interface_objetos_negocio_1_1_i_marca.html#ae8db28d73f93ad76880d58a32bed66da',1,'ObjetosNegocio.IMarca.Contacto()'],['../class_objetos_negocio_1_1_marca.html#ac16a80837466518bb8fde225114075b6',1,'ObjetosNegocio.Marca.Contacto()']]]
+];

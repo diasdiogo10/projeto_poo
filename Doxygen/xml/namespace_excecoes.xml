@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_excecoes" kind="namespace" language="C#">
+    <compoundname>Excecoes</compoundname>
+    <innerclass refid="class_excecoes_1_1_armazem_excecoes" prot="public">Excecoes::ArmazemExcecoes</innerclass>
+    <innerclass refid="class_excecoes_1_1_carrinho_compra_excecoes" prot="public">Excecoes::CarrinhoCompraExcecoes</innerclass>
+    <innerclass refid="class_excecoes_1_1_compras_excecoes" prot="public">Excecoes::ComprasExcecoes</innerclass>
+    <innerclass refid="class_excecoes_1_1_fornecedores_excecoes" prot="public">Excecoes::FornecedoresExcecoes</innerclass>
+    <innerclass refid="class_excecoes_1_1_produto_excecoes" prot="public">Excecoes::ProdutoExcecoes</innerclass>
+    <innerclass refid="class_excecoes_1_1_utilizadores_excecoes" prot="public">Excecoes::UtilizadoresExcecoes</innerclass>
+    <innerclass refid="class_excecoes_1_1_vendas_excecoes" prot="public">Excecoes::VendasExcecoes</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/Excecoes/ArmazemExcecoes.cs" line="13" column="1"/>
+  </compounddef>
+</doxygen>

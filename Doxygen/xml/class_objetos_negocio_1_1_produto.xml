@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_produto" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Produto</compoundname>
+    <basecompoundref refid="interface_objetos_negocio_1_1_i_produto" prot="public" virt="non-virtual">ObjetosNegocio.IProduto</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComparable&lt; Produto &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_produto_1a635dd358e769dc95e5cf9c2d836c10e4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Produto.refProd</definition>
+        <argsstring></argsstring>
+        <name>refProd</name>
+        <qualifiedname>ObjetosNegocio.Produto.refProd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="27" column="13" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_produto_1a19fec564303ba1d562895ecafada425a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Produto.quantidade</definition>
+        <argsstring></argsstring>
+        <name>quantidade</name>
+        <qualifiedname>ObjetosNegocio.Produto.quantidade</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="28" column="13" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_produto_1a7e11022d892388af5b17945c80f7bc43" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Produto.nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <qualifiedname>ObjetosNegocio.Produto.nome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="29" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_produto_1a940899cf7f0bc9d9eecd895bd1c77dc8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ObjetosNegocio.Produto.preco</definition>
+        <argsstring></argsstring>
+        <name>preco</name>
+        <qualifiedname>ObjetosNegocio.Produto.preco</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="30" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_produto_1afaad4c74958850f473fddf9b930b4470" prot="private" static="no" mutable="no">
+        <type><ref refid="class_objetos_negocio_1_1_categoria" kindref="compound">Categoria</ref></type>
+        <definition>Categoria ObjetosNegocio.Produto.cat</definition>
+        <argsstring></argsstring>
+        <name>cat</name>
+        <qualifiedname>ObjetosNegocio.Produto.cat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="31" column="19" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_produto_1a1b5a56a7c465969e0299680dbd94acd4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_objetos_negocio_1_1_marca" kindref="compound">Marca</ref></type>
+        <definition>Marca ObjetosNegocio.Produto.mar</definition>
+        <argsstring></argsstring>
+        <name>mar</name>
+        <qualifiedname>ObjetosNegocio.Produto.mar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="32" column="15" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_produto_1ac40348a555b6171bc8789eeaa56817b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Produto.RefProd</definition>
+        <argsstring></argsstring>
+        <name>RefProd</name>
+        <qualifiedname>ObjetosNegocio.Produto.RefProd</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_produto_1aea6336d878c49578affa7899afb963f6">RefProd</reimplements>
+        <briefdescription>
+<para>Propriedade para referencia de produto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="78" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_produto_1a8e55191ddd0a644f5bce97bab871c157" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Produto.Quantidade</definition>
+        <argsstring></argsstring>
+        <name>Quantidade</name>
+        <qualifiedname>ObjetosNegocio.Produto.Quantidade</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_produto_1a0e7a0bea6a8f44c9cb0f7111a71bdb77">Quantidade</reimplements>
+        <briefdescription>
+<para>Propriedade para quantidade do produto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="87" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_produto_1aea1fbc809f44c90ba65762f82587bea2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Produto.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.Produto.Nome</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_produto_1a9cc6346f59ecf6a76052b478218adef4">Nome</reimplements>
+        <briefdescription>
+<para>Propriedade para nome. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="96" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_produto_1a3fb4b067bfc88c3441e2b21642cb7beb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double ObjetosNegocio.Produto.Preco</definition>
+        <argsstring></argsstring>
+        <name>Preco</name>
+        <qualifiedname>ObjetosNegocio.Produto.Preco</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_produto_1aa5841cc2bcd0ef84886921a5063cb190">Preco</reimplements>
+        <briefdescription>
+<para>Propriedade para preco. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="105" column="23" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_produto_1aa95ddf5955d0ec515366d96a2ad11587" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_objetos_negocio_1_1_categoria" kindref="compound">Categoria</ref></type>
+        <definition>Categoria ObjetosNegocio.Produto.Cat</definition>
+        <argsstring></argsstring>
+        <name>Cat</name>
+        <qualifiedname>ObjetosNegocio.Produto.Cat</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_produto_1a4b41e03691c221f889b2fe72558f5dea">Cat</reimplements>
+        <briefdescription>
+<para>Propriedade para categoria do produto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="114" column="26" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_produto_1af433ebea611a7a9b914e45ba72831900" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_objetos_negocio_1_1_marca" kindref="compound">Marca</ref></type>
+        <definition>Marca ObjetosNegocio.Produto.Mar</definition>
+        <argsstring></argsstring>
+        <name>Mar</name>
+        <qualifiedname>ObjetosNegocio.Produto.Mar</qualifiedname>
+        <reimplements refid="interface_objetos_negocio_1_1_i_produto_1a8ff2e2cecd3dc1eef82a7e7ea7157a6c">Mar</reimplements>
+        <briefdescription>
+<para>Propriedade para marca do produto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="123" column="22" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="124" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_produto_1a1003e058a967f2a32df8ea3f0c051605" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Produto.Produto</definition>
+        <argsstring>()</argsstring>
+        <name>Produto</name>
+        <qualifiedname>ObjetosNegocio.Produto.Produto</qualifiedname>
+        <briefdescription>
+<para>Construtor de classe por defeito. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="43" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="43" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_produto_1a8510fab39484e2686069390615d2a4c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Produto.Produto</definition>
+        <argsstring>(string nome, double preco, Categoria cat, Marca mar)</argsstring>
+        <name>Produto</name>
+        <qualifiedname>ObjetosNegocio.Produto.Produto</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>preco</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_categoria" kindref="compound">Categoria</ref></type>
+          <declname>cat</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_marca" kindref="compound">Marca</ref></type>
+          <declname>mar</declname>
+        </param>
+        <briefdescription>
+<para>Construtor de classe com os atributos declarados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>preco</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>preco do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>categoria do produto</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>marca do produto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="60" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="60" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_produto_1a0ed8c3cc7299663b17689b2f797fdfa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ObjetosNegocio.Produto.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>ObjetosNegocio.Produto.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Compara 2 objetos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>objeto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="169" column="30" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="169" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_produto_1ac8df3fb8aba48f42192ad497aa66ede3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ObjetosNegocio.Produto.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>ObjetosNegocio.Produto.ToString</qualifiedname>
+        <briefdescription>
+<para>Devolve uma string com todos os atributos de um produto. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string final</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="186" column="32" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_produto_1ad7f2fcab4006c8fe69e2a3db1b406023" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Produto.CompareTo</definition>
+        <argsstring>(Produto p)</argsstring>
+        <name>CompareTo</name>
+        <qualifiedname>ObjetosNegocio.Produto.CompareTo</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Compara 2 produtos e é útil para utilizar o .Sort na classe de produtos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produto</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="200" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="200" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_produto_1ac53d3331cc71fb4317815cb03f072f0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Produto.operator==</definition>
+        <argsstring>(Produto p1, Produto p2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ObjetosNegocio.Produto.operator==</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref></type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a igualdade de dois produtos através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produto 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produto 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="140" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="140" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_produto_1aad8b05d97da4a89a7a00eee71942e3e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ObjetosNegocio.Produto.operator!=</definition>
+        <argsstring>(Produto p1, Produto p2)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ObjetosNegocio.Produto.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_produto" kindref="compound">Produto</ref></type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para>Compara a diferenciabilidade de dois produtos através dos seus parâmetros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produto 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>produto 2</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se for igual ou não</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="153" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="153" bodyend="157"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe de Produto Created by: Diogo Created on: 06/12/2023 23:11:28. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IComparable&lt; Produto &gt;</label>
+      </node>
+      <node id="2">
+        <label>IProduto</label>
+        <link refid="interface_objetos_negocio_1_1_i_produto"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Produto</label>
+        <link refid="class_objetos_negocio_1_1_produto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IComparable&lt; Produto &gt;</label>
+      </node>
+      <node id="2">
+        <label>IProduto</label>
+        <link refid="interface_objetos_negocio_1_1_i_produto"/>
+      </node>
+      <node id="1">
+        <label>ObjetosNegocio.Produto</label>
+        <link refid="class_objetos_negocio_1_1_produto"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" line="23" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/Produto.cs" bodystart="24" bodyend="209"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_produto_1afaad4c74958850f473fddf9b930b4470" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>cat</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1aa95ddf5955d0ec515366d96a2ad11587" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>Cat</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1ad7f2fcab4006c8fe69e2a3db1b406023" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>CompareTo</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a0ed8c3cc7299663b17689b2f797fdfa8" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>Equals</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a1b5a56a7c465969e0299680dbd94acd4" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>mar</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1af433ebea611a7a9b914e45ba72831900" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>Mar</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a7e11022d892388af5b17945c80f7bc43" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>nome</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1aea1fbc809f44c90ba65762f82587bea2" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>Nome</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1aad8b05d97da4a89a7a00eee71942e3e9" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>operator!=</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1ac53d3331cc71fb4317815cb03f072f0c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>operator==</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a940899cf7f0bc9d9eecd895bd1c77dc8" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>preco</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a3fb4b067bfc88c3441e2b21642cb7beb" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>Preco</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a1003e058a967f2a32df8ea3f0c051605" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>Produto</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a8510fab39484e2686069390615d2a4c3" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>Produto</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a19fec564303ba1d562895ecafada425a" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>quantidade</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a8e55191ddd0a644f5bce97bab871c157" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>Quantidade</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1a635dd358e769dc95e5cf9c2d836c10e4" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>refProd</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1ac40348a555b6171bc8789eeaa56817b0" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>RefProd</name></member>
+      <member refid="class_objetos_negocio_1_1_produto_1ac8df3fb8aba48f42192ad497aa66ede3" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Produto</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,137 @@
+\hypertarget{class_dados_1_1_vendas}{}\doxysection{Dados.\+Vendas Class Reference}
+\label{class_dados_1_1_vendas}\index{Dados.Vendas@{Dados.Vendas}}
+
+
+Purpose\+: Vendas de classe Created by\+: Diogo Created on\+: 24/10/2023.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_dados_1_1_vendas_afe73a0297ca3cf8623dae5b1e0756d88}{Inserir\+Venda}} (\mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}} v)
+\begin{DoxyCompactList}\small\item\em Insere uma venda nos dados das vendas. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_vendas_a0dfcb45a64f7a9e7f2e30802d1649b95}{Vendas\+Data}} (Date\+Time data\+Venda, out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}} $>$ v)
+\begin{DoxyCompactList}\small\item\em Procura todas as vendas numa determinada data. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_vendas_a16e708f72e24136b80b3342280bbb901}{Salvar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Salva os dados num ficheiro. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_dados_1_1_vendas_a5da1a4347dd817711a522fb13e2f4ac5}{Carregar\+Dados}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Carrega os dados para o programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}} $>$ \mbox{\hyperlink{class_dados_1_1_vendas_a03f8a4858711b65b879a8303c84f71f4}{VS}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Propriedade para vendas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Vendas de classe Created by\+: Diogo Created on\+: 24/10/2023. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_dados_1_1_vendas_a5da1a4347dd817711a522fb13e2f4ac5}\label{class_dados_1_1_vendas_a5da1a4347dd817711a522fb13e2f4ac5}} 
+\index{Dados.Vendas@{Dados.Vendas}!CarregarDados@{CarregarDados}}
+\index{CarregarDados@{CarregarDados}!Dados.Vendas@{Dados.Vendas}}
+\doxysubsubsection{\texorpdfstring{CarregarDados()}{CarregarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Vendas.\+Carregar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Carrega os dados para o programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & possivel exceção lancada\\
+\hline
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_dados_1_1_vendas_afe73a0297ca3cf8623dae5b1e0756d88}\label{class_dados_1_1_vendas_afe73a0297ca3cf8623dae5b1e0756d88}} 
+\index{Dados.Vendas@{Dados.Vendas}!InserirVenda@{InserirVenda}}
+\index{InserirVenda@{InserirVenda}!Dados.Vendas@{Dados.Vendas}}
+\doxysubsubsection{\texorpdfstring{InserirVenda()}{InserirVenda()}}
+{\footnotesize\ttfamily static bool Dados.\+Vendas.\+Inserir\+Venda (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere uma venda nos dados das vendas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & venda\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dados_1_1_vendas_a16e708f72e24136b80b3342280bbb901}\label{class_dados_1_1_vendas_a16e708f72e24136b80b3342280bbb901}} 
+\index{Dados.Vendas@{Dados.Vendas}!SalvarDados@{SalvarDados}}
+\index{SalvarDados@{SalvarDados}!Dados.Vendas@{Dados.Vendas}}
+\doxysubsubsection{\texorpdfstring{SalvarDados()}{SalvarDados()}}
+{\footnotesize\ttfamily static bool Dados.\+Vendas.\+Salvar\+Dados (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Salva os dados num ficheiro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & nome de ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & possivel exceção lancada\\
+\hline
+{\em Exception} & possivel exceção lancada\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_dados_1_1_vendas_a0dfcb45a64f7a9e7f2e30802d1649b95}\label{class_dados_1_1_vendas_a0dfcb45a64f7a9e7f2e30802d1649b95}} 
+\index{Dados.Vendas@{Dados.Vendas}!VendasData@{VendasData}}
+\index{VendasData@{VendasData}!Dados.Vendas@{Dados.Vendas}}
+\doxysubsubsection{\texorpdfstring{VendasData()}{VendasData()}}
+{\footnotesize\ttfamily static bool Dados.\+Vendas.\+Vendas\+Data (\begin{DoxyParamCaption}\item[{Date\+Time}]{data\+Venda,  }\item[{out List$<$ \mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}} $>$}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todas as vendas numa determinada data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+Venda} & data de venda\\
+\hline
+{\em v} & vendas\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true ou false, dependendo se correu tudo bem ou não
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_dados_1_1_vendas_a03f8a4858711b65b879a8303c84f71f4}\label{class_dados_1_1_vendas_a03f8a4858711b65b879a8303c84f71f4}} 
+\index{Dados.Vendas@{Dados.Vendas}!VS@{VS}}
+\index{VS@{VS}!Dados.Vendas@{Dados.Vendas}}
+\doxysubsubsection{\texorpdfstring{VS}{VS}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_objetos_negocio_1_1_venda}{Venda}}$>$ Dados.\+Vendas.\+VS\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Propriedade para vendas. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Diogo/\+Desktop/\+Trab\+\_\+\+Pratico\+\_\+\+POO\+\_\+\+LESI\+\_\+\+Fase3\+\_\+26534\+\_\+26006/\+Projeto\+\_\+\+POO/\+DLLs/\+Dados/\mbox{\hyperlink{_vendas_8cs}{Vendas.\+cs}}\end{DoxyCompactItemize}

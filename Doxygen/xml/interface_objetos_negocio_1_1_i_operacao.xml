@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="interface_objetos_negocio_1_1_i_operacao" kind="interface" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::IOperacao</compoundname>
+    <derivedcompoundref refid="class_objetos_negocio_1_1_operacao" prot="public" virt="non-virtual">ObjetosNegocio.Operacao</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_operacao_1a508f6cf2020c388aa39c8e5a8bd1f1db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.IOperacao.DataOp</definition>
+        <argsstring></argsstring>
+        <name>DataOp</name>
+        <qualifiedname>ObjetosNegocio.IOperacao.DataOp</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_operacao_1ae556173973778ef0f6af58058b4e183c">DataOp</reimplementedby>
+        <briefdescription>
+<para>Propriedade para data de venda. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IOperacao.cs" line="32" column="18" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IOperacao.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_operacao_1a89bc8f71dd4b5fefce545cbfe3b51b16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.IOperacao.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>ObjetosNegocio.IOperacao.Username</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_operacao_1ab5a8e940c7c638129ba623777680c7be">Username</reimplementedby>
+        <briefdescription>
+<para>Propriedade para username. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IOperacao.cs" line="41" column="16" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IOperacao.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_objetos_negocio_1_1_i_operacao_1ad75f77cdcfd7e8fd9b21764087f48565" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; int, int &gt;</type>
+        <definition>Dictionary&lt;int, int&gt; ObjetosNegocio.IOperacao.Prods</definition>
+        <argsstring></argsstring>
+        <name>Prods</name>
+        <qualifiedname>ObjetosNegocio.IOperacao.Prods</qualifiedname>
+        <reimplementedby refid="class_objetos_negocio_1_1_operacao_1a27d97e02c189c294530d1b1051e512f4">Prods</reimplementedby>
+        <briefdescription>
+<para>Propriedade para produtos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IOperacao.cs" line="50" column="20" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IOperacao.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: Diogo Created on: 29/12/2023 21:17:59. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ObjetosNegocio.IOperacao</label>
+        <link refid="interface_objetos_negocio_1_1_i_operacao"/>
+      </node>
+      <node id="3">
+        <label>ObjetosNegocio.Compra</label>
+        <link refid="class_objetos_negocio_1_1_compra"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ObjetosNegocio.Operacao</label>
+        <link refid="class_objetos_negocio_1_1_operacao"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ObjetosNegocio.Venda</label>
+        <link refid="class_objetos_negocio_1_1_venda"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IOperacao.cs" line="23" column="22" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/ObjetosNegocio/IOperacao.cs" bodystart="24" bodyend="71"/>
+    <listofallmembers>
+      <member refid="interface_objetos_negocio_1_1_i_operacao_1a508f6cf2020c388aa39c8e5a8bd1f1db" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IOperacao</scope><name>DataOp</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_operacao_1ad75f77cdcfd7e8fd9b21764087f48565" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IOperacao</scope><name>Prods</name></member>
+      <member refid="interface_objetos_negocio_1_1_i_operacao_1a89bc8f71dd4b5fefce545cbfe3b51b16" prot="public" virt="non-virtual"><scope>ObjetosNegocio::IOperacao</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

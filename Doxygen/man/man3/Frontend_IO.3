@@ -1,0 +1,577 @@
+.TH "Frontend.IO" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Frontend.IO \- Purpose: Created by: Diogo Created on: 06/12/2023 22:34:16\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBMostrarProdutosArmazem\fP ()"
+.br
+.RI "Imprime todos os produtos do armazem\&. "
+.ti -1c
+.RI "static void \fBMostrarProdutosMarcaArmazem\fP (string marca)"
+.br
+.RI "Imprime todos os produtos de uma marca\&. "
+.ti -1c
+.RI "static void \fBMostrarProdutosCategoriaArmazem\fP (string categoria)"
+.br
+.RI "Imprime todos os produtos de uma categoria\&. "
+.ti -1c
+.RI "static void \fBMostrarProdutosMarcaCategoriaArmazem\fP (string marca, string categoria)"
+.br
+.RI "Imprime todos os produtos de uma marca e de uma categoria\&. "
+.ti -1c
+.RI "static void \fBExisteProdutoArmazem\fP (int refProd)"
+.br
+.RI "Imprime o resultado da verificação da existência de um produto\&. "
+.ti -1c
+.RI "static void \fBInserirProdutoArmazem\fP (\fBProduto\fP p)"
+.br
+.RI "Imprime o resultado da inserção de um produto\&. "
+.ti -1c
+.RI "static void \fBRemoverProdutoArmazem\fP (int refProd)"
+.br
+.RI "Imprime o resultado da remoção de um produto\&. "
+.ti -1c
+.RI "static void \fBSalvarDadosArmazem\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do guardamento dos dados num ficheiro\&. "
+.ti -1c
+.RI "static void \fBCarregarDadosArmazem\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do carregamento dos dados de um ficheiro\&. "
+.ti -1c
+.RI "static void \fBQuantidadeUtilizadoresSistema\fP ()"
+.br
+.RI "Imprime a quantidade de utilizadores do sistema\&. "
+.ti -1c
+.RI "static void \fBMostrarUtilizadoresSistema\fP ()"
+.br
+.RI "Imprime todos os utilizadores do sistema\&. "
+.ti -1c
+.RI "static void \fBExisteEmailSistema\fP (string email)"
+.br
+.RI "Imprime o resultado da verificação da existência de um email no sistema\&. "
+.ti -1c
+.RI "static void \fBExisteContaSistema\fP (string email, string password)"
+.br
+.RI "Imprime o resultado da verificação da existência de uma conta no sistema\&. "
+.ti -1c
+.RI "static void \fBInserirUtilizadorSistema\fP (\fBUtilizador\fP util)"
+.br
+.RI "Imprime o resultado da inserção de um utilizador\&. "
+.ti -1c
+.RI "static void \fBRemoverUtilizadorSistema\fP (string email)"
+.br
+.RI "Imprime o resultado da remoção de um utilzador\&. "
+.ti -1c
+.RI "static void \fBAlterarEmailSistema\fP (string antigoEmail, string password, string novoEmail)"
+.br
+.RI "Imprime o resultado da alteração de email\&. "
+.ti -1c
+.RI "static void \fBAlterarPasswordSistema\fP (string email, string antigaPassword, string novaPassword)"
+.br
+.RI "Imprime o resultado da alteração de password\&. "
+.ti -1c
+.RI "static void \fBSalvarDadosUtilizadores\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do guardamento dos dados num ficheiro\&. "
+.ti -1c
+.RI "static void \fBCarregarDadosUtilizadores\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do carregamento dos dados de um ficheiro\&. "
+.ti -1c
+.RI "static void \fBExisteProdutoFornecedores\fP (string nomeProd)"
+.br
+.RI "Imprime o resultado da verificação da existência de um produto\&. "
+.ti -1c
+.RI "static void \fBExisteProdutoFornecedor\fP (string nomeProd, string nomeForn)"
+.br
+.RI "Imprime o resultado da verificação da existência de um produto num determinado fornecedor\&. "
+.ti -1c
+.RI "static void \fBInserirProdutoFornecedor\fP (\fBProduto\fP p, string nomeForn)"
+.br
+.RI "Imprime o resultado da inserção de um produto\&. "
+.ti -1c
+.RI "static void \fBRemoverProdutoFornecedor\fP (string nomeProd, string nomeForn)"
+.br
+.RI "Imprime o resultado da remoção de um produto\&. "
+.ti -1c
+.RI "static void \fBQuantidadeFornecedoresSistema\fP ()"
+.br
+.RI "Imprime a quantidade de fornecedores do sistema\&. "
+.ti -1c
+.RI "static void \fBMostrarFornecedoresSistema\fP ()"
+.br
+.RI "Imprime todos os fornecedores do sistema\&. "
+.ti -1c
+.RI "static void \fBExisteFornecedorSistema\fP (string nome)"
+.br
+.RI "Imprime o resultado da verificação da existência de um fornecedor no sistema\&. "
+.ti -1c
+.RI "static void \fBInserirFornecedorSistema\fP (\fBFornecedor\fP forn)"
+.br
+.RI "Imprime o resultado da inserção de um fornecedor\&. "
+.ti -1c
+.RI "static void \fBRemoverFornecedorSistema\fP (string nome)"
+.br
+.RI "Imprime o resultado da remoção de um fornecedor\&. "
+.ti -1c
+.RI "static void \fBSalvarDadosFornecedores\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do guardamento dos dados num ficheiro\&. "
+.ti -1c
+.RI "static void \fBCarregarDadosFornecedores\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do carregamento dos dados de um ficheiro\&. "
+.ti -1c
+.RI "static void \fBInserirCompra\fP (\fBCompra\fP c)"
+.br
+.RI "Imprime o resultado da inserção de uma compra\&. "
+.ti -1c
+.RI "static void \fBMostrarComprasData\fP (DateTime dataCompra)"
+.br
+.RI "Imprime todos as compras de uma certa data\&. "
+.ti -1c
+.RI "static void \fBSalvarDadosCompras\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do guardamento dos dados num ficheiro\&. "
+.ti -1c
+.RI "static void \fBCarregarDadosCompras\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do carregamento dos dados de um ficheiro\&. "
+.ti -1c
+.RI "static void \fBInserirVenda\fP (\fBVenda\fP v)"
+.br
+.RI "Imprime o resultado da inserção de uma venda\&. "
+.ti -1c
+.RI "static void \fBMostrarVendasData\fP (DateTime dataVenda)"
+.br
+.RI "Imprime todos as vendas de uma certa data\&. "
+.ti -1c
+.RI "static void \fBSalvarDadosVendas\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do guardamento dos dados num ficheiro\&. "
+.ti -1c
+.RI "static void \fBCarregarDadosVendas\fP (string nomeFicheiro)"
+.br
+.RI "Imprime o resultado do carregamento dos dados de um ficheiro\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Created by: Diogo Created on: 06/12/2023 22:34:16\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static void Frontend\&.IO\&.AlterarEmailSistema (string antigoEmail, string password, string novoEmail)\fC [static]\fP"
+
+.PP
+Imprime o resultado da alteração de email\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIantigoEmail\fP antigo email
+.br
+\fIpassword\fP password
+.br
+\fInovoEmail\fP novo email
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.AlterarPasswordSistema (string email, string antigaPassword, string novaPassword)\fC [static]\fP"
+
+.PP
+Imprime o resultado da alteração de password\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.br
+\fIantigaPassword\fP antiga password
+.br
+\fInovaPassword\fP nova password
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.CarregarDadosArmazem (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do carregamento dos dados de um ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP 
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.CarregarDadosCompras (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do carregamento dos dados de um ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP 
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.CarregarDadosFornecedores (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do carregamento dos dados de um ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP 
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.CarregarDadosUtilizadores (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do carregamento dos dados de um ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP 
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.CarregarDadosVendas (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do carregamento dos dados de um ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP 
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.ExisteContaSistema (string email, string password)\fC [static]\fP"
+
+.PP
+Imprime o resultado da verificação da existência de uma conta no sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.br
+\fIpassword\fP password
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.ExisteEmailSistema (string email)\fC [static]\fP"
+
+.PP
+Imprime o resultado da verificação da existência de um email no sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.ExisteFornecedorSistema (string nome)\fC [static]\fP"
+
+.PP
+Imprime o resultado da verificação da existência de um fornecedor no sistema\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInome\fP nome
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.ExisteProdutoArmazem (int refProd)\fC [static]\fP"
+
+.PP
+Imprime o resultado da verificação da existência de um produto\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrefProd\fP referencia de produto
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.ExisteProdutoFornecedor (string nomeProd, string nomeForn)\fC [static]\fP"
+
+.PP
+Imprime o resultado da verificação da existência de um produto num determinado fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP nome do produto
+.br
+\fInomeForn\fP nome do fornecedor
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.ExisteProdutoFornecedores (string nomeProd)\fC [static]\fP"
+
+.PP
+Imprime o resultado da verificação da existência de um produto\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP referencia de produto
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.InserirCompra (\fBCompra\fP c)\fC [static]\fP"
+
+.PP
+Imprime o resultado da inserção de uma compra\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIc\fP compra
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.InserirFornecedorSistema (\fBFornecedor\fP forn)\fC [static]\fP"
+
+.PP
+Imprime o resultado da inserção de um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIforn\fP fornecedor
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.InserirProdutoArmazem (\fBProduto\fP p)\fC [static]\fP"
+
+.PP
+Imprime o resultado da inserção de um produto\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIp\fP produto
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.InserirProdutoFornecedor (\fBProduto\fP p, string nomeForn)\fC [static]\fP"
+
+.PP
+Imprime o resultado da inserção de um produto\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIp\fP produto
+.br
+\fInomeForn\fP nome do fornecedor
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.InserirUtilizadorSistema (\fBUtilizador\fP util)\fC [static]\fP"
+
+.PP
+Imprime o resultado da inserção de um utilizador\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIutil\fP utilizador
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.InserirVenda (\fBVenda\fP v)\fC [static]\fP"
+
+.PP
+Imprime o resultado da inserção de uma venda\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIv\fP venda
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.MostrarComprasData (DateTime dataCompra)\fC [static]\fP"
+
+.PP
+Imprime todos as compras de uma certa data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdataCompra\fP data de compra
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.MostrarFornecedoresSistema ()\fC [static]\fP"
+
+.PP
+Imprime todos os fornecedores do sistema\&. 
+.SS "static void Frontend\&.IO\&.MostrarProdutosArmazem ()\fC [static]\fP"
+
+.PP
+Imprime todos os produtos do armazem\&. 
+.SS "static void Frontend\&.IO\&.MostrarProdutosCategoriaArmazem (string categoria)\fC [static]\fP"
+
+.PP
+Imprime todos os produtos de uma categoria\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcategoria\fP categoria
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.MostrarProdutosMarcaArmazem (string marca)\fC [static]\fP"
+
+.PP
+Imprime todos os produtos de uma marca\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fImarca\fP marca
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.MostrarProdutosMarcaCategoriaArmazem (string marca, string categoria)\fC [static]\fP"
+
+.PP
+Imprime todos os produtos de uma marca e de uma categoria\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fImarca\fP marca
+.br
+\fIcategoria\fP categoria
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.MostrarUtilizadoresSistema ()\fC [static]\fP"
+
+.PP
+Imprime todos os utilizadores do sistema\&. 
+.SS "static void Frontend\&.IO\&.MostrarVendasData (DateTime dataVenda)\fC [static]\fP"
+
+.PP
+Imprime todos as vendas de uma certa data\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdataVenda\fP data de venda
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.QuantidadeFornecedoresSistema ()\fC [static]\fP"
+
+.PP
+Imprime a quantidade de fornecedores do sistema\&. 
+.SS "static void Frontend\&.IO\&.QuantidadeUtilizadoresSistema ()\fC [static]\fP"
+
+.PP
+Imprime a quantidade de utilizadores do sistema\&. 
+.SS "static void Frontend\&.IO\&.RemoverFornecedorSistema (string nome)\fC [static]\fP"
+
+.PP
+Imprime o resultado da remoção de um fornecedor\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInome\fP nomel
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.RemoverProdutoArmazem (int refProd)\fC [static]\fP"
+
+.PP
+Imprime o resultado da remoção de um produto\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrefProd\fP referência de produto
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.RemoverProdutoFornecedor (string nomeProd, string nomeForn)\fC [static]\fP"
+
+.PP
+Imprime o resultado da remoção de um produto\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeProd\fP nome do produto
+.br
+\fInomeForn\fP nome do fornecedor
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.RemoverUtilizadorSistema (string email)\fC [static]\fP"
+
+.PP
+Imprime o resultado da remoção de um utilzador\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.SalvarDadosArmazem (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do guardamento dos dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.SalvarDadosCompras (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do guardamento dos dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.SalvarDadosFornecedores (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do guardamento dos dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.SalvarDadosUtilizadores (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do guardamento dos dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+
+.SS "static void Frontend\&.IO\&.SalvarDadosVendas (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Imprime o resultado do guardamento dos dados num ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP nome de ficheiro
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.

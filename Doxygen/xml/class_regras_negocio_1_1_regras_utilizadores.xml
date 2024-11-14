@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_regras_negocio_1_1_regras_utilizadores" kind="class" language="C#" prot="public">
+    <compoundname>RegrasNegocio::RegrasUtilizadores</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1abff06fbd66f3431910b14d126cb41202" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.ExisteEmail</definition>
+        <argsstring>(string email)</argsstring>
+        <name>ExisteEmail</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.ExisteEmail</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um email igual no sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existir ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>UtilizadoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="55" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="55" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1ac6c282ea523c2088573e7e36e930e9a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.ExisteConta</definition>
+        <argsstring>(string email, string password)</argsstring>
+        <name>ExisteConta</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.ExisteConta</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se existe um utiizador com aqueles dados no sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se existir ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>UtilizadoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="78" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="78" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1af0149628b92330ffb8065d65fead880e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.QuantidadeUtilizadores</definition>
+        <argsstring>(out int contador)</argsstring>
+        <name>QuantidadeUtilizadores</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.QuantidadeUtilizadores</qualifiedname>
+        <param>
+          <type>out int</type>
+          <declname>contador</declname>
+        </param>
+        <briefdescription>
+<para>Obtém a quantidade de utilizadores no sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>contador</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>quantidade de utilizadores</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="99" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="99" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1abe37d0b953b138fadbb848f5f9f02377" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.ListaUtilizadores</definition>
+        <argsstring>(out List&lt; Utilizador &gt; util)</argsstring>
+        <name>ListaUtilizadores</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.ListaUtilizadores</qualifiedname>
+        <param>
+          <type>out List&lt; <ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref> &gt;</type>
+          <declname>util</declname>
+        </param>
+        <briefdescription>
+<para>Obtém todos os utilizadores do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>util</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>utilizadores do sistema</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="110" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="110" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1ae47e1c6c5378dee739a0080f8a696f2a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.InserirUtilizador</definition>
+        <argsstring>(Utilizador util)</argsstring>
+        <name>InserirUtilizador</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.InserirUtilizador</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_utilizador" kindref="compound">Utilizador</ref></type>
+          <declname>util</declname>
+        </param>
+        <briefdescription>
+<para>Insere um utilizador na lista de utilizadores do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>util</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>utilizador</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>UtilizadoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="122" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="122" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1a23a29909f979ec1e29fb7c10a9c3ef61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.RemoverUtilizador</definition>
+        <argsstring>(string email)</argsstring>
+        <name>RemoverUtilizador</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.RemoverUtilizador</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para>Remove um utilizador do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>UtilizadoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="144" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="144" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1a08714c17a9429a9b106f679c4f043699" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.AlterarEmail</definition>
+        <argsstring>(string antigoEmail, string password, string novoEmail)</argsstring>
+        <name>AlterarEmail</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.AlterarEmail</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>antigoEmail</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>novoEmail</declname>
+        </param>
+        <briefdescription>
+<para>Altera um email de um utilizador do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>antigoEmail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>email antigo</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>passowrd</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novoEmail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>novo email</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>UtilizadoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="168" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="168" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1accc098f46c52ba0fc8139f60c0b2b526" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.AlterarPassword</definition>
+        <argsstring>(string email, string antigaPassword, string novaPassword)</argsstring>
+        <name>AlterarPassword</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.AlterarPassword</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>antigaPassword</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>novaPassword</declname>
+        </param>
+        <briefdescription>
+<para>Altera uma password de um utilizador do sistema. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>antigaPassword</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>novaPassword</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>UtilizadoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="192" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="192" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1a8df34787abc7f65d138bb8d4864f85a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.SalvarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SalvarDados</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.SalvarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Salva os dados num ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>UtilizadoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="214" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="214" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_negocio_1_1_regras_utilizadores_1af2983ab1631af3f86b45db595c2c8125" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RegrasNegocio.RegrasUtilizadores.CarregarDados</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>CarregarDados</name>
+        <qualifiedname>RegrasNegocio.RegrasUtilizadores.CarregarDados</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Carrega os dados para o programa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome de ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true ou false, dependendo se correu tudo bem ou não</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>UtilizadoresExcecoes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>possivel exceção lançada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="236" column="28" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="236" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Created by: Diogo Created on: 09/12/2023 00:23:58. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" line="27" column="11" bodyfile="C:/Users/Diogo/Desktop/Trab_Pratico_POO_LESI_Fase3_26534_26006/Projeto_POO/DLLs/RegrasNegocio/RegrasUtilizadores.cs" bodystart="28" bodyend="258"/>
+    <listofallmembers>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1a08714c17a9429a9b106f679c4f043699" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>AlterarEmail</name></member>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1accc098f46c52ba0fc8139f60c0b2b526" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>AlterarPassword</name></member>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1af2983ab1631af3f86b45db595c2c8125" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>CarregarDados</name></member>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1ac6c282ea523c2088573e7e36e930e9a2" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>ExisteConta</name></member>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1abff06fbd66f3431910b14d126cb41202" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>ExisteEmail</name></member>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1ae47e1c6c5378dee739a0080f8a696f2a" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>InserirUtilizador</name></member>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1abe37d0b953b138fadbb848f5f9f02377" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>ListaUtilizadores</name></member>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1af0149628b92330ffb8065d65fead880e" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>QuantidadeUtilizadores</name></member>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1a23a29909f979ec1e29fb7c10a9c3ef61" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>RemoverUtilizador</name></member>
+      <member refid="class_regras_negocio_1_1_regras_utilizadores_1a8df34787abc7f65d138bb8d4864f85a6" prot="public" virt="non-virtual"><scope>RegrasNegocio::RegrasUtilizadores</scope><name>SalvarDados</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

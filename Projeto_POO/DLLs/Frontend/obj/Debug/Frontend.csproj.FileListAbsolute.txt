@@ -1,0 +1,102 @@
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.dll
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.pdb
+C:\Users\Diogo\Desktop\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CopyComplete
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CopyComplete
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CopyComplete
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP POO - DIOGO\TESTE\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.pdb
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.AssemblyReference.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CopyComplete
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.dll
+C:\Users\diogo\OneDrive\Ambiente de Trabalho\TP 1 POO\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.pdb
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CopyComplete
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.dll
+C:\Users\Diogo\Desktop\rep\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Frontend.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Excecoes.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\RegrasNegocio.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Verificacoes.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\bin\Debug\Dados.pdb
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.AssemblyReference.cache
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.csproj.CopyComplete
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.dll
+C:\Users\Diogo\Desktop\repo\TP-POO\Projeto_POO\DLLs\Frontend\obj\Debug\Frontend.pdb

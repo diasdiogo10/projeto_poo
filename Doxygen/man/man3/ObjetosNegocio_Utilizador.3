@@ -1,0 +1,279 @@
+.TH "ObjetosNegocio.Utilizador" 3 "Sun Dec 31 2023" "Version 3.0" "Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ObjetosNegocio.Utilizador \- Purpose: Classe de utilizador Created by: Diogo Created on: 06/12/2023 23:04:52\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBObjetosNegocio\&.Pessoa\fP, and \fBObjetosNegocio\&.IUtilizador\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBUtilizador\fP ()"
+.br
+.RI "Construtor de classe por defeito\&. "
+.ti -1c
+.RI "\fBUtilizador\fP (string email, string password)"
+.br
+.RI "Construtor de classe com os atributos declarados\&. "
+.ti -1c
+.RI "\fBUtilizador\fP (string email, string password, string nome, DateTime dataNasc, \fBMorada\fP localizacao)"
+.br
+.RI "Construtor de classe com os atributos declarados\&. "
+.ti -1c
+.RI "override bool \fBEquals\fP (object obj)"
+.br
+.RI "Compara 2 objetos\&. "
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.RI "Devolve os dados do método da classe base(Pessoa) deste utilizador\&. "
+.in -1c
+
+Public Member Functions inherited from \fBObjetosNegocio\&.Pessoa\fP
+.in +1c
+.ti -1c
+.RI "\fBPessoa\fP ()"
+.br
+.RI "Construtor de classe por defeito\&. "
+.ti -1c
+.RI "\fBPessoa\fP (string nome, DateTime dataNascimento, \fBMorada\fP localizacao)"
+.br
+.RI "Construtor de classe com os parâmetros definidos\&. "
+.ti -1c
+.RI "override bool \fBEquals\fP (object obj)"
+.br
+.RI "Compara a igualdade de dois objetos\&. "
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.RI "Devolve uma string com todos o nome e idade de uma pessoa\&. "
+.ti -1c
+.RI "int \fBCompareTo\fP (\fBPessoa\fP p)"
+.br
+.RI "Compara 2 pessoas e é útil para utilizar o \&.Sort na classe de pessoas\&. "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBoperator==\fP (\fBUtilizador\fP u1, \fBUtilizador\fP u2)"
+.br
+.RI "Compara a igualdade de dois utilizadores através dos seus parâmetros\&. "
+.ti -1c
+.RI "static bool \fBoperator!=\fP (\fBUtilizador\fP u1, \fBUtilizador\fP u2)"
+.br
+.RI "Compara a diferenciabilidade de dois utilizadores através de seus utilizadores\&. "
+.in -1c
+
+Static Public Member Functions inherited from \fBObjetosNegocio\&.Pessoa\fP
+.in +1c
+.ti -1c
+.RI "static bool \fBoperator==\fP (\fBPessoa\fP p1, \fBPessoa\fP p2)"
+.br
+.RI "Compara a igualdade de duas pessoas através dos seus parâmetros\&. "
+.ti -1c
+.RI "static bool \fBoperator!=\fP (\fBPessoa\fP p1, \fBPessoa\fP p2)"
+.br
+.RI "Compara a diferenciabilidade de duas pessoas através dos seus parâmetros\&. "
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBEmail\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para email\&. "
+.ti -1c
+.RI "string \fBPassword\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para password\&. "
+.ti -1c
+.RI "\fBCarrinhoCompra\fP \fBCarrinho\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para carrinho de compras\&. "
+.in -1c
+
+Properties inherited from \fBObjetosNegocio\&.Pessoa\fP
+.in +1c
+.ti -1c
+.RI "string \fBNome\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para nome\&. "
+.ti -1c
+.RI "DateTime \fBDataNascimento\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para data de nascimento\&. "
+.ti -1c
+.RI "\fBMorada\fP \fBLocalizacao\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para localizacao\&. "
+.in -1c
+
+Properties inherited from \fBObjetosNegocio\&.IPessoa\fP
+.in +1c
+.ti -1c
+.RI "string \fBNome\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para nome\&. "
+.ti -1c
+.RI "DateTime \fBDataNascimento\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para data de nascimento\&. "
+.ti -1c
+.RI "\fBMorada\fP \fBLocalizacao\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para localizacao\&. "
+.in -1c
+
+Properties inherited from \fBObjetosNegocio\&.IUtilizador\fP
+.in +1c
+.ti -1c
+.RI "string \fBEmail\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para email\&. "
+.ti -1c
+.RI "string \fBPassword\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para password\&. "
+.ti -1c
+.RI "\fBCarrinhoCompra\fP \fBCarrinho\fP\fC [get, set]\fP"
+.br
+.RI "Propriedade para carrinho de compras\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Purpose: Classe de utilizador Created by: Diogo Created on: 06/12/2023 23:04:52\&. 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ObjetosNegocio\&.Utilizador\&.Utilizador ()"
+
+.PP
+Construtor de classe por defeito\&. 
+.SS "ObjetosNegocio\&.Utilizador\&.Utilizador (string email, string password)"
+
+.PP
+Construtor de classe com os atributos declarados\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email para login do utilizador
+.br
+\fIpassword\fP password para login do utilizador
+.RE
+.PP
+
+.SS "ObjetosNegocio\&.Utilizador\&.Utilizador (string email, string password, string nome, DateTime dataNasc, \fBMorada\fP localizacao)"
+
+.PP
+Construtor de classe com os atributos declarados\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIemail\fP email para login do utilizador
+.br
+\fIpassword\fP password para login do utilizador
+.br
+\fInome\fP nome
+.br
+\fIdataNasc\fP data de nascimento
+.br
+\fIlocalizacao\fP localizacao
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override bool ObjetosNegocio\&.Utilizador\&.Equals (object obj)"
+
+.PP
+Compara 2 objetos\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIobj\fP objeto
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for igual ou não
+.RE
+.PP
+
+.SS "static bool ObjetosNegocio\&.Utilizador\&.operator!= (\fBUtilizador\fP u1, \fBUtilizador\fP u2)\fC [static]\fP"
+
+.PP
+Compara a diferenciabilidade de dois utilizadores através de seus utilizadores\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIu1\fP utilizador 1
+.br
+\fIu2\fP utilizador 2
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for diferente ou não
+.RE
+.PP
+
+.SS "static bool ObjetosNegocio\&.Utilizador\&.operator== (\fBUtilizador\fP u1, \fBUtilizador\fP u2)\fC [static]\fP"
+
+.PP
+Compara a igualdade de dois utilizadores através dos seus parâmetros\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIu1\fP utilizador 1
+.br
+\fIu2\fP utilizador 2
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true ou false, dependendo se for igual ou não
+.RE
+.PP
+
+.SS "override string ObjetosNegocio\&.Utilizador\&.ToString ()"
+
+.PP
+Devolve os dados do método da classe base(Pessoa) deste utilizador\&. 
+.PP
+\fBReturns\fP
+.RS 4
+string final
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "\fBCarrinhoCompra\fP ObjetosNegocio\&.Utilizador\&.Carrinho\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para carrinho de compras\&. 
+.PP
+Implements \fBObjetosNegocio\&.IUtilizador\fP\&.
+.SS "string ObjetosNegocio\&.Utilizador\&.Email\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para email\&. 
+.PP
+Implements \fBObjetosNegocio\&.IUtilizador\fP\&.
+.SS "string ObjetosNegocio\&.Utilizador\&.Password\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Propriedade para password\&. 
+.PP
+Implements \fBObjetosNegocio\&.IUtilizador\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Doxygen_Trab_Pratico_POO_LESI_Fase3_26534_26006 from the source code\&.
